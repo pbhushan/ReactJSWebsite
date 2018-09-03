@@ -11,36 +11,35 @@ class Home extends Component {
     window.scrollTo(0, 0);
   }
   state = {
+    rawPath:
+      "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/src/",
     home: {
       carouselPage: [
         {
           id: "1",
-          imgUrl:
-            "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/src/assets/images/rb1.jpg",
+          imgUrl: "assets/images/rb1.jpg",
           mask: "black-light",
           heading: "Heading Item1",
           description: "Description about the image1"
         },
         {
           id: "2",
-          imgUrl:
-            "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/src/assets/images/rb2.png",
+          imgUrl: "assets/images/rb2.png",
           mask: "black-strong",
           heading: "Heading Item2",
           description: "Description about the image2"
         },
         {
           id: "3",
-          imgUrl: "https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg",
+          imgUrl: "assets/images/rb3.jpg",
           mask: "black-slight",
           heading: "Heading Item3",
           description: "Description about the image3"
         },
         {
           id: "4",
-          imgUrl:
-            "https://mdbootstrap.com/img/Photos/Slides/img%20%28143%29.jpg",
-          mask: "",
+          imgUrl: "assets/images/rb5.jpg",
+          mask: "black-strong",
           heading: "Heading Item4",
           description: "Description about the image4"
         }
@@ -99,7 +98,10 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <CarouselPage carousels={this.state.home.carouselPage} />
+        <CarouselPage
+          rawPath={this.state.rawPath}
+          carousels={this.state.home.carouselPage}
+        />
         <SectionColumnsPage sections={this.state.home.sectionColumnsPage} />
         <FeaturePage features={this.state.home.featurePage} />
         <MultiCarouselPage />

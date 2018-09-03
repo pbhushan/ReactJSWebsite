@@ -10,7 +10,8 @@ import {
 import "../../css/home/carouselPage.css";
 
 const CarouselPage = props => {
-  const { carousels } = props;
+  const { carousels, rawPath } = props;
+  console.log(props);
   return (
     <div id="carousel-page">
       <Carousel
@@ -26,7 +27,7 @@ const CarouselPage = props => {
               <View>
                 <img
                   className="d-block w-100 h-500"
-                  src={carousel.imgUrl}
+                  src={`${rawPath}${carousel.imgUrl}`}
                   alt="Slide"
                 />
                 <Mask overlay={carousel.mask} />
