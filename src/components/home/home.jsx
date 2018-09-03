@@ -15,14 +15,16 @@ class Home extends Component {
       carouselPage: [
         {
           id: "1",
-          imgUrl: "https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg",
+          imgUrl:
+            "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/src/assets/images/rb1.jpg",
           mask: "black-light",
           heading: "Heading Item1",
           description: "Description about the image1"
         },
         {
           id: "2",
-          imgUrl: "https://mdbootstrap.com/img/Photos/Slides/img%20(99).jpg",
+          imgUrl:
+            "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/src/assets/images/rb2.png",
           mask: "black-strong",
           heading: "Heading Item2",
           description: "Description about the image2"
