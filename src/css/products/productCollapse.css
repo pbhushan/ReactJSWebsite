@@ -1,0 +1,55 @@
+.header {
+  -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
+  -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
+  box-shadow: 0px 0px 0px 2px #9fb4f2;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #3f51b5),
+    color-stop(1, #476e9e)
+  );
+  background: -moz-linear-gradient(top, #3f51b5 5%, #476e9e 100%);
+  background: -webkit-linear-gradient(top, #3f51b5 5%, #476e9e 100%);
+  background: -o-linear-gradient(top, #3f51b5 5%, #476e9e 100%);
+  background: -ms-linear-gradient(top, #3f51b5 5%, #476e9e 100%);
+  background: linear-gradient(to bottom, #3f51b5 5%, #476e9e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#3f51b5', endColorstr='#476e9e',GradientType=0);
+
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  color: #ffffff;
+  /* font-family: Arial; */
+  font-size: 16px;
+  padding: 10px 10px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+  width: 100%;
+}
+
+#productCollapse.accordion {
+  user-select: none;
+}
+
+.accordion .card-header {
+  padding: 5px 5px;
+  cursor: pointer;
+  background: #ffffff;
+}
+
+.accordion .card-header.collapsed:after {
+  content: "\f107";
+}
+
+.accordion .card-header:after {
+  font-family: "FontAwesome";
+  content: "\f106";
+  float: right;
+}
+
+.accordion .card-body {
+  padding: 2px;
+}

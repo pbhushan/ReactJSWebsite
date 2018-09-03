@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/*change the background setting*/
+#root {
+  /* background: linear-gradient(135deg, #172a74, #21a9af);
+  background-color: #184e8e; */
+}

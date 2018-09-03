@@ -1,0 +1,11 @@
+main.content {
+  min-height: 700px;
+  padding-top: 60px; /* for fixed top navbar only*/
+}
+
+@media only screen and (max-width: 768px) {
+  main.content {
+    /* For mobile phones: */
+    padding-top: 56px; /* for fixed top navbar only*/
+  }
+}
