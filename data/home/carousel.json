@@ -28,19 +28,5 @@
       "heading": "Heading Item4",
       "description": "Description about the image4"
     }
-  ],
-  "sectionColumnsPage": [
-    {
-      "id": "1",
-      "title": "First Heading",
-      "firstPara": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "secondPara": "Duis aute irure dolor in reprehenderit in aliquip ex ea commodo consequat voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    },
-    {
-      "id": "2",
-      "title": "Second Heading",
-      "firstPara": "Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-      "secondPara": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 }
