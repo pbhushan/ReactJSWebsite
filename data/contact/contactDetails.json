@@ -1,0 +1,24 @@
+{
+  "contactDetails": [
+    {
+      "departmentName": "Info",
+      "email": "info@suscom.in",
+      "phone": "+91 xxx-xxx-xxxx"
+    },
+    {
+      "departmentName": "dispatch",
+      "email": "dispatch@suscom.in",
+      "phone": "+91 xxx-xxx-xxxx"
+    },
+    {
+      "departmentName": "Marketing",
+      "email": "marketing@suscom.in",
+      "phone": "+91 xxx-xxx-xxxx"
+    },
+    {
+      "departmentName": "CEO",
+      "email": "ceo@suscom.in",
+      "phone": "+91 xxx-xxx-xxxx"
+    }
+  ]
+}

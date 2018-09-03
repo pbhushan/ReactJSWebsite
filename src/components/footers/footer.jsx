@@ -10,15 +10,6 @@ class FooterPage extends React.Component {
         comapnyTagLine: "Write something attractive here",
         path: "/"
       },
-      /* mainLinks: {
-        title: "Products",
-        items: [
-          { name: "Product1", path: "/product/:itemName/name" },
-          { name: "Product2", path: "/product/:itemName/name" },
-          { name: "Product3", path: "/product/:itemName/name" },
-          { name: "Product4", path: "/product/:itemName/name" }
-        ]
-      }, */
       otherLinks: {
         title: "Useful Links",
         items: [
@@ -38,22 +29,16 @@ class FooterPage extends React.Component {
         companyName: "SUSCOM",
         path: "/"
       },
-      developedBy: "Site Developed By Sidesh Info Tech System",
-      privacy: {
-        /*  title: "Privacy",
-        path: "/about" */
-      }
+      developedBy: "Site Developed By Sidesh Info Tech System"
     }
   };
   render() {
     const {
       brand,
-      mainLinks,
       otherLinks,
       details,
       copyright,
-      developedBy,
-      privacy
+      developedBy
     } = this.state.footer;
     return (
       <Footer color="stylish-color-dark" className="font-small pt-4 mt-4">
@@ -65,23 +50,7 @@ class FooterPage extends React.Component {
               </h6>
               <p>{brand.comapnyTagLine}</p>
             </Col>
-            <hr className="w-100 clearfix d-md-none" />
-            {/*  <Col md="2" lg="2" xl="2" className="mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">
-                {mainLinks.title}
-              </h6>
-              {mainLinks.items.map(item => {
-                return (
-                  <NavLink
-                    key={item.name}
-                    className="nav-item nav-link"
-                    to={item.path}
-                  >
-                    {item.name}
-                  </NavLink>
-                );
-              })}
-            </Col> */}
+
             <hr className="w-100 clearfix d-md-none" />
             <Col md="3" lg="2" xl="2" className="mx-auto mt-3">
               <h6 className="text-uppercase mb-2 font-weight-bold">
@@ -126,11 +95,6 @@ class FooterPage extends React.Component {
             </Col>
             <Col md="4" lg="4">
               <p className="text-center">{developedBy}</p>
-            </Col>
-            <Col md="4" lg="4">
-              <p className="text-center">
-                <a href={privacy.path}>{privacy.title}</a>
-              </p>
             </Col>
           </Row>
         </Container>

@@ -1,0 +1,29 @@
+{
+  "featurePage": {
+    "heading": "Why is it so great?",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "features": [
+      {
+        "id": "1",
+        "icon": "bullhorn",
+        "className": "blue-text",
+        "heading": "Marketing",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": "2",
+        "icon": "cogs",
+        "className": "pink-text",
+        "heading": "Customization",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      },
+      {
+        "id": "3",
+        "icon": "dashboard",
+        "className": "purple-text",
+        "heading": "Support",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }
+    ]
+  }
+}

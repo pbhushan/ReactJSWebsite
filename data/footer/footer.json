@@ -1,0 +1,30 @@
+{
+  "footer": {
+    "brand": {
+      "companyName": "SUSCOM",
+      "comapnyTagLine": "Write something attractive here",
+      "path": "/"
+    },
+
+    "otherLinks": {
+      "title": "Useful Links",
+      "items": [
+        { "name": "contact", "path": "/contact" },
+        { "name": "About", "path": "/about" },
+        { "name": "Product", "path": "/product" }
+      ]
+    },
+    "details": {
+      "title": "Contact",
+      "address": "123 st.,city,state,country",
+      "email": "recipent@suscom.in",
+      "phone": "+91 xxx-xxx-xxxx"
+    },
+    "copyright": {
+      "text": " 2015 Copyright",
+      "companyName": "SUSCOM",
+      "path": "/"
+    },
+    "developedBy": "Site Developed By Sidesh Info Tech System"
+  }
+}
