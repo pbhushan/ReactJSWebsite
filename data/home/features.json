@@ -2,7 +2,7 @@
   "featurePage": {
     "heading": "Why is it so great?",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit sed eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "features": [
+    "featureItems": [
       {
         "id": "1",
         "icon": "bullhorn",
