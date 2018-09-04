@@ -1,55 +1,56 @@
 import React, { Component } from "react";
+import axios from "axios";
+
 import ContactCard from "./contactCard";
 import GoogleMap from "./googleMap";
 import Divider from "../common/divider";
 
 class ContactPage extends Component {
   state = {
-    contact: {
-      contactDetails: [
-        {
-          departmentName: "Info",
-          email: "info@suscom.in",
-          phone: "+91 xxx-xxx-xxxx"
-        },
-        {
-          departmentName: "dispatch",
-          email: "dispatch@suscom.in",
-          phone: "+91 xxx-xxx-xxxx"
-        },
-        {
-          departmentName: "Marketing",
-          email: "marketing@suscom.in",
-          phone: "+91 xxx-xxx-xxxx"
-        },
-        {
-          departmentName: "CEO",
-          email: "ceo@suscom.in",
-          phone: "+91 xxx-xxx-xxxx"
-        }
-      ],
-      contactCard: {
-        title: "Contact Information",
-        address: "123 st.,city,state,country",
-        officeTime: "Office Time - 9:30 am to 6:30 pm",
-        email: "recipent@suscom.in",
-        phone: "+91 xxx-xxx-xxxx"
-      }
-    }
+    contactCard: {},
+    contactDetails: {}
   };
 
   constructor() {
     super();
-
     /**Scroll to top */
     window.scrollTo(0, 0);
   }
 
+  componentDidMount() {
+    this.getContactCard();
+    this.getContactDetails();
+  }
+
+  getContactCard = () => {
+    axios
+      .get(
+        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/contact/contactCard.json"
+      )
+      .then(response => {
+        this.setState({ contactCard: response.data.contactCard });
+      });
+  };
+
+  getContactDetails = () => {
+    axios
+      .get(
+        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/contact/contactDetails.json"
+      )
+      .then(response => {
+        this.setState({ contactDetails: response.data.contactDetails });
+      });
+  };
+
   render() {
+    const { contactCard, contactDetails } = this.state;
     return (
       <React.Fragment>
         <Divider path={this.props.match.path} />
-        <ContactCard contact={this.state.contact} />
+        <ContactCard
+          contactCard={contactCard}
+          contactDetails={contactDetails}
+        />
         <GoogleMap />
       </React.Fragment>
     );

@@ -5,7 +5,8 @@ import "../../css/contact/contactForm.css";
 
 class ContactCard extends Component {
   render() {
-    const { contactCard, contactDetails } = this.props.contact;
+    const { contactCard, contactDetails } = this.props;
+
     return (
       <Container>
         <section className="contact-section my-5">
