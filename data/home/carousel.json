@@ -6,7 +6,7 @@
       "mask": "black-light",
       "heading": "Heading Item1",
       "description": "Description about the image1",
-      "isRawPath":"false"
+      "isRawPath": "false"
     },
     {
       "id": "2",
@@ -14,7 +14,7 @@
       "mask": "black-strong",
       "heading": "Heading Item2",
       "description": "Description about the image2",
-      "isRawPath":"false"
+      "isRawPath": "false"
     },
     {
       "id": "3",
@@ -22,7 +22,7 @@
       "mask": "black-slight",
       "heading": "Heading Item3",
       "description": "Description about the image3",
-      "isRawPath":"false"
+      "isRawPath": "false"
     },
     {
       "id": "4",
@@ -30,7 +30,7 @@
       "mask": "",
       "heading": "Heading Item4",
       "description": "Description about the image4",
-      "isRawPath":"false"
+      "isRawPath": "false"
     }
   ]
 }
