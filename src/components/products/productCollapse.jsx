@@ -1,13 +1,78 @@
 import React, { Component } from "react";
+
 import "../../css/products/productCollapse.css";
 import ProductNav from "./productNav";
 
 class ProductCollapse extends Component {
+  getFolderNextLayer = product => {
+    if (
+      product &&
+      product.children &&
+      product.children.length > 0 &&
+      product.type === "directory"
+    ) {
+      /* if (product.children[0].type === "file") {
+        return (
+          <p className={`ml-${product.left}`} key={product.name}>
+            {product.name}
+          </p>
+        );
+      } else { */
+      return this.getFolders(product);
+      //}
+    } else if (product && product.type === "file") {
+      return (
+        <p className="text-center" key={product.name}>
+          {product.name}
+        </p>
+      );
+    }
+  };
+  getFolders = product => {
+    if (
+      product &&
+      product.children &&
+      product.children.length > 0 &&
+      product.type === "directory"
+    ) {
+      const left = 2;
+      return (
+        <div key={product.name}>
+          <strong className={`ml-${product.left}`}>{product.name}</strong>
+          {product.children.map(child => {
+            child.left = product.left + left;
+            return this.getFolderNextLayer(child);
+          })}
+        </div>
+      );
+    }
+  };
+
+  processProducts = products => {
+    if (products && products.length > 0) {
+      return products.map(product => {
+        product.left = 0;
+        return this.getFolders(product);
+      });
+    }
+  };
+
   render() {
-    // const { title, items } = this.props.products;
+    const { products } = this.props;
+
     return (
-      <div>
-        {/*   <h4 className="header text-center text-uppercase">{title}</h4>
+      <div className="col-md-4 ml-3 mt-2">
+        <div id="productCollapse" className="accordion">
+          {this.processProducts(products)}
+        </div>
+      </div>
+    );
+  }
+}
+
+export default ProductCollapse;
+
+/*   <h4 className="header text-center text-uppercase">{title}</h4>
 
         <div id="productCollapse" className="accordion">
           {items.map(item => (
@@ -30,10 +95,4 @@ class ProductCollapse extends Component {
               </div>
             </div>
           ))}
-        </div> */}
-      </div>
-    );
-  }
-}
-
-export default ProductCollapse;
+        </div> */

@@ -18,7 +18,7 @@ class Product extends Component {
       )
       .then(response => {
         this.setState({
-          products: response.data.products
+          products: response.data.children
         });
       });
   }
@@ -27,7 +27,7 @@ class Product extends Component {
     return (
       <React.Fragment>
         <div className="row">
-          <ProductCollapse />
+          <ProductCollapse products={this.state.products} />
         </div>
         {/*  <Divider path={this.props.location.pathname} />
         <div className="row">
