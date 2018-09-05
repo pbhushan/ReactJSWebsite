@@ -1,5 +1,7 @@
 {
-  "products": [
+  "path": "assets/suscom_products",
+  "name": "suscom_products",
+  "children": [
     {
       "path": "assets/suscom_products/CONVERTERS",
       "name": "CONVERTERS",
