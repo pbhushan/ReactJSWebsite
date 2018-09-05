@@ -4,10 +4,10 @@ import ProductNav from "./productNav";
 
 class ProductCollapse extends Component {
   render() {
-    const { title, items } = this.props.products;
+    // const { title, items } = this.props.products;
     return (
-      <div className="col-md-2 ml-3 mt-2 border border-dark border-top pl-0 pr-0">
-        <h4 className="header text-center text-uppercase">{title}</h4>
+      <div>
+        {/*   <h4 className="header text-center text-uppercase">{title}</h4>
 
         <div id="productCollapse" className="accordion">
           {items.map(item => (
@@ -30,7 +30,7 @@ class ProductCollapse extends Component {
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     );
   }

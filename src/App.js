@@ -11,6 +11,11 @@ import Footer from "./components/footers/footer";
 import "./App.css";
 
 class App extends Component {
+  constructor() {
+    super();
+    console.log("App constructor");
+  }
+
   render() {
     return (
       <React.Fragment>

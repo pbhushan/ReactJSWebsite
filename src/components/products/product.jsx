@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-//import dirtree from "node-dir-tree";
-/* import dirtree from "directory-tree/lib/directory-tree";
-/* import Divider from "../common/divider"; */
-/* import ProductCollapse from "./productCollapse";
-import { Route } from "react-router-dom";
-import ProductItem from "./productItem"; */
-
+import ProductCollapse from "./productCollapse";
+import axios from "axios";
 class Product extends Component {
   state = {
-    details: {}
+    products: {}
   };
 
   constructor(props) {
@@ -16,11 +11,24 @@ class Product extends Component {
     window.scrollTo(0, 0);
   }
 
-  componentDidMount() {}
+  componentDidMount() {
+    axios
+      .get(
+        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/products/products.json"
+      )
+      .then(response => {
+        this.setState({
+          products: response.data.products
+        });
+      });
+  }
 
   render() {
     return (
       <React.Fragment>
+        <div className="row">
+          <ProductCollapse />
+        </div>
         {/*  <Divider path={this.props.location.pathname} />
         <div className="row">
           <ProductCollapse products={this.state.details} />
