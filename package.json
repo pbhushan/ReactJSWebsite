@@ -5,9 +5,11 @@
   "dependencies": {
     "axios": "^0.18.0",
     "bootstrap": "^4.1.1",
+    "directory-tree": "^2.1.0",
     "hammerjs": "^2.0.8",
     "jquery": "^3.3.1",
     "mdbreact": "^4.7.0",
+    "node-dir-tree": "^0.2.0",
     "node-waves": "^0.7.6",
     "popper.js": "^1.14.4",
     "react": "^16.4.2",
