@@ -4,7 +4,9 @@ const Divider = props => {
   return (
     <div className="row">
       <div className="col-md mdb-color lighten-3">
-        <h4 className="p-4 white-text font-italic text-center">{props.path}</h4>
+        <h4 className="p-4 white-text font-italic text-center text-lowercase">
+          {props.path}
+        </h4>
       </div>
     </div>
   );

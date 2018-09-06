@@ -1,25 +1,21 @@
 import React from "react";
 import { Col, Container, Row, Footer } from "mdbreact";
 import { NavLink } from "react-router-dom";
-import axios from "axios";
+import { getFooterData } from "../../services/fakeContentService";
 
 class FooterPage extends React.Component {
   state = {
     footer: {}
   };
 
-  componentDidMount() {
-    this.getFooter();
+  componentWillMount() {
+    this.getAsyncFooterData();
   }
 
-  getFooter = () => {
-    axios
-      .get(
-        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/footer/footer.json"
-      )
-      .then(response => {
-        this.setState({ footer: response.data.footer });
-      });
+  getAsyncFooterData = () => {
+    getFooterData().then(response => {
+      this.setState({ footer: response.data.footer });
+    });
   };
 
   getBrand = brand => {
@@ -67,14 +63,17 @@ class FooterPage extends React.Component {
           <h6 className="text-uppercase mb-4 font-weight-bold">
             {details.title}
           </h6>
-          <p>
-            <i className="fa fa-home mr-3" /> {details.address}
+          <p className="row">
+            <i className="col-md-1 fa fa-home mr-3" />
+            <span className="col-md">{details.address}</span>
           </p>
-          <p>
-            <i className="fa fa-envelope mr-3" /> {details.email}
+          <p className="row">
+            <i className="col-md-1 fa fa-envelope mr-3" />
+            <span className="col-md">{details.email}</span>
           </p>
-          <p>
-            <i className="fa fa-phone mr-3" /> {details.phone}
+          <p className="row">
+            <i className="col-md-1 fa fa-phone mr-3" />
+            <span className="col-md">{details.phone}</span>
           </p>
         </Col>
       );

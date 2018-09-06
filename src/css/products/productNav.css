@@ -1,3 +1,8 @@
-#productNavs .nav-link {
-  padding: 2px 2px;
+.card-body #productNavs a {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.card-body #productNavs a:hover {
+  color: #f5f5f5;
 }

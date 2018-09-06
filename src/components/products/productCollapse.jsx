@@ -11,21 +11,17 @@ class ProductCollapse extends Component {
       product.children.length > 0 &&
       product.type === "directory"
     ) {
-      /* if (product.children[0].type === "file") {
+      if (product.children[0].type === "file") {
         return (
-          <p className={`ml-${product.left}`} key={product.name}>
-            {product.name}
-          </p>
+          <ProductNav
+            key={product.name}
+            onNavClicked={this.props.onItemSeleted}
+            navItem={product}
+          />
         );
-      } else { */
-      return this.getFolders(product);
-      //}
-    } else if (product && product.type === "file") {
-      return (
-        <p className="text-center" key={product.name}>
-          {product.name}
-        </p>
-      );
+      } else {
+        return this.getFolders(product);
+      }
     }
   };
   getFolders = product => {
@@ -36,13 +32,31 @@ class ProductCollapse extends Component {
       product.type === "directory"
     ) {
       const left = 2;
+      const key = product.name.replace(/\s|&/g, "_");
+
       return (
-        <div key={product.name}>
-          <strong className={`ml-${product.left}`}>{product.name}</strong>
-          {product.children.map(child => {
-            child.left = product.left + left;
-            return this.getFolderNextLayer(child);
-          })}
+        <div key={key} className="card">
+          <div
+            className="card-header collapsed"
+            data-toggle="collapse"
+            href={`#accordion_${key}`}
+          >
+            <a className="card-title">{product.name}</a>
+          </div>
+          <div
+            id={`accordion_${key}`}
+            className="collapse"
+            data-parent={`#accrd${product.left}`}
+          >
+            <div className="card-body">
+              <div id={`accrd${product.left + left}`}>
+                {product.children.map(child => {
+                  child.left = product.left + left;
+                  return this.getFolderNextLayer(child);
+                })}
+              </div>
+            </div>
+          </div>
         </div>
       );
     }
@@ -51,7 +65,7 @@ class ProductCollapse extends Component {
   processProducts = products => {
     if (products && products.length > 0) {
       return products.map(product => {
-        product.left = 0;
+        product.left = 1;
         return this.getFolders(product);
       });
     }
@@ -61,8 +75,8 @@ class ProductCollapse extends Component {
     const { products } = this.props;
 
     return (
-      <div className="col-md-4 ml-3 mt-2">
-        <div id="productCollapse" className="accordion">
+      <div className="col-md-2 ml-3 mt-2">
+        <div id="accrd1" className="accordion">
           {this.processProducts(products)}
         </div>
       </div>
@@ -71,28 +85,3 @@ class ProductCollapse extends Component {
 }
 
 export default ProductCollapse;
-
-/*   <h4 className="header text-center text-uppercase">{title}</h4>
-
-        <div id="productCollapse" className="accordion">
-          {items.map(item => (
-            <div key={item.id} className="card">
-              <div
-                className="card-header text-center collapsed"
-                data-toggle="collapse"
-                href={`#accordion${item.id}`}
-              >
-                <a className="card-title">{item.name}</a>
-              </div>
-              <div
-                id={`accordion${item.id}`}
-                className={item.id === 1 ? "collapse show" : "collapse"}
-                data-parent="#productCollapse"
-              >
-                <div className="card-body text-center">
-                  <ProductNav navItems={item} />
-                </div>
-              </div>
-            </div>
-          ))}
-        </div> */

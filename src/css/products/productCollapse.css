@@ -1,3 +1,7 @@
+#accrd1.accordion {
+  font-family: "Verdana, Geneva, sans-serif";
+  border: #4a148c 1px solid;
+}
 .header {
   -moz-box-shadow: 0px 0px 0px 2px #9fb4f2;
   -webkit-box-shadow: 0px 0px 0px 2px #9fb4f2;
@@ -30,14 +34,50 @@
   width: 100%;
 }
 
-#productCollapse.accordion {
-  /*  user-select: none; */
+.accordion {
+  user-select: none;
 }
 
 .accordion .card-header {
   padding: 5px 5px;
   cursor: pointer;
   background: #ffffff;
+}
+
+.accordion .card-header .card-title {
+  font-size: 14px;
+}
+
+#accrd1 .card .card-body {
+  background-color: #59698d;
+  /*   margin: 1px; */
+}
+
+.card-body .card .card-body {
+  background-color: #45526e;
+  /*   margin: 1px; */
+}
+.accordion .collapse .card-body {
+  padding: 4px;
+}
+
+.card-body .card {
+  margin: 2px;
+}
+.accordion .card-header.collapsed {
+  background: #ffffff;
+  color: #1565c0;
+}
+.accordion .card-header {
+  background: #0d47a1;
+  color: white;
+}
+
+.card-body .card-header.collapsed {
+  background: #e3f2fd;
+}
+.card-body .card-header {
+  background: #1976d2;
 }
 
 .accordion .card-header.collapsed:after {

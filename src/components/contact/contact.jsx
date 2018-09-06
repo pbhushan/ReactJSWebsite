@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import axios from "axios";
+import { getContactsData } from "../../services/fakeContentService";
 
 import ContactCard from "./contactCard";
 import GoogleMap from "./googleMap";
@@ -17,29 +17,18 @@ class ContactPage extends Component {
     window.scrollTo(0, 0);
   }
 
-  componentDidMount() {
-    this.getContactCard();
-    this.getContactDetails();
+  componentWillMount() {
+    this.getAsyncContacts();
   }
 
-  getContactCard = () => {
-    axios
-      .get(
-        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/contact/contactCard.json"
-      )
-      .then(response => {
-        this.setState({ contactCard: response.data.contactCard });
-      });
-  };
+  getAsyncContacts = () => {
+    getContactsData().getContactCard.then(response => {
+      this.setState({ contactCard: response.data.contactCard });
+    });
 
-  getContactDetails = () => {
-    axios
-      .get(
-        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/contact/contactDetails.json"
-      )
-      .then(response => {
-        this.setState({ contactDetails: response.data.contactDetails });
-      });
+    getContactsData().getContactDetails.then(response => {
+      this.setState({ contactDetails: response.data.contactDetails });
+    });
   };
 
   render() {

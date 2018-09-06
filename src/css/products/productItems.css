@@ -1,0 +1,7 @@
+.product-img img {
+  height: 300px;
+}
+
+.ReactModalPortal .ReactModal__Overlay {
+  z-index: 5000 !important;
+}

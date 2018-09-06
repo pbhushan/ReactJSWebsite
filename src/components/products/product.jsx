@@ -1,9 +1,18 @@
 import React, { Component } from "react";
+
+import Divider from "../common/divider";
 import ProductCollapse from "./productCollapse";
-import axios from "axios";
+import ProductItem from "./productItem";
+import {
+  getImageRawPath,
+  getProductsData
+} from "../../services/fakeContentService";
+
 class Product extends Component {
   state = {
-    products: {}
+    products: {},
+    selectedItem: {},
+    imagebaseUrl: ""
   };
 
   constructor(props) {
@@ -11,29 +20,45 @@ class Product extends Component {
     window.scrollTo(0, 0);
   }
 
-  componentDidMount() {
-    axios
-      .get(
-        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/products/products.json"
-      )
-      .then(response => {
-        this.setState({
-          products: response.data.children
-        });
-      });
+  componentWillMount() {
+    this.getAsyncProductsData();
   }
 
+  getAsyncProductsData = () => {
+    getImageRawPath().then(response => {
+      this.setState({ imagebaseUrl: response.data.rawPath });
+    });
+
+    getProductsData().then(response => {
+      this.setState({
+        products: response.data.children
+      });
+    });
+  };
+
+  getSelectedItems = items => {
+    this.setState({ selectedItem: items });
+  };
+
   render() {
+    const { selectedItem, imagebaseUrl } = this.state;
+    const currentPath =
+      selectedItem && selectedItem.path
+        ? selectedItem.path.replace("assets/suscom_products", "Product")
+        : "/product";
     return (
       <React.Fragment>
+        <Divider path={currentPath} />
         <div className="row">
-          <ProductCollapse products={this.state.products} />
+          <ProductCollapse
+            onItemSeleted={this.getSelectedItems}
+            products={this.state.products}
+          />
+          <ProductItem
+            imagebaseUrl={imagebaseUrl}
+            selectedProducts={selectedItem}
+          />
         </div>
-        {/*  <Divider path={this.props.location.pathname} />
-        <div className="row">
-          <ProductCollapse products={this.state.details} />
-          <Route path="/product/:itemname/:name" component={ProductItem} />
-        </div> */}
       </React.Fragment>
     );
   }

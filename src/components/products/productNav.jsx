@@ -1,21 +1,28 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../css/products/productNav.css";
 
 const Productnav = props => {
-  const { name, navs } = props.navItems;
+  const { navItem, onNavClicked } = props;
 
   return (
-    <div id="productNavs" className="mdb-color lighten-4">
-      {navs.map(nav => (
-        <Link
-          to={`/product/${name}/${nav.name}`}
-          className="nav-item nav-link"
-          key={nav.id}
-        >
-          {nav.name}
-        </Link>
-      ))}
+    <div id="productNavs">
+      <a
+        onClick={() => {
+          onNavClicked(navItem);
+        }}
+        className="text-center nav-link nav-item"
+      >
+        {navItem.name}
+      </a>
+      {/* <Link
+        onClick={() => {
+          onNavClicked(navItem);
+        }}
+        to={`/product/${navItem.name}`}
+        className="nav-item nav-link"
+      >
+        {navItem.name}
+      </Link> */}
     </div>
   );
 };

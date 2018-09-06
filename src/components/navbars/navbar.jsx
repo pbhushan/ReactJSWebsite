@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
-import axios from "axios";
+import { getNavbarData } from "../../services/fakeContentService";
 
 import "../../css/navbars/navbar.css";
 
@@ -11,22 +11,18 @@ class Navbar extends Component {
     navbarConfig: []
   };
 
-  componentDidMount() {
-    this.getNavbar();
+  componentWillMount() {
+    this.getAsyncNavbarData();
   }
 
-  getNavbar = () => {
-    axios
-      .get(
-        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/navbar/navbar.json"
-      )
-      .then(response => {
-        this.setState({
-          navbarBrand: response.data.navbarBrand,
-          navbarPostion: response.data.navbarPostion,
-          navbarConfig: response.data.navbarConfig
-        });
+  getAsyncNavbarData = () => {
+    getNavbarData().then(response => {
+      this.setState({
+        navbarBrand: response.data.navbarBrand,
+        navbarPostion: response.data.navbarPostion,
+        navbarConfig: response.data.navbarConfig
       });
+    });
   };
 
   getNavbarBrand = brand => {

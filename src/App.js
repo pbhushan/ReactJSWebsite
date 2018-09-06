@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Route, Switch, Redirect } from "react-router-dom";
+
 import NavBar from "./components/navbars/navbar";
 import Home from "./components/home/home";
 import About from "./components/about";
@@ -9,13 +10,9 @@ import NotFound from "./components/notFound";
 import Footer from "./components/footers/footer";
 
 import "./App.css";
+import "react-image-lightbox/style.css";
 
 class App extends Component {
-  constructor() {
-    super();
-    console.log("App constructor");
-  }
-
   render() {
     return (
       <React.Fragment>
