@@ -2,11 +2,11 @@
   "carouselPage": [
     {
       "id": "1",
-      "imgUrl": "assets/slider/s1.jpg",
+      "imgUrl": "http://www.flexstructures.de/wp-content/uploads/2013/01/Sealing_robot_with_flexible_Cables_fleXstructures.jpg",
       "mask": "black-light",
       "heading": "Heading Item1",
       "description": "Description about the image1",
-      "isRawPath": true
+      "isRawPath": false
     },
     {
       "id": "2",
