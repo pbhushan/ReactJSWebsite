@@ -25,6 +25,7 @@ class App extends Component {
       carouselPage: {},
       sectionColumnsPage: {},
       featurePage: {},
+      mainProducts: {},
       products: {},
       imageBaseUrl: "",
       contactCard: {},
@@ -55,6 +56,9 @@ class App extends Component {
     getHomeData().getFeaturePage.then(response => {
       this.setState({ featurePage: response.data.featurePage });
     });
+    getHomeData().getMultiCarouselData.then(response => {
+      this.setState({ mainProducts: response.data.children });
+    });
   };
 
   getAsyncProductsData = () => {
@@ -83,7 +87,8 @@ class App extends Component {
       contactDetails,
       carouselPage,
       sectionColumnsPage,
-      featurePage
+      featurePage,
+      mainProducts
     } = this.state;
     return (
       <React.Fragment>
@@ -113,6 +118,7 @@ class App extends Component {
               render={props => {
                 return (
                   <Product
+                    mainProducts={mainProducts}
                     imageBaseUrl={imageBaseUrl}
                     products={products}
                     {...props}

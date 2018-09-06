@@ -66,7 +66,11 @@ class ProductItem extends Component {
   };
 
   getProductItems = () => {
-    const { selectedProducts } = this.props;
+    const { selectedProducts, mainProducts } = this.props;
+    if (!selectedProducts.name && mainProducts && mainProducts.length > 0) {
+      selectedProducts.name = "Products";
+      selectedProducts.children = mainProducts;
+    }
     if (
       selectedProducts.name &&
       selectedProducts.children &&

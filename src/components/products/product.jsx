@@ -19,8 +19,9 @@ class Product extends Component {
   };
 
   render() {
-    const { imageBaseUrl, products } = this.props;
+    const { imageBaseUrl, products, mainProducts } = this.props;
     const { selectedItem } = this.state;
+
     const currentPath =
       selectedItem && selectedItem.path
         ? selectedItem.path.replace("../assets/suscom_products", "/product")
@@ -34,6 +35,7 @@ class Product extends Component {
             products={products}
           />
           <ProductItem
+            mainProducts={mainProducts}
             imagebaseUrl={imageBaseUrl}
             selectedProducts={selectedItem}
           />
