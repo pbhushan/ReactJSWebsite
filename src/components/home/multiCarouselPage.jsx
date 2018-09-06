@@ -76,7 +76,7 @@ const MultiCarouselPage = () => {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </CardText>
-                    <Button color="primary">Button</Button>
+                    <Button color="primary">Learn More</Button>
                   </CardBody>
                 </Card>
               </Col>
@@ -94,7 +94,7 @@ const MultiCarouselPage = () => {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </CardText>
-                    <Button color="primary">Button</Button>
+                    <Button color="primary">Learn More</Button>
                   </CardBody>
                 </Card>
               </Col>
@@ -110,7 +110,7 @@ const MultiCarouselPage = () => {
                       Some quick example text to build on the card title and
                       make up the bulk of the card's content.
                     </CardText>
-                    <Button color="primary">Button</Button>
+                    <Button color="primary">Learn More</Button>
                   </CardBody>
                 </Card>
               </Col>
