@@ -19,7 +19,10 @@ export function getHomeData() {
   return {
     getCarouselData: axios.get(`${rawPathUrl}/data/home/carousel.json`),
     getSectionColumnsPage: axios.get(`${rawPathUrl}/data/home/sections.json`),
-    getFeaturePage: axios.get(`${rawPathUrl}/data/home/features.json`)
+    getFeaturePage: axios.get(`${rawPathUrl}/data/home/features.json`),
+    getMultiCarouselData: axios.get(
+      `${rawPathUrl}/data/home/multi_carousel.json`
+    )
   };
 }
 
