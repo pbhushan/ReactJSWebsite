@@ -1,6 +1,6 @@
 var fs = require("fs");
 const dirTree = require("directory-tree");
-const tree = dirTree("../src/assets/suscom_products", {
+const tree = dirTree("../assets/suscom_products", {
   extensions: /\.(png|jpg)$/
 });
 

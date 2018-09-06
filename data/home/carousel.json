@@ -2,35 +2,43 @@
   "carouselPage": [
     {
       "id": "1",
-      "imgUrl": "https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg",
+      "imgUrl": "assets/slider/s1.jpg",
       "mask": "black-light",
       "heading": "Heading Item1",
       "description": "Description about the image1",
-      "isRawPath": "false"
+      "isRawPath": true
     },
     {
       "id": "2",
-      "imgUrl": "https://mdbootstrap.com/img/Photos/Slides/img%20(99).jpg",
-      "mask": "black-strong",
-      "heading": "Heading Item2",
-      "description": "Description about the image2",
-      "isRawPath": "false"
+      "imgUrl": "assets/slider/s2.png",
+      "mask": "black-light",
+      "heading": "Heading Item4",
+      "description": "Description about the image4",
+      "isRawPath": true
     },
     {
       "id": "3",
-      "imgUrl": "https://mdbootstrap.com/img/Photos/Slides/img%20(17).jpg",
-      "mask": "black-slight",
-      "heading": "Heading Item3",
-      "description": "Description about the image3",
-      "isRawPath": "false"
+      "imgUrl": "assets/slider/s3.jpg",
+      "mask": "black-light",
+      "heading": "Heading Item2",
+      "description": "Description about the image2",
+      "isRawPath": true
     },
     {
       "id": "4",
-      "imgUrl": "https://mdbootstrap.com/img/Photos/Slides/img%20%28143%29.jpg",
-      "mask": "",
+      "imgUrl": "assets/slider/s4.jpg",
+      "mask": "black-light",
+      "heading": "Heading Item3",
+      "description": "Description about the image3",
+      "isRawPath": true
+    },
+    {
+      "id": "5",
+      "imgUrl": "assets/slider/s5.png",
+      "mask": "black-light",
       "heading": "Heading Item4",
       "description": "Description about the image4",
-      "isRawPath": "false"
+      "isRawPath": true
     }
   ]
 }
