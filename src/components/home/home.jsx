@@ -16,7 +16,8 @@ class Home extends Component {
       imageBaseUrl,
       carouselPage,
       sectionColumnsPage,
-      featurePage
+      featurePage,
+      mainProducts
     } = this.props;
 
     return (
@@ -24,7 +25,10 @@ class Home extends Component {
         <CarouselPage rawPath={imageBaseUrl} carousels={carouselPage} />
         <SectionColumnsPage sections={sectionColumnsPage} />
         <FeaturePage features={featurePage} />
-        <MultiCarouselPage />
+        <MultiCarouselPage
+          imgBaseUrlPath={imageBaseUrl}
+          multiCarouselList={mainProducts}
+        />
       </React.Fragment>
     );
   }

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Divider from "./common/divider";
+import Divider from "../common/divider";
+import AboutUs from "./aboutUs";
 
 class About extends Component {
   constructor() {
@@ -12,6 +13,7 @@ class About extends Component {
     return (
       <React.Fragment>
         <Divider path={this.props.match.path} />
+        <AboutUs />
       </React.Fragment>
     );
   }

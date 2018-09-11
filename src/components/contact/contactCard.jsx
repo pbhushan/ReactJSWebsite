@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Container, Row, Col, Card, CardBody, Fa } from "mdbreact";
 import ContactDetails from "./contactDetails";
 import "../../css/contact/contactForm.css";
+import "../../css/contact/contactCard.css";
 
 class ContactCard extends Component {
   render() {
@@ -20,25 +21,28 @@ class ContactCard extends Component {
                   <h3 className="my-4 pb-2">{contactCard.title}</h3>
                   <ul className="text-lg-left list-unstyled ml-4">
                     <li>
-                      <p>
-                        <Fa icon="map-marker" className="pr-2" />
-                        {contactCard.address}
+                      <p className="row">
+                        <Fa icon="map-marker" className="pr-2 col-md-1" />
+                        <span className="col-md">{contactCard.address}</span>
                       </p>
                     </li>
                     <li>
-                      <p>
-                        <Fa icon="phone" className="pr-2" />
-                        {contactCard.phone}
+                      <p className="row">
+                        <Fa icon="phone" className="pr-2 col-md-1" />
+                        <span className="col-md">{contactCard.phone}</span>
                       </p>
                     </li>
                     <li>
-                      <p>
-                        <Fa icon="envelope" className="pr-2" />
-                        {contactCard.email}
+                      <p className="row">
+                        <Fa icon="envelope" className="col-md-1 pr-2" />
+                        <span className="col-md"> {contactCard.email}</span>
                       </p>
                     </li>
                     <li>
-                      <p>{contactCard.officeTime}</p>
+                      <p className="row">
+                        <i className="far fa-clock col-md-1 pr-2" />
+                        <span className="col-md">{contactCard.officeTime}</span>
+                      </p>
                     </li>
                   </ul>
                   <hr className="hr-light my-4" />

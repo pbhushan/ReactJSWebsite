@@ -1,0 +1,5 @@
+.far.fa-clock:before {
+  font-family: "FontAwesome";
+  content: "\f017";
+  font-weight: 400;
+}

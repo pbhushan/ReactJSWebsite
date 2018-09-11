@@ -45,6 +45,7 @@ class ProductItem extends Component {
                   <CardTitle tag="h6">{child.name.split(".")[0]}</CardTitle>
                   <CardText>{}</CardText>
                   <Button
+                    rounded
                     color="primary"
                     onClick={() => this.setState({ isOpen: true, imgUrl: url })}
                   >
@@ -101,9 +102,3 @@ class ProductItem extends Component {
 }
 
 export default ProductItem;
-
-/* <div className="col-md">
-      <div className="container">
-        <h2 className="text-center">{"Hello"}</h2>
-      </div>
-    </div> */

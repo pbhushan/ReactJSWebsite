@@ -160,3 +160,10 @@ ul {
 .carousel-multi-item .col-md-4 {
   float: left;
 }
+
+.product-img.card {
+  height: 475px;
+}
+.product-img img {
+  height: 300px;
+}

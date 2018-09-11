@@ -3,7 +3,7 @@ import { Route, Switch, Redirect } from "react-router-dom";
 
 import NavBar from "./components/navbars/navbar";
 import Home from "./components/home/home";
-import About from "./components/about";
+import About from "./components/about/about";
 import Product from "./components/products/product";
 import Contact from "./components/contact/contact";
 import NotFound from "./components/notFound";
@@ -137,6 +137,7 @@ class App extends Component {
               render={props => {
                 return (
                   <Home
+                    mainProducts={mainProducts}
                     imageBaseUrl={imageBaseUrl}
                     carouselPage={carouselPage}
                     sectionColumnsPage={sectionColumnsPage}
