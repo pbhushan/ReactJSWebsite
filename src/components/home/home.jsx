@@ -13,10 +13,10 @@ class Home extends Component {
     window.scrollTo(0, 0);
   }
 
-  getCatalog() {
-    const { catalogUrl } = this.props;
+  getCatalog(catalogUrl) {
+    console.log(catalogUrl);
     axios({
-      url: { catalogUrl },
+      url: catalogUrl,
       method: "GET",
       responseType: "blob" // important
     }).then(response => {
@@ -31,6 +31,7 @@ class Home extends Component {
 
   render() {
     const {
+      catalogUrl,
       imageBaseUrl,
       carouselPage,
       sectionColumnsPage,
@@ -45,7 +46,9 @@ class Home extends Component {
         <div className="container">
           <Button
             className="p-4 w-100 col-md-6 font-weight-bold "
-            onClick={this.getCatalog}
+            onClick={() => {
+              this.getCatalog(catalogUrl);
+            }}
             rounded
           >
             Download our catalogue
