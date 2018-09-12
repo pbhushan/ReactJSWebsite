@@ -2,7 +2,7 @@
   "carouselPage": [
     {
       "id": "1",
-      "imgUrl": "assets/slider/s1.png",
+      "imgUrl": "assets/slider/s1.jpg",
       "mask": "black-light",
       "heading": "Heading Item1",
       "description": "Description about the image1",
