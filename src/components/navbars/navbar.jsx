@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
-import { getNavbarData } from "../../services/fakeContentService";
+import {
+  getNavbarData,
+  getDataUrlBasePath
+} from "../../services/fakeContentService";
 
 import "../../css/navbars/navbar.css";
 
@@ -11,12 +14,19 @@ class Navbar extends Component {
     navbarConfig: []
   };
 
-  componentWillMount() {
-    this.getAsyncNavbarData();
+  componentDidMount() {
+    this.getDataBaseUrl();
   }
 
-  getAsyncNavbarData = () => {
-    getNavbarData().then(response => {
+  getDataBaseUrl = () => {
+    getDataUrlBasePath().then(response => {
+      const basePath = response.data.basePath.dataUrlBasePath;
+      this.getAsyncNavbarData(basePath);
+    });
+  };
+
+  getAsyncNavbarData = basePath => {
+    getNavbarData(basePath).then(response => {
       this.setState({
         navbarBrand: response.data.navbarBrand,
         navbarPostion: response.data.navbarPostion,

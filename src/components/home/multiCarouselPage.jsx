@@ -37,7 +37,7 @@ class MultiCarouselPage extends Component {
             <CardBody>
               <CardTitle tag="h6">{card.name.split(".")[0]}</CardTitle>
 
-              <NavLink to="/product" class="btn btn-primary" role="button">
+              <NavLink to="/product" className="btn btn-primary" role="button">
                 Learn More
               </NavLink>
             </CardBody>

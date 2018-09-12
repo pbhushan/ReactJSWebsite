@@ -42,7 +42,8 @@ class App extends Component {
 
   getDataBaseUrl = () => {
     getDataUrlBasePath().then(response => {
-      const basePath = response.data.rawPath.dataUrlBasePath;
+      const basePath = response.data.basePath.dataUrlBasePath;
+
       this.setState({ dataUrlBasePath: basePath });
       this.getImageBaseUrl(basePath);
       this.getAsyncHomeData(basePath);
@@ -53,7 +54,9 @@ class App extends Component {
 
   getImageBaseUrl = basePath => {
     getImageRawPath(basePath).then(response => {
-      this.setState({ imageBaseUrl: response.data.rawPath.imgUrlBasePath });
+      this.setState({
+        imageBaseUrl: response.data.basePath.imgUrlBasePath
+      });
     });
   };
 
@@ -92,6 +95,7 @@ class App extends Component {
 
   render() {
     const {
+      dataUrlBasePath,
       products,
       imageBaseUrl,
       contactCard,

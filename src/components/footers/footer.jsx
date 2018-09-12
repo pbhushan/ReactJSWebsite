@@ -1,19 +1,29 @@
 import React from "react";
 import { Col, Container, Row, Footer } from "mdbreact";
 import { NavLink } from "react-router-dom";
-import { getFooterData } from "../../services/fakeContentService";
+import {
+  getFooterData,
+  getDataUrlBasePath
+} from "../../services/fakeContentService";
 
 class FooterPage extends React.Component {
   state = {
     footer: {}
   };
 
-  componentWillMount() {
-    this.getAsyncFooterData();
+  componentDidMount() {
+    this.getDataBaseUrl();
   }
 
-  getAsyncFooterData = () => {
-    getFooterData().then(response => {
+  getDataBaseUrl = () => {
+    getDataUrlBasePath().then(response => {
+      const basePath = response.data.basePath.dataUrlBasePath;
+      this.getAsyncFooterData(basePath);
+    });
+  };
+
+  getAsyncFooterData = basePath => {
+    getFooterData(basePath).then(response => {
       this.setState({ footer: response.data.footer });
     });
   };
