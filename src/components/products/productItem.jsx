@@ -45,6 +45,7 @@ class ProductItem extends Component {
                   <CardTitle tag="h6">{child.name.split(".")[0]}</CardTitle>
                   <CardText>{}</CardText>
                   <Button
+                    className="mt-4"
                     rounded
                     color="primary"
                     onClick={() => this.setState({ isOpen: true, imgUrl: url })}

@@ -10,10 +10,11 @@ class About extends Component {
   }
 
   render() {
+    const { certificates, imageBaseUrl } = this.props;
     return (
       <React.Fragment>
         <Divider path={this.props.match.path} />
-        <AboutUs />
+        <AboutUs imageBaseUrl={imageBaseUrl} certificates={certificates} />
       </React.Fragment>
     );
   }

@@ -113,7 +113,13 @@ class App extends Component {
             <Route
               path="/about"
               render={props => {
-                return <About {...props} />;
+                return (
+                  <About
+                    imageBaseUrl={imageBaseUrl}
+                    certificates={carouselPage}
+                    {...props}
+                  />
+                );
               }}
             />
             <Route

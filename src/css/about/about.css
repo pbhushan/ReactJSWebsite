@@ -1,0 +1,17 @@
+.about-img {
+  height: 250px;
+}
+
+.certificate-img {
+  height: 400px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .about-img {
+    height: 200px;
+  }
+
+  .certificate-img {
+    height: 300px;
+  }
+}

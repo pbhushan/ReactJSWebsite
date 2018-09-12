@@ -29,7 +29,7 @@ class MultiCarouselPage extends Component {
           <Card className="mb-2 product-img">
             <CardImage
               src={url}
-              alt="Card image cap"
+              alt="product"
               top
               hover
               overlay="white-slight"
@@ -37,7 +37,11 @@ class MultiCarouselPage extends Component {
             <CardBody>
               <CardTitle tag="h6">{card.name.split(".")[0]}</CardTitle>
 
-              <NavLink to="/product" className="btn btn-primary" role="button">
+              <NavLink
+                to="/product"
+                className="btn btn-primary mt-3"
+                role="button"
+              >
                 Learn More
               </NavLink>
             </CardBody>

@@ -164,6 +164,17 @@ ul {
 .product-img.card {
   height: 475px;
 }
+
 .product-img img {
   height: 300px;
+}
+
+@media only screen and (max-width: 1600px) {
+  .product-img.card {
+    height: 350px;
+  }
+
+  .product-img img {
+    height: 250px;
+  }
 }

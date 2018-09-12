@@ -3,22 +3,21 @@
     {
       "departmentName": "Info",
       "email": "info@suscom.in",
-      "phone": "+91 xxx-xxx-xxxx"
+      "phone": "+91 769 745 1009"
     },
     {
       "departmentName": "dispatch",
       "email": "dispatch@suscom.in",
-      "phone": "+91 xxx-xxx-xxxx"
+      "phone": "+91 882 762 9301"
     },
     {
       "departmentName": "Marketing",
       "email": "marketing@suscom.in",
-      "phone": "+91 xxx-xxx-xxxx"
+      "phone": "+91 882 762 9301"
     },
     {
-      "departmentName": "CEO",
-      "email": "ceo@suscom.in",
-      "phone": "+91 xxx-xxx-xxxx"
+      "departmentName": "Landine",
+      "phone": "+91 755 492 5469"
     }
   ]
 }
