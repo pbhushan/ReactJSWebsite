@@ -14,9 +14,9 @@ class Home extends Component {
   }
 
   getCatalog() {
+    const { catalogUrl } = this.props;
     axios({
-      url:
-        "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/data/home/carousel.json",
+      url: { catalogUrl },
       method: "GET",
       responseType: "blob" // important
     }).then(response => {

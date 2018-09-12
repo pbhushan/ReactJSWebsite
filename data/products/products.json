@@ -35,9 +35,31 @@
           ],
           "size": 45563,
           "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/CONVERTERS/USB-RS232485 422 ISOLATED",
+          "name": "USB-RS232485 422 ISOLATED",
+          "children": [
+            {
+              "path": "../assets/suscom_products/CONVERTERS/USB-RS232485 422 ISOLATED/USB-RS232!485!422.jpg",
+              "name": "USB-RS232!485!422.jpg",
+              "size": 47888,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 47888,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/CONVERTERS/USB-RS485",
+          "name": "USB-RS485",
+          "children": [],
+          "size": 0,
+          "type": "directory"
         }
       ],
-      "size": 93810,
+      "size": 141698,
       "type": "directory"
     },
     {
@@ -52,13 +74,6 @@
               "path": "../assets/suscom_products/FRC CABLE ASSEMBELY/IDC Cable Assembly/201573115212614012.jpg",
               "name": "201573115212614012.jpg",
               "size": 18388,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/FRC CABLE ASSEMBELY/IDC Cable Assembly/20157311746119634.jpg",
-              "name": "20157311746119634.jpg",
-              "size": 30262,
               "extension": ".jpg",
               "type": "file"
             },
@@ -79,16 +94,23 @@
             {
               "path": "../assets/suscom_products/FRC CABLE ASSEMBELY/IDC Cable Assembly/201811515462747798.jpg",
               "name": "201811515462747798.jpg",
-              "size": 40018,
+              "size": 41114,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/FRC CABLE ASSEMBELY/IDC Cable Assembly/FRC Round cable.jpg",
+              "name": "FRC Round cable.jpg",
+              "size": 16675,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 142619,
+          "size": 130128,
           "type": "directory"
         }
       ],
-      "size": 142619,
+      "size": 130128,
       "type": "directory"
     },
     {
@@ -100,32 +122,39 @@
           "name": "WORE 1-150MM",
           "children": [
             {
-              "path": "../assets/suscom_products/HEAT SHRINK SLEEVES/WORE 1-150MM/1meter-lot-Heat-Shrink-Tube-1MM-2MM-3MM-4MM-5MM-6MM-8MM-10MM-Heat-Shrink-Tubing.jpg_640x640.jpg",
-              "name": "1meter-lot-Heat-Shrink-Tube-1MM-2MM-3MM-4MM-5MM-6MM-8MM-10MM-Heat-Shrink-Tubing.jpg_640x640.jpg",
+              "path": "../assets/suscom_products/HEAT SHRINK SLEEVES/WORE 1-150MM/Black-Heatshrink-Tube.jpg",
+              "name": "Black-Heatshrink-Tube.jpg",
+              "size": 103439,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/HEAT SHRINK SLEEVES/WORE 1-150MM/Heat-Shrink-Tube.jpg",
+              "name": "Heat-Shrink-Tube.jpg",
               "size": 83208,
               "extension": ".jpg",
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/HEAT SHRINK SLEEVES/WORE 1-150MM/51VUxIak+VL.jpg",
-              "name": "51VUxIak+VL.jpg",
+              "path": "../assets/suscom_products/HEAT SHRINK SLEEVES/WORE 1-150MM/color tube.jpg",
+              "name": "color tube.jpg",
               "size": 34015,
               "extension": ".jpg",
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/HEAT SHRINK SLEEVES/WORE 1-150MM/images.jpg",
-              "name": "images.jpg",
-              "size": 16549,
+              "path": "../assets/suscom_products/HEAT SHRINK SLEEVES/WORE 1-150MM/hss_image.jpg",
+              "name": "hss_image.jpg",
+              "size": 13393,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 133772,
+          "size": 234055,
           "type": "directory"
         }
       ],
-      "size": 133772,
+      "size": 234055,
       "type": "directory"
     },
     {
@@ -141,50 +170,50 @@
               "name": "10 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sai_10c1_a.jpg",
-                  "name": "sai_10c1_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sus_10c1_a.jpg",
+                  "name": "sus_10c1_a.jpg",
                   "size": 36960,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sai_10c1_c.jpg",
-                  "name": "sai_10c1_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sus_10c1_c.jpg",
+                  "name": "sus_10c1_c.jpg",
                   "size": 14862,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sai_10c1_d.jpg",
-                  "name": "sai_10c1_d.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sus_10c1_d.jpg",
+                  "name": "sus_10c1_d.jpg",
                   "size": 18656,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sai_10c_a.jpg",
-                  "name": "sai_10c_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sus_10c_a.jpg",
+                  "name": "sus_10c_a.jpg",
                   "size": 31655,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sai_10c_b.jpg",
-                  "name": "sai_10c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sus_10c_b.jpg",
+                  "name": "sus_10c_b.jpg",
                   "size": 31621,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sai_10c_e.jpg",
-                  "name": "sai_10c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sus_10c_e.jpg",
+                  "name": "sus_10c_e.jpg",
                   "size": 34169,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sai_6c1_b.jpg",
-                  "name": "sai_6c1_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/10 pole/sus_6c1_b.jpg",
+                  "name": "sus_6c1_b.jpg",
                   "size": 36870,
                   "extension": ".jpg",
                   "type": "file"
@@ -198,50 +227,50 @@
               "name": "12 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sai_12c_16 ampe.jpg",
-                  "name": "sai_12c_16 ampe.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sus_12c_16 ampe.jpg",
+                  "name": "sus_12c_16 ampe.jpg",
                   "size": 32068,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sai_12c_aaa.jpg",
-                  "name": "sai_12c_aaa.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sus_12c_aaa.jpg",
+                  "name": "sus_12c_aaa.jpg",
                   "size": 37390,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sai_12c_b.jpg",
-                  "name": "sai_12c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sus_12c_b.jpg",
+                  "name": "sus_12c_b.jpg",
                   "size": 39263,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sai_12c_c.jpg",
-                  "name": "sai_12c_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sus_12c_c.jpg",
+                  "name": "sus_12c_c.jpg",
                   "size": 28589,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sai_12c_d.jpg",
-                  "name": "sai_12c_d.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sus_12c_d.jpg",
+                  "name": "sus_12c_d.jpg",
                   "size": 29368,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sai_12d35 ampe.jpg",
-                  "name": "sai_12d35 ampe.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sus_12d35 ampe.jpg",
+                  "name": "sus_12d35 ampe.jpg",
                   "size": 35664,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sai_12d_34amp.jpg",
-                  "name": "sai_12d_34amp.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/12 pole/sus_12d_34amp.jpg",
+                  "name": "sus_12d_34amp.jpg",
                   "size": 31086,
                   "extension": ".jpg",
                   "type": "file"
@@ -255,22 +284,22 @@
               "name": "16 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/16 pole/sai_16c_a.jpg",
-                  "name": "sai_16c_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/16 pole/sus_16c_a.jpg",
+                  "name": "sus_16c_a.jpg",
                   "size": 29368,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/16 pole/sai_16c_b.jpg",
-                  "name": "sai_16c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/16 pole/sus_16c_b.jpg",
+                  "name": "sus_16c_b.jpg",
                   "size": 28688,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/16 pole/sai_16c_e.jpg",
-                  "name": "sai_16c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/16 pole/sus_16c_e.jpg",
+                  "name": "sus_16c_e.jpg",
                   "size": 37298,
                   "extension": ".jpg",
                   "type": "file"
@@ -284,29 +313,29 @@
               "name": "20 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sai_20c_a.jpg",
-                  "name": "sai_20c_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sus_20c_a.jpg",
+                  "name": "sus_20c_a.jpg",
                   "size": 29250,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sai_20c_b.jpg",
-                  "name": "sai_20c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sus_20c_b.jpg",
+                  "name": "sus_20c_b.jpg",
                   "size": 30220,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sai_20c_c.jpg",
-                  "name": "sai_20c_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sus_20c_c.jpg",
+                  "name": "sus_20c_c.jpg",
                   "size": 27874,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sai_20c_e.jpg",
-                  "name": "sai_20c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/20 pole/sus_20c_e.jpg",
+                  "name": "sus_20c_e.jpg",
                   "size": 44614,
                   "extension": ".jpg",
                   "type": "file"
@@ -320,36 +349,36 @@
               "name": "24 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sai_24c_a.jpg",
-                  "name": "sai_24c_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sus_24c_a.jpg",
+                  "name": "sus_24c_a.jpg",
                   "size": 28400,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sai_24c_b.jpg",
-                  "name": "sai_24c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sus_24c_b.jpg",
+                  "name": "sus_24c_b.jpg",
                   "size": 27975,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sai_24c_c.jpg",
-                  "name": "sai_24c_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sus_24c_c.jpg",
+                  "name": "sus_24c_c.jpg",
                   "size": 28120,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sai_24c_d.jpg",
-                  "name": "sai_24c_d.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sus_24c_d.jpg",
+                  "name": "sus_24c_d.jpg",
                   "size": 24527,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sai_24c_e.jpg",
-                  "name": "sai_24c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/24 pole/sus_24c_e.jpg",
+                  "name": "sus_24c_e.jpg",
                   "size": 49251,
                   "extension": ".jpg",
                   "type": "file"
@@ -363,15 +392,15 @@
               "name": "3 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/3 pole/sai_3b_c.jpg",
-                  "name": "sai_3b_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/3 pole/sus_3b_c.jpg",
+                  "name": "sus_3b_c.jpg",
                   "size": 27475,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/3 pole/sai_3b_d.jpg",
-                  "name": "sai_3b_d.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/3 pole/sus_3b_d.jpg",
+                  "name": "sus_3b_d.jpg",
                   "size": 28466,
                   "extension": ".jpg",
                   "type": "file"
@@ -385,43 +414,43 @@
               "name": "32 amp",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sai_32c_a.jpg",
-                  "name": "sai_32c_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sus_32c_a.jpg",
+                  "name": "sus_32c_a.jpg",
                   "size": 27213,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sai_32c_a1.jpg",
-                  "name": "sai_32c_a1.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sus_32c_a1.jpg",
+                  "name": "sus_32c_a1.jpg",
                   "size": 29377,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sai_32c_b.jpg",
-                  "name": "sai_32c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sus_32c_b.jpg",
+                  "name": "sus_32c_b.jpg",
                   "size": 26524,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sai_32c_b1.jpg",
-                  "name": "sai_32c_b1.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sus_32c_b1.jpg",
+                  "name": "sus_32c_b1.jpg",
                   "size": 29513,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sai_32c_e.jpg",
-                  "name": "sai_32c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sus_32c_e.jpg",
+                  "name": "sus_32c_e.jpg",
                   "size": 35936,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sai_32c_f1.jpg",
-                  "name": "sai_32c_f1.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/32 amp/sus_32c_f1.jpg",
+                  "name": "sus_32c_f1.jpg",
                   "size": 34645,
                   "extension": ".jpg",
                   "type": "file"
@@ -435,22 +464,22 @@
               "name": "4 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/4 pole/sai_4b_a.jpg",
-                  "name": "sai_4b_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/4 pole/sus_4b_a.jpg",
+                  "name": "sus_4b_a.jpg",
                   "size": 32048,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/4 pole/sai_4b_b.jpg",
-                  "name": "sai_4b_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/4 pole/sus_4b_b.jpg",
+                  "name": "sus_4b_b.jpg",
                   "size": 30046,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/4 pole/sai_4b_c.jpg",
-                  "name": "sai_4b_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/4 pole/sus_4b_c.jpg",
+                  "name": "sus_4b_c.jpg",
                   "size": 27913,
                   "extension": ".jpg",
                   "type": "file"
@@ -464,29 +493,29 @@
               "name": "48 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sai_48c_a.jpg",
-                  "name": "sai_48c_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sus_48c_a.jpg",
+                  "name": "sus_48c_a.jpg",
                   "size": 30853,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sai_48c_b.jpg",
-                  "name": "sai_48c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sus_48c_b.jpg",
+                  "name": "sus_48c_b.jpg",
                   "size": 30233,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sai_48c_c.jpg",
-                  "name": "sai_48c_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sus_48c_c.jpg",
+                  "name": "sus_48c_c.jpg",
                   "size": 27846,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sai_48c_e.jpg",
-                  "name": "sai_48c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/48 pole/sus_48c_e.jpg",
+                  "name": "sus_48c_e.jpg",
                   "size": 31281,
                   "extension": ".jpg",
                   "type": "file"
@@ -507,15 +536,15 @@
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 I pole/sai_6c1_a.jpg",
-                  "name": "sai_6c1_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 I pole/sus_6c1_a.jpg",
+                  "name": "sus_6c1_a.jpg",
                   "size": 37545,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 I pole/sai_6c1_f.jpg",
-                  "name": "sai_6c1_f.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 I pole/sus_6c1_f.jpg",
+                  "name": "sus_6c1_f.jpg",
                   "size": 49118,
                   "extension": ".jpg",
                   "type": "file"
@@ -529,50 +558,50 @@
               "name": "6 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sai_6c_a.jpg",
-                  "name": "sai_6c_a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sus_6c_a.jpg",
+                  "name": "sus_6c_a.jpg",
                   "size": 30888,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sai_6c_b.jpg",
-                  "name": "sai_6c_b.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sus_6c_b.jpg",
+                  "name": "sus_6c_b.jpg",
                   "size": 31578,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sai_6c_c.jpg",
-                  "name": "sai_6c_c.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sus_6c_c.jpg",
+                  "name": "sus_6c_c.jpg",
                   "size": 33313,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sai_6c_e.jpg",
-                  "name": "sai_6c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sus_6c_e.jpg",
+                  "name": "sus_6c_e.jpg",
                   "size": 24279,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sai_6c_f.jpg",
-                  "name": "sai_6c_f.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sus_6c_f.jpg",
+                  "name": "sus_6c_f.jpg",
                   "size": 34191,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sai_6d 35amp_e.jpg",
-                  "name": "sai_6d 35amp_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sus_6d 35amp_e.jpg",
+                  "name": "sus_6d 35amp_e.jpg",
                   "size": 35575,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sai_6d_35a.jpg",
-                  "name": "sai_6d_35a.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/6 pole/sus_6d_35a.jpg",
+                  "name": "sus_6d_35a.jpg",
                   "size": 29906,
                   "extension": ".jpg",
                   "type": "file"
@@ -586,15 +615,15 @@
               "name": "64 pole",
               "children": [
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/64 pole/sai_64c_b-1.jpg",
-                  "name": "sai_64c_b-1.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/64 pole/sus_64c_b-1.jpg",
+                  "name": "sus_64c_b-1.jpg",
                   "size": 28677,
                   "extension": ".jpg",
                   "type": "file"
                 },
                 {
-                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/64 pole/sai_64c_e.jpg",
-                  "name": "sai_64c_e.jpg",
+                  "path": "../assets/suscom_products/HEAVY DUTY CONNECTORS/6-10-16 PIN/64 pole/sus_64c_e.jpg",
+                  "name": "sus_64c_e.jpg",
                   "size": 33665,
                   "extension": ".jpg",
                   "type": "file"
@@ -612,6 +641,118 @@
       "type": "directory"
     },
     {
+      "path": "../assets/suscom_products/INTERFACE CABLES",
+      "name": "INTERFACE CABLES",
+      "children": [
+        {
+          "path": "../assets/suscom_products/INTERFACE CABLES/20-PIN IO",
+          "name": "20-PIN IO",
+          "children": [
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/20-PIN IO/20 pin IO.jpg",
+              "name": "20 pin IO.jpg",
+              "size": 43566,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 43566,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/INTERFACE CABLES/26-PIN IO",
+          "name": "26-PIN IO",
+          "children": [
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/26-PIN IO/26 pin IO.jpg",
+              "name": "26 pin IO.jpg",
+              "size": 41509,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 41509,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/INTERFACE CABLES/37-PIN IO",
+          "name": "37-PIN IO",
+          "children": [
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/37-PIN IO/37pin IO.jpg",
+              "name": "37pin IO.jpg",
+              "size": 26885,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 26885,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/INTERFACE CABLES/40-PIN A6CON1",
+          "name": "40-PIN A6CON1",
+          "children": [
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/40-PIN A6CON1/10400405010.jpg",
+              "name": "10400405010.jpg",
+              "size": 20981,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/40-PIN A6CON1/a6con-cable-500x500.jpg",
+              "name": "a6con-cable-500x500.jpg",
+              "size": 39194,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 60175,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/INTERFACE CABLES/44-PIN IO",
+          "name": "44-PIN IO",
+          "children": [
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/44-PIN IO/44 pin IO.jpg",
+              "name": "44 pin IO.jpg",
+              "size": 43363,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 43363,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/INTERFACE CABLES/50-PIN CN1",
+          "name": "50-PIN CN1",
+          "children": [
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/50-PIN CN1/50-Pin-I-O-Cable-for-YASKAWA.jpg",
+              "name": "50-Pin-I-O-Cable-for-YASKAWA.jpg",
+              "size": 15636,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/INTERFACE CABLES/50-PIN CN1/CN1 Cable.jpg",
+              "name": "CN1 Cable.jpg",
+              "size": 1687156,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 1702792,
+          "type": "directory"
+        }
+      ],
+      "size": 1918290,
+      "type": "directory"
+    },
+    {
       "path": "../assets/suscom_products/IO CONNECTORS",
       "name": "IO CONNECTORS",
       "children": [
@@ -620,110 +761,75 @@
           "name": "DB TYPE CONNECTORS",
           "children": [
             {
-              "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub",
-              "name": "9-15-25-37-50-64 PIN d-sub",
-              "children": [
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/201581121718948.jpg",
-                  "name": "201581121718948.jpg",
-                  "size": 21709,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/201581126884933.jpg",
-                  "name": "201581126884933.jpg",
-                  "size": 25240,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/2015811281555753.jpg",
-                  "name": "2015811281555753.jpg",
-                  "size": 31216,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/2017811734756925.jpg",
-                  "name": "2017811734756925.jpg",
-                  "size": 30938,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/20178311184174218.jpg",
-                  "name": "20178311184174218.jpg",
-                  "size": 34140,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/201783112123218439.jpg",
-                  "name": "201783112123218439.jpg",
-                  "size": 28781,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/201783115183917599.jpg",
-                  "name": "201783115183917599.jpg",
-                  "size": 28561,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/201783115475815834.jpg",
-                  "name": "201783115475815834.jpg",
-                  "size": 32524,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/201783115505746316.jpg",
-                  "name": "201783115505746316.jpg",
-                  "size": 33065,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/201783116265265439.jpg",
-                  "name": "201783116265265439.jpg",
-                  "size": 30633,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/20178311693332496.jpg",
-                  "name": "20178311693332496.jpg",
-                  "size": 32714,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/20179110234580643.jpg",
-                  "name": "20179110234580643.jpg",
-                  "size": 29678,
-                  "extension": ".jpg",
-                  "type": "file"
-                },
-                {
-                  "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9-15-25-37-50-64 PIN d-sub/20179517553139864.jpg",
-                  "name": "20179517553139864.jpg",
-                  "size": 33429,
-                  "extension": ".jpg",
-                  "type": "file"
-                }
-              ],
-              "size": 392628,
-              "type": "directory"
+              "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/15pin DB.jpg",
+              "name": "15pin DB.jpg",
+              "size": 69893,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/25 pin DB F.jpg",
+              "name": "25 pin DB F.jpg",
+              "size": 12161,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/25 pin DB cover.jpg",
+              "name": "25 pin DB cover.jpg",
+              "size": 265145,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/9pin MF DB.JPG",
+              "name": "9pin MF DB.JPG",
+              "size": 39421,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/IO CONNECTORS/DB TYPE CONNECTORS/Metal cover DB 25pin.jpg",
+              "name": "Metal cover DB 25pin.jpg",
+              "size": 10710,
+              "extension": ".jpg",
+              "type": "file"
             }
           ],
-          "size": 392628,
+          "size": 397330,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/IO CONNECTORS/SCSI  CONNECTORS",
+          "name": "SCSI  CONNECTORS",
+          "children": [
+            {
+              "path": "../assets/suscom_products/IO CONNECTORS/SCSI  CONNECTORS/20pin IO.jpg",
+              "name": "20pin IO.jpg",
+              "size": 81624,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/IO CONNECTORS/SCSI  CONNECTORS/26pin IO.jpg",
+              "name": "26pin IO.jpg",
+              "size": 44390,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/IO CONNECTORS/SCSI  CONNECTORS/50pin CN1.jpg",
+              "name": "50pin CN1.jpg",
+              "size": 17100,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 143114,
           "type": "directory"
         }
       ],
-      "size": 392628,
+      "size": 540444,
       "type": "directory"
     },
     {
@@ -735,16 +841,9 @@
           "name": "M12",
           "children": [
             {
-              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M12/HTB1qKkJHpXXXXXZXpXXq6xXFXXXi.jpg",
-              "name": "HTB1qKkJHpXXXXXZXpXXq6xXFXXXi.jpg",
-              "size": 48279,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M12/LLT-M12-Cable-Connector-2-3-4-5-6-Pin-Waterproof-IP67-LED-Power-Connector-Cable.jpg_640x640.jpg",
-              "name": "LLT-M12-Cable-Connector-2-3-4-5-6-Pin-Waterproof-IP67-LED-Power-Connector-Cable.jpg_640x640.jpg",
-              "size": 120530,
+              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M12/LLT-M12.jpg",
+              "name": "LLT-M12.jpg",
+              "size": 91903,
               "extension": ".jpg",
               "type": "file"
             },
@@ -784,21 +883,21 @@
               "type": "file"
             },
             {
+              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M12/M12-5pins.jpg",
+              "name": "M12-5pins.jpg",
+              "size": 28677,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
               "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M12/M12-RJ45.jpg",
               "name": "M12-RJ45.jpg",
               "size": 27072,
               "extension": ".jpg",
               "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M12/M12-aviation-plug-8pins-elbow-sensor-connector-socket-rmale-type-Waterproof-grade-IP68.jpg_640x640.jpg",
-              "name": "M12-aviation-plug-8pins-elbow-sensor-connector-socket-rmale-type-Waterproof-grade-IP68.jpg_640x640.jpg",
-              "size": 36677,
-              "extension": ".jpg",
-              "type": "file"
             }
           ],
-          "size": 364073,
+          "size": 279167,
           "type": "directory"
         },
         {
@@ -806,15 +905,8 @@
           "name": "M23",
           "children": [
             {
-              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M23/5245457.jpg",
-              "name": "5245457.jpg",
-              "size": 10847,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M23/Hummel-connector-6pin-12pin-M23-male-field.jpg_350x350.jpg",
-              "name": "Hummel-connector-6pin-12pin-M23-male-field.jpg_350x350.jpg",
+              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M23/Hummel-connector-6pin-12pin-M23-male.jpg",
+              "name": "Hummel-connector-6pin-12pin-M23-male.jpg",
               "size": 27865,
               "extension": ".jpg",
               "type": "file"
@@ -883,14 +975,14 @@
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M23/hummel-7601-0-43-01-d-01.jpg",
-              "name": "hummel-7601-0-43-01-d-01.jpg",
-              "size": 66279,
+              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M23/pannel angular.jpg",
+              "name": "pannel angular.jpg",
+              "size": 10847,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 987475,
+          "size": 921196,
           "type": "directory"
         },
         {
@@ -919,8 +1011,8 @@
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M8/M8-M12FM_m.jpg",
-              "name": "M8-M12FM_m.jpg",
+              "path": "../assets/suscom_products/M-8-12-16 SERIES CONNECTORS/M8/M8-M12f.jpg",
+              "name": "M8-M12f.jpg",
               "size": 10237,
               "extension": ".jpg",
               "type": "file"
@@ -930,7 +1022,7 @@
           "type": "directory"
         }
       ],
-      "size": 1463942,
+      "size": 1312757,
       "type": "directory"
     },
     {
@@ -938,85 +1030,77 @@
       "name": "MIL GRADE CONNECTORS",
       "children": [
         {
-          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors",
-          "name": "power connectors",
-          "children": [
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/17-pin-female-500x500.jpg",
-              "name": "17-pin-female-500x500.jpg",
-              "size": 22724,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/5015-Threaded-Konnektörler-w.png",
-              "name": "5015-Threaded-Konnektörler-w.png",
-              "size": 116518,
-              "extension": ".png",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/Allied-Connectors-MG-Range-1.jpg",
-              "name": "Allied-Connectors-MG-Range-1.jpg",
-              "size": 11836,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/MIL-Steckverbinder.jpg",
-              "name": "MIL-Steckverbinder.jpg",
-              "size": 138756,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/MS3110-MS3126.jpg",
-              "name": "MS3110-MS3126.jpg",
-              "size": 94032,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/RANGE_LMJ_MIL-C-5015.jpg",
-              "name": "RANGE_LMJ_MIL-C-5015.jpg",
-              "size": 73148,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/allied-connectors-500x500.jpg",
-              "name": "allied-connectors-500x500.jpg",
-              "size": 23483,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/allied-connectors-ms-range-500x500.jpg",
-              "name": "allied-connectors-ms-range-500x500.jpg",
-              "size": 30275,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/mg-shell-styles-mg-00-500x500.png",
-              "name": "mg-shell-styles-mg-00-500x500.png",
-              "size": 109545,
-              "extension": ".png",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/MIL GRADE CONNECTORS/power connectors/ms-connector-500x500.jpg",
-              "name": "ms-connector-500x500.jpg",
-              "size": 22809,
-              "extension": ".jpg",
-              "type": "file"
-            }
-          ],
-          "size": 643126,
-          "type": "directory"
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/17-pin-female.jpg",
+          "name": "17-pin-female.jpg",
+          "size": 22724,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/MG-Range.jpg",
+          "name": "MG-Range.jpg",
+          "size": 11836,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/MIL.jpg",
+          "name": "MIL.jpg",
+          "size": 138756,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/MS pannel connector.jpg",
+          "name": "MS pannel connector.jpg",
+          "size": 23483,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/MS3110-MS3126.jpg",
+          "name": "MS3110-MS3126.jpg",
+          "size": 94032,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/RANGE_LMJ_MIL-C-5015.jpg",
+          "name": "RANGE_LMJ_MIL-C-5015.jpg",
+          "size": 73148,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/Threaded-MS.png",
+          "name": "Threaded-MS.png",
+          "size": 128050,
+          "extension": ".png",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/allied-connectors-ms-range-500x500.jpg",
+          "name": "allied-connectors-ms-range-500x500.jpg",
+          "size": 30275,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/mg-shell-styles.png",
+          "name": "mg-shell-styles.png",
+          "size": 109545,
+          "extension": ".png",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/MIL GRADE CONNECTORS/ms-angular connectors.jpg",
+          "name": "ms-angular connectors.jpg",
+          "size": 22809,
+          "extension": ".jpg",
+          "type": "file"
         }
       ],
-      "size": 643126,
+      "size": 654658,
       "type": "directory"
     },
     {
@@ -1024,50 +1108,133 @@
       "name": "Mini-Din CONNECTORS",
       "children": [
         {
-          "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN",
-          "name": "9-PIN",
+          "path": "../assets/suscom_products/Mini-Din CONNECTORS/4-PIN",
+          "name": "4-PIN",
           "children": [
             {
-              "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN/571_700x309.jpg",
-              "name": "571_700x309.jpg",
-              "size": 127028,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN/61EEPD6qWaL._SX425_.jpg",
-              "name": "61EEPD6qWaL._SX425_.jpg",
+              "path": "../assets/suscom_products/Mini-Din CONNECTORS/4-PIN/4-pin M-din.jpg",
+              "name": "4-pin M-din.jpg",
               "size": 11960,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN/din-connector-male-13-pin.jpg",
-              "name": "din-connector-male-13-pin.jpg",
-              "size": 8921,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN/f33a9e0444b7b5be903c998cc27d.jpg",
-              "name": "f33a9e0444b7b5be903c998cc27d.jpg",
-              "size": 29808,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN/open-uri20160601-21382-q4fa1w.jpg",
-              "name": "open-uri20160601-21382-q4fa1w.jpg",
-              "size": 23915,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 201632,
+          "size": 11960,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/Mini-Din CONNECTORS/6-PIN",
+          "name": "6-PIN",
+          "children": [
+            {
+              "path": "../assets/suscom_products/Mini-Din CONNECTORS/6-PIN/6 pin M-din.jpg",
+              "name": "6 pin M-din.jpg",
+              "size": 62034,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 62034,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/Mini-Din CONNECTORS/8-PIN",
+          "name": "8-PIN",
+          "children": [
+            {
+              "path": "../assets/suscom_products/Mini-Din CONNECTORS/8-PIN/8 pin M-din.jpg",
+              "name": "8 pin M-din.jpg",
+              "size": 9325,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 9325,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN",
+          "name": "9-PIN",
+          "children": [
+            {
+              "path": "../assets/suscom_products/Mini-Din CONNECTORS/9-PIN/9-pin M-din.jpg",
+              "name": "9-pin M-din.jpg",
+              "size": 29808,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 29808,
           "type": "directory"
         }
       ],
-      "size": 201632,
+      "size": 113127,
+      "type": "directory"
+    },
+    {
+      "path": "../assets/suscom_products/PROGRAMMING CABLES",
+      "name": "PROGRAMMING CABLES",
+      "children": [
+        {
+          "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-HMI",
+          "name": "PLC-HMI",
+          "children": [
+            {
+              "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-HMI/COMMUNICATION CABLE.jpg",
+              "name": "COMMUNICATION CABLE.jpg",
+              "size": 59010,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-HMI/Delta PLC cable.jpg",
+              "name": "Delta PLC cable.jpg",
+              "size": 87560,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-HMI/Omron PLC cable.jpg",
+              "name": "Omron PLC cable.jpg",
+              "size": 41442,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 188012,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-PC",
+          "name": "PLC-PC",
+          "children": [
+            {
+              "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-PC/MPI-PPI cable.jpg",
+              "name": "MPI-PPI cable.jpg",
+              "size": 189868,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-PC/SC09 Serial.jpg",
+              "name": "SC09 Serial.jpg",
+              "size": 131646,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/PROGRAMMING CABLES/PLC-PC/SC09 USB.jpg",
+              "name": "SC09 USB.jpg",
+              "size": 34702,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 356216,
+          "type": "directory"
+        }
+      ],
+      "size": 544228,
       "type": "directory"
     },
     {
@@ -1079,91 +1246,71 @@
           "name": "ABB",
           "children": [
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/ABB/3HAB2683-1.jpg",
-              "name": "3HAB2683-1.jpg",
-              "size": 17004,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/ABB/600_ACM2nACG-1.jpg",
-              "name": "600_ACM2nACG-1.jpg",
-              "size": 28259,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/ABB/600_Parker-SSD-Drives-CS1UP1F1R0005-1.jpg",
               "name": "600_Parker-SSD-Drives-CS1UP1F1R0005-1.jpg",
               "size": 40653,
               "extension": ".jpg",
               "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/ABB/ABB CONTROL CABLE 3HAC2492-1.jpg",
-              "name": "ABB CONTROL CABLE 3HAC2492-1.jpg",
-              "size": 34820,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/ABB/ABB.jpg",
-              "name": "ABB.jpg",
-              "size": 13893,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/ABB/CONNECTOR FOR ACM2N.jpg",
-              "name": "CONNECTOR FOR ACM2N.jpg",
-              "size": 64795,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/ABB/preview.jpg",
-              "name": "preview.jpg",
-              "size": 15104,
-              "extension": ".jpg",
-              "type": "file"
             }
           ],
-          "size": 214528,
+          "size": 40653,
           "type": "directory"
         },
         {
-          "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/INVT",
-          "name": "INVT",
+          "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/DELTA",
+          "name": "DELTA",
           "children": [
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/INVT/WSC-P06P20-C-servo-motor-cable-price-2.png",
-              "name": "WSC-P06P20-C-servo-motor-cable-price-2.png",
-              "size": 237858,
-              "extension": ".png",
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/DELTA/Delta A2 Encoder cable.jpg",
+              "name": "Delta A2 Encoder cable.jpg",
+              "size": 7645,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/DELTA/Delta A2 encoder cable 750w.jpg",
+              "name": "Delta A2 encoder cable 750w.jpg",
+              "size": 109606,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/DELTA/Delta Power cable 400w.jpg",
+              "name": "Delta Power cable 400w.jpg",
+              "size": 35532,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/DELTA/Delta power cable(1-2kw).jpg",
+              "name": "Delta power cable(1-2kw).jpg",
+              "size": 200022,
+              "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 237858,
+          "size": 352805,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/FUJI ELECTRIC",
+          "name": "FUJI ELECTRIC",
+          "children": [
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/FUJI ELECTRIC/servo-motor-drive-kit.jpg",
+              "name": "servo-motor-drive-kit.jpg",
+              "size": 105919,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 105919,
           "type": "directory"
         },
         {
           "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI",
           "name": "MITSUBISHI",
           "children": [
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/100-new-and-original-SANYO-PLC-MODULE.jpg",
-              "name": "100-new-and-original-SANYO-PLC-MODULE.jpg",
-              "size": 79185,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/40-points-connect-speaker-terminal.jpg",
-              "name": "40-points-connect-speaker-terminal.jpg",
-              "size": 171610,
-              "extension": ".jpg",
-              "type": "file"
-            },
             {
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/40FCN CABLE.jpg",
               "name": "40FCN CABLE.jpg",
@@ -1175,6 +1322,13 @@
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/50PIN IO.jpg",
               "name": "50PIN IO.jpg",
               "size": 116972,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/A6CON1.jpg",
+              "name": "A6CON1.jpg",
+              "size": 57827,
               "extension": ".jpg",
               "type": "file"
             },
@@ -1214,23 +1368,9 @@
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/Battery-ER17500-3-6V.jpg",
-              "name": "Battery-ER17500-3-6V.jpg",
-              "size": 138626,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/COMMUNICATION CABLE-1.jpg",
               "name": "COMMUNICATION CABLE-1.jpg",
               "size": 186286,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/COMMUNICATION CABLE.jpg",
-              "name": "COMMUNICATION CABLE.jpg",
-              "size": 59010,
               "extension": ".jpg",
               "type": "file"
             },
@@ -1249,20 +1389,6 @@
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/FA-CBL15FMV-M-data-multi-core-communication.jpg",
-              "name": "FA-CBL15FMV-M-data-multi-core-communication.jpg",
-              "size": 115990,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/FX-16E-100CAB-S-Servo-cable.jpg",
-              "name": "FX-16E-100CAB-S-Servo-cable.jpg",
-              "size": 48552,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/FXPLC-20 FFC CABLE.jpg",
               "name": "FXPLC-20 FFC CABLE.jpg",
               "size": 133918,
@@ -1270,16 +1396,9 @@
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/High-quality-and-100-new-J2-servo-1.jpg",
-              "name": "High-quality-and-100-new-J2-servo-1.jpg",
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/J2-CNM.jpg",
+              "name": "J2-CNM.jpg",
               "size": 43834,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/High-quality-and-100-new-Q-series.jpg",
-              "name": "High-quality-and-100-new-Q-series.jpg",
-              "size": 57827,
               "extension": ".jpg",
               "type": "file"
             },
@@ -1287,41 +1406,6 @@
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/JHSCBL.jpg",
               "name": "JHSCBL.jpg",
               "size": 19929,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/JZSP-CMP00-02-E-servo-electric-wire.jpg",
-              "name": "JZSP-CMP00-02-E-servo-electric-wire.jpg",
-              "size": 66194,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/JZSP-CSM12-10E-enc.jpg",
-              "name": "JZSP-CSM12-10E-enc.jpg",
-              "size": 46010,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/JZSP-CSM12-10E-encoder.jpg",
-              "name": "JZSP-CSM12-10E-encoder.jpg",
-              "size": 39345,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/JZSP-CVP01-20E-encoder-l.jpg",
-              "name": "JZSP-CVP01-20E-encoder-l.jpg",
-              "size": 44890,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/JZSP-CVP01-20E-encoder.jpg",
-              "name": "JZSP-CVP01-20E-encoder.jpg",
-              "size": 39739,
               "extension": ".jpg",
               "type": "file"
             },
@@ -1343,20 +1427,6 @@
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/MFECA0050ESD-Servo-motor-encoder-line.jpg",
               "name": "MFECA0050ESD-Servo-motor-encoder-line.jpg",
               "size": 53459,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/MITSUBISHI-battery-ER17330V-A6-BAT-3-6V.jpg",
-              "name": "MITSUBISHI-battery-ER17330V-A6-BAT-3-6V.jpg",
-              "size": 52377,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/MR-BAT6.jpg",
-              "name": "MR-BAT6.jpg",
-              "size": 115906,
               "extension": ".jpg",
               "type": "file"
             },
@@ -1473,20 +1543,6 @@
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/PANASONIC BAT.jpg",
-              "name": "PANASONIC BAT.jpg",
-              "size": 85143,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/PANASONIC-BAT.jpg",
-              "name": "PANASONIC-BAT.jpg",
-              "size": 82299,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
               "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/PWSNCBL1-3M.jpg",
               "name": "PWSNCBL1-3M.jpg",
               "size": 118396,
@@ -1498,13 +1554,6 @@
               "name": "Q170DBATCBL05M-cables.png",
               "size": 305936,
               "extension": ".png",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/Q7-BAT.jpg",
-              "name": "Q7-BAT.jpg",
-              "size": 76450,
-              "extension": ".jpg",
               "type": "file"
             },
             {
@@ -1527,65 +1576,9 @@
               "size": 43685,
               "extension": ".jpg",
               "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/Yaskawa-JZSP-CMP00-10-ABBN.jpg",
-              "name": "Yaskawa-JZSP-CMP00-10-ABBN.jpg",
-              "size": 6676,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/Yaskawa-encoder-and-power-cable-JZSP-CVP01.jpg",
-              "name": "Yaskawa-encoder-and-power-cable-JZSP-CVP01.jpg",
-              "size": 84279,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/Yaskawa-encoder-cable-JZSP-CSP05-20E.jpg",
-              "name": "Yaskawa-encoder-cable-JZSP-CSP05-20E.jpg",
-              "size": 155652,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/panasonic servo cables@1550.jpg",
-              "name": "panasonic servo cables@1550.jpg",
-              "size": 27816,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/yaskawa SGMAH encoder cable.jpg",
-              "name": "yaskawa SGMAH encoder cable.jpg",
-              "size": 6766,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/yaskawa encoder cable.jpg",
-              "name": "yaskawa encoder cable.jpg",
-              "size": 7553,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/yaskawa power cable SGMGV.jpg",
-              "name": "yaskawa power cable SGMGV.jpg",
-              "size": 8119,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/MITSUBISHI/yaskawa power cable.jpg",
-              "name": "yaskawa power cable.jpg",
-              "size": 8553,
-              "extension": ".jpg",
-              "type": "file"
             }
           ],
-          "size": 5187279,
+          "size": 3620539,
           "type": "directory"
         },
         {
@@ -1593,97 +1586,235 @@
           "name": "OMRON",
           "children": [
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/CCB-M8DSI0-05-servo-cable-price-china.jpg",
-              "name": "CCB-M8DSI0-05-servo-cable-price-china.jpg",
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/CCB-M8DSI0-05-servo-cable.jpg",
+              "name": "CCB-M8DSI0-05-servo-cable.jpg",
               "size": 50927,
               "extension": ".jpg",
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/R88A-CA1A003S-servo-cable-price-china-new.jpg",
-              "name": "R88A-CA1A003S-servo-cable-price-china-new.jpg",
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/Omron-CS1W-CN223-2M-I-O-Connecting-Cable.jpg",
+              "name": "Omron-CS1W-CN223-2M-I-O-Connecting-Cable.jpg",
+              "size": 15520,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/Omron-encoder-and-power-cable.jpg",
+              "name": "Omron-encoder-and-power-cable.jpg",
+              "size": 84279,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/R88A-CA1A003S-servo-cable.jpg",
+              "name": "R88A-CA1A003S-servo-cable.jpg",
               "size": 52659,
               "extension": ".jpg",
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/XW2Z-100J-G5-servo-cable-price-china.jpg",
-              "name": "XW2Z-100J-G5-servo-cable-price-china.jpg",
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/OMRON/XW2Z-100J-G5-servo-cable.jpg",
+              "name": "XW2Z-100J-G5-servo-cable.jpg",
               "size": 53682,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 157268,
+          "size": 257067,
           "type": "directory"
-        }
-      ],
-      "size": 5796933,
-      "type": "directory"
-    },
-    {
-      "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS",
-      "name": "SERVO MOTOR&DRIVE CONNECTORS",
-      "children": [
+        },
         {
-          "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS",
-          "name": "ENCODER CONNECTORS",
+          "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/PANASONIC",
+          "name": "PANASONIC",
           "children": [
             {
-              "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS/20 pin.jpg",
-              "name": "20 pin.jpg",
-              "size": 8936,
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/PANASONIC/Panasonic power cable 400w.jpg",
+              "name": "Panasonic power cable 400w.jpg",
+              "size": 43685,
               "extension": ".jpg",
               "type": "file"
             },
             {
-              "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS/36210-0100JL.jpg",
-              "name": "36210-0100JL.jpg",
-              "size": 253006,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS/Connector-55100-0670-IEEE1394-Delta-Panasonic-Yasukawa-Molex-Servo-6-pin-Encoder-Connector-SM-6P-A.jpg_640x640.jpg",
-              "name": "Connector-55100-0670-IEEE1394-Delta-Panasonic-Yasukawa-Molex-Servo-6-pin-Encoder-Connector-SM-6P-A.jpg_640x640.jpg",
-              "size": 36161,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS/Delta-Servo-Encoder-Connector-CN1-44-Pin-44Pin-44P-Adapter-ASD-B2-041-B.jpg",
-              "name": "Delta-Servo-Encoder-Connector-CN1-44-Pin-44Pin-44P-Adapter-ASD-B2-041-B.jpg",
-              "size": 51508,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS/Molex-54280-0609-Female-Connector-6-Pin-USB-1394-for-Yaskawa-Panasonic-Servo-Motor-Encoder-6P.jpg_640x640.jpg",
-              "name": "Molex-54280-0609-Female-Connector-6-Pin-USB-1394-for-Yaskawa-Panasonic-Servo-Motor-Encoder-6P.jpg_640x640.jpg",
-              "size": 48100,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS/Mr-j3cn1-sm-50-PJ-scsi-50-50-p-SCSI-CN50-Pasadores-cn50p-para-Panasonic-Yaskawa.jpg_640x640.jpg",
-              "name": "Mr-j3cn1-sm-50-PJ-scsi-50-50-p-SCSI-CN50-Pasadores-cn50p-para-Panasonic-Yaskawa.jpg_640x640.jpg",
-              "size": 39439,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/SERVO MOTOR&DRIVE CONNECTORS/ENCODER CONNECTORS/images.jpg",
-              "name": "images.jpg",
-              "size": 3332,
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/PANASONIC/panasonic servo cables 750w.jpg",
+              "name": "panasonic servo cables 750w.jpg",
+              "size": 27816,
               "extension": ".jpg",
               "type": "file"
             }
           ],
-          "size": 440482,
+          "size": 71501,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SCHNEIDER",
+          "name": "SCHNEIDER",
+          "children": [
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SCHNEIDER/LXM-05 Encoder cable.jpg",
+              "name": "LXM-05 Encoder cable.jpg",
+              "size": 40639,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SCHNEIDER/encoder cable 750w.jpg",
+              "name": "encoder cable 750w.jpg",
+              "size": 10627,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SCHNEIDER/power cable 1-2kw.jpg",
+              "name": "power cable 1-2kw.jpg",
+              "size": 11355,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SCHNEIDER/power cable LXM32.JPG",
+              "name": "power cable LXM32.JPG",
+              "size": 9238,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 71859,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SIEMENS",
+          "name": "SIEMENS",
+          "children": [
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SIEMENS/encoder cable.jpg",
+              "name": "encoder cable.jpg",
+              "size": 30860,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/SIEMENS/servo cable set.jpg",
+              "name": "servo cable set.jpg",
+              "size": 163373,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 194233,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA",
+          "name": "YASAKAWA",
+          "children": [
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/JZSP-CSM12-10E-enc.jpg",
+              "name": "JZSP-CSM12-10E-enc.jpg",
+              "size": 46010,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/JZSP-CSM12-10E-encoder.jpg",
+              "name": "JZSP-CSM12-10E-encoder.jpg",
+              "size": 39345,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/Yaskawa-JZSP-CMP00-10-ABBN.jpg",
+              "name": "Yaskawa-JZSP-CMP00-10-ABBN.jpg",
+              "size": 6676,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/Yaskawa-encoder-and-power-cable-JZSP-CVP01.jpg",
+              "name": "Yaskawa-encoder-and-power-cable-JZSP-CVP01.jpg",
+              "size": 84279,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/Yaskawa-encoder-cable-JZSP-CSP05-20E.jpg",
+              "name": "Yaskawa-encoder-cable-JZSP-CSP05-20E.jpg",
+              "size": 155652,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/yaskawa SGMAH encoder cable.jpg",
+              "name": "yaskawa SGMAH encoder cable.jpg",
+              "size": 6766,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/yaskawa encoder cable.jpg",
+              "name": "yaskawa encoder cable.jpg",
+              "size": 7553,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/yaskawa power cable SGMGV.jpg",
+              "name": "yaskawa power cable SGMGV.jpg",
+              "size": 8119,
+              "extension": ".jpg",
+              "type": "file"
+            },
+            {
+              "path": "../assets/suscom_products/SERVO CABLE ASSEMBLIES/YASAKAWA/yaskawa power cable.jpg",
+              "name": "yaskawa power cable.jpg",
+              "size": 8553,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 362953,
           "type": "directory"
         }
       ],
-      "size": 440482,
+      "size": 5077529,
+      "type": "directory"
+    },
+    {
+      "path": "../assets/suscom_products/TERMINAL BLOCKS",
+      "name": "TERMINAL BLOCKS",
+      "children": [
+        {
+          "path": "../assets/suscom_products/TERMINAL BLOCKS/40-PIN TB",
+          "name": "40-PIN TB",
+          "children": [
+            {
+              "path": "../assets/suscom_products/TERMINAL BLOCKS/40-PIN TB/A6CON1 terminal block.jpg",
+              "name": "A6CON1 terminal block.jpg",
+              "size": 90226,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 90226,
+          "type": "directory"
+        },
+        {
+          "path": "../assets/suscom_products/TERMINAL BLOCKS/50-PIN TB",
+          "name": "50-PIN TB",
+          "children": [
+            {
+              "path": "../assets/suscom_products/TERMINAL BLOCKS/50-PIN TB/CN1 TB.jpg",
+              "name": "CN1 TB.jpg",
+              "size": 163793,
+              "extension": ".jpg",
+              "type": "file"
+            }
+          ],
+          "size": 163793,
+          "type": "directory"
+        }
+      ],
+      "size": 254019,
       "type": "directory"
     },
     {
@@ -1691,32 +1822,31 @@
       "name": "UL SHIELDED CABLES",
       "children": [
         {
-          "path": "../assets/suscom_products/UL SHIELDED CABLES/multi core",
-          "name": "multi core",
-          "children": [
-            {
-              "path": "../assets/suscom_products/UL SHIELDED CABLES/multi core/multicore-shielded-cables-500x500.jpg",
-              "name": "multicore-shielded-cables-500x500.jpg",
-              "size": 34555,
-              "extension": ".jpg",
-              "type": "file"
-            },
-            {
-              "path": "../assets/suscom_products/UL SHIELDED CABLES/multi core/s-l300.jpg",
-              "name": "s-l300.jpg",
-              "size": 10050,
-              "extension": ".jpg",
-              "type": "file"
-            }
-          ],
-          "size": 44605,
-          "type": "directory"
+          "path": "../assets/suscom_products/UL SHIELDED CABLES/2 pair shielded cable.jpg",
+          "name": "2 pair shielded cable.jpg",
+          "size": 12225,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/UL SHIELDED CABLES/UL shielded cable.jpg",
+          "name": "UL shielded cable.jpg",
+          "size": 10050,
+          "extension": ".jpg",
+          "type": "file"
+        },
+        {
+          "path": "../assets/suscom_products/UL SHIELDED CABLES/multicore-shielded-cables.jpg",
+          "name": "multicore-shielded-cables.jpg",
+          "size": 34555,
+          "extension": ".jpg",
+          "type": "file"
         }
       ],
-      "size": 44605,
+      "size": 56830,
       "type": "directory"
     }
   ],
-  "size": 11031408,
+  "size": 12655622,
   "type": "directory"
 }

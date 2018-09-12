@@ -24,6 +24,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      catalogUrl: "",
       dataUrlBasePath: "",
       carouselPage: {},
       sectionColumnsPage: {},
@@ -45,17 +46,18 @@ class App extends Component {
       const basePath = response.data.basePath.dataUrlBasePath;
 
       this.setState({ dataUrlBasePath: basePath });
-      this.getImageBaseUrl(basePath);
+      this.getBaseUrl(basePath);
       this.getAsyncHomeData(basePath);
       this.getAsyncProductsData(basePath);
       this.getAsyncContacts(basePath);
     });
   };
 
-  getImageBaseUrl = basePath => {
+  getBaseUrl = basePath => {
     getImageRawPath(basePath).then(response => {
       this.setState({
-        imageBaseUrl: response.data.basePath.imgUrlBasePath
+        imageBaseUrl: response.data.basePath.imgUrlBasePath,
+        catalogUrl: response.data.basePath.catalogUrl
       });
     });
   };
@@ -95,7 +97,7 @@ class App extends Component {
 
   render() {
     const {
-      dataUrlBasePath,
+      catalogUrl,
       products,
       imageBaseUrl,
       contactCard,
@@ -158,6 +160,7 @@ class App extends Component {
               render={props => {
                 return (
                   <Home
+                    catalogUrl={catalogUrl}
                     mainProducts={mainProducts}
                     imageBaseUrl={imageBaseUrl}
                     carouselPage={carouselPage}

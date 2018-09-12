@@ -5,7 +5,7 @@
     {
       "path": "../assets/main_products/A6CON1 terminal block.jpg",
       "name": "A6CON1 terminal block.jpg",
-      "size": 64667,
+      "size": 90226,
       "extension": ".jpg",
       "type": "file"
     },
@@ -17,8 +17,8 @@
       "type": "file"
     },
     {
-      "path": "../assets/main_products/Delta-ASDA-A2-Series-AC-Servo-Motor.jpg.jpg",
-      "name": "Delta-ASDA-A2-Series-AC-Servo-Motor.jpg.jpg",
+      "path": "../assets/main_products/Delta-ASDA-A2-Series-AC-Servo-Motor.jpg",
+      "name": "Delta-ASDA-A2-Series-AC-Servo-Motor.jpg",
       "size": 47782,
       "extension": ".jpg",
       "type": "file"
@@ -31,15 +31,15 @@
       "type": "file"
     },
     {
-      "path": "../assets/main_products/FRC round cable.jpg",
-      "name": "FRC round cable.jpg",
-      "size": 35361,
+      "path": "../assets/main_products/FRC Round cable.jpg",
+      "name": "FRC Round cable.jpg",
+      "size": 16675,
       "extension": ".jpg",
       "type": "file"
     },
     {
-      "path": "../assets/main_products/SC09 SERIAL CABLE (1).jpg",
-      "name": "SC09 SERIAL CABLE (1).jpg",
+      "path": "../assets/main_products/SC09 SERIAL CABLE.jpg",
+      "name": "SC09 SERIAL CABLE.jpg",
       "size": 19035,
       "extension": ".jpg",
       "type": "file"
@@ -66,6 +66,6 @@
       "type": "file"
     }
   ],
-  "size": 1319787,
+  "size": 1326660,
   "type": "directory"
 }
