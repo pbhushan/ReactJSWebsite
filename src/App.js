@@ -9,10 +9,12 @@ import Contact from "./components/contact/contact";
 import NotFound from "./components/notFound";
 import Footer from "./components/footers/footer";
 import {
+  getDataUrlBasePath,
   getImageRawPath,
   getHomeData,
   getProductsData,
-  getContactsData
+  getContactsData,
+  getAbout
 } from "./services/fakeContentService";
 
 import "./App.css";
@@ -22,6 +24,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      dataUrlBasePath: "",
       carouselPage: {},
       sectionColumnsPage: {},
       featurePage: {},
@@ -34,47 +37,55 @@ class App extends Component {
   }
 
   componentWillMount() {
-    this.getImageBaseUrl();
-    this.getAsyncHomeData();
-    this.getAsyncProductsData();
-    this.getAsyncContacts();
+    this.getDataBaseUrl();
   }
 
-  getImageBaseUrl = () => {
-    getImageRawPath().then(response => {
-      this.setState({ imageBaseUrl: response.data.rawPath });
+  getDataBaseUrl = () => {
+    getDataUrlBasePath().then(response => {
+      const basePath = response.data.rawPath.dataUrlBasePath;
+      this.setState({ dataUrlBasePath: basePath });
+      this.getImageBaseUrl(basePath);
+      this.getAsyncHomeData(basePath);
+      this.getAsyncProductsData(basePath);
+      this.getAsyncContacts(basePath);
     });
   };
 
-  getAsyncHomeData = () => {
-    getHomeData().getCarouselData.then(response => {
+  getImageBaseUrl = basePath => {
+    getImageRawPath(basePath).then(response => {
+      this.setState({ imageBaseUrl: response.data.rawPath.imgUrlBasePath });
+    });
+  };
+
+  getAsyncHomeData = basePath => {
+    getHomeData(basePath).getCarouselData.then(response => {
       this.setState({ carouselPage: response.data.carouselPage });
     });
-    getHomeData().getSectionColumnsPage.then(response => {
+    getHomeData(basePath).getSectionColumnsPage.then(response => {
       this.setState({ sectionColumnsPage: response.data.sectionColumnsPage });
     });
-    getHomeData().getFeaturePage.then(response => {
+    getHomeData(basePath).getFeaturePage.then(response => {
       this.setState({ featurePage: response.data.featurePage });
     });
-    getHomeData().getMultiCarouselData.then(response => {
+    getHomeData(basePath).getMultiCarouselData.then(response => {
       this.setState({ mainProducts: response.data.children });
     });
   };
 
-  getAsyncProductsData = () => {
-    getProductsData().then(response => {
+  getAsyncProductsData = basePath => {
+    getProductsData(basePath).then(response => {
       this.setState({
         products: response.data.children
       });
     });
   };
 
-  getAsyncContacts = () => {
-    getContactsData().getContactCard.then(response => {
+  getAsyncContacts = basePath => {
+    getContactsData(basePath).getContactCard.then(response => {
       this.setState({ contactCard: response.data.contactCard });
     });
 
-    getContactsData().getContactDetails.then(response => {
+    getContactsData(basePath).getContactDetails.then(response => {
       this.setState({ contactDetails: response.data.contactDetails });
     });
   };

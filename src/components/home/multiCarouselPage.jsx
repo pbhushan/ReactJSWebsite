@@ -40,10 +40,6 @@ class MultiCarouselPage extends Component {
               <NavLink to="/product" class="btn btn-primary" role="button">
                 Learn More
               </NavLink>
-
-              {/* <Button color="primary">
-                <NavLink to="/product"> Learn More </NavLink>
-              </Button> */}
             </CardBody>
           </Card>
         </Col>
@@ -90,7 +86,14 @@ class MultiCarouselPage extends Component {
   };
 
   render() {
-    return <Container> {this.getMultiCarouselPageItems()}</Container>;
+    return (
+      <Container>
+        <h2 className="h1-responsive font-weight-bold text-center my-5">
+          Our Products
+        </h2>
+        {this.getMultiCarouselPageItems()}
+      </Container>
+    );
   }
 }
 
