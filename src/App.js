@@ -161,7 +161,7 @@ class App extends Component {
               }}
             />
             <Route
-              path="/home"
+              path="/*"
               render={props => {
                 return (
                   <Home
@@ -176,7 +176,10 @@ class App extends Component {
                 );
               }}
             />
-            <Redirect from="/" exact to="/home" />
+            <Redirect from="/*" exact to="/" />
+            <Redirect from="/product" exact to="/" />
+            <Redirect from="/contact" exact to="/" />
+            <Redirect from="/about" exact to="/" />
             <Redirect to="/not-found" />
           </Switch>
         </main>
