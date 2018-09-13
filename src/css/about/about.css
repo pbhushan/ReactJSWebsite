@@ -3,7 +3,15 @@
 }
 
 .certificate-img {
-  height: 400px;
+  height: 450px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.certificate-img:hover {
+  cursor: zoom-in;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -12,6 +20,6 @@
   }
 
   .certificate-img {
-    height: 300px;
+    height: 350px;
   }
 }

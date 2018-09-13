@@ -26,7 +26,7 @@ class AboutUs extends Component {
           <img
             key={key}
             src={imageUrl}
-            className="certificate-img p-3 col-md-4"
+            className="certificate-img p-3 col-md-4 ml-5"
             alt="certificate"
             onClick={() => {
               this.setState({ photoIndex: key, isOpen: true });
@@ -37,17 +37,19 @@ class AboutUs extends Component {
     }
   }
 
-  render() {
-    const { photoIndex, isOpen } = this.state;
+  getAboutIntro = () => {
     const { about, imageBaseUrl } = this.props;
-    return (
-      <div>
-        <section className="row mt-5 p-5 grey lighten-4">
-          <h1 className="col-md  text-center">{about.info.title}</h1>
+
+    if (about && about.info) {
+      return (
+        <section className="mt-5 p-5 grey lighten-4">
+          <div className="row">
+            <h1 className="col-md  text-center">{about.info.title}</h1>
+          </div>
           <div className="row p-4">
             <p className="col-md-2" />
             <img
-              src={`${imageBaseUrl}${about.info.imageUrl}`}
+              src={`${imageBaseUrl}${about.info.imgUrl}`}
               alt="about"
               className="about-img col-md-4"
             />
@@ -55,6 +57,17 @@ class AboutUs extends Component {
             <p className="col-md-2" />
           </div>
         </section>
+      );
+    }
+  };
+
+  render() {
+    const { photoIndex, isOpen } = this.state;
+    const { about, imageBaseUrl } = this.props;
+
+    return (
+      <div>
+        {this.getAboutIntro()}
         <section className="container p-5 mt-3">
           <h1 className="text-center">Certificates</h1>
           <div className="row p-2">{this.getCertificateImg()}</div>
