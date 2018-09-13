@@ -1,1 +1,71 @@
-null
+{
+  "path": "../assets/main_products",
+  "name": "Our Products",
+  "children": [
+    {
+      "path": "../assets/main_products/A6CON1 terminal block.jpg",
+      "name": "A6CON1 terminal block.jpg",
+      "size": 90226,
+      "extension": ".jpg",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/Delta power cable(1-2kw).jpg",
+      "name": "Delta power cable(1-2kw).jpg",
+      "size": 200022,
+      "extension": ".jpg",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/Delta-ASDA-A2-Series-AC-Servo-Motor.jpg",
+      "name": "Delta-ASDA-A2-Series-AC-Servo-Motor.jpg",
+      "size": 47782,
+      "extension": ".jpg",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/Ethernet patch cord.png",
+      "name": "Ethernet patch cord.png",
+      "size": 594040,
+      "extension": ".png",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/FRC_Round_cable.jpg",
+      "name": "FRC_Round_cable.jpg",
+      "size": 16675,
+      "extension": ".jpg",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/SC09 SERIAL CABLE.jpg",
+      "name": "SC09 SERIAL CABLE.jpg",
+      "size": 19035,
+      "extension": ".jpg",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/USB-RS232!485!422 Converters.jpg",
+      "name": "USB-RS232!485!422 Converters.jpg",
+      "size": 40740,
+      "extension": ".jpg",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/Yaskawa-JZSP-CMP00-10 Encoder cable.jpg",
+      "name": "Yaskawa-JZSP-CMP00-10 Encoder cable.jpg",
+      "size": 6676,
+      "extension": ".jpg",
+      "type": "file"
+    },
+    {
+      "path": "../assets/main_products/hummel M23-power connectors.jpg",
+      "name": "hummel M23-power connectors.jpg",
+      "size": 311464,
+      "extension": ".jpg",
+      "type": "file"
+    }
+  ],
+  "size": 1326660,
+  "type": "directory"
+}
