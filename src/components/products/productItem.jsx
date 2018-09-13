@@ -24,8 +24,8 @@ class ProductItem extends Component {
 
     return (
       <React.Fragment>
-        <div className="col-md">
-          <h4 className="text-center indigo-text font-weight-bold">
+        <div className="col-md-10">
+          <h4 className="indigo-text font-weight-bold">
             {selectedProducts.name}
           </h4>
         </div>
