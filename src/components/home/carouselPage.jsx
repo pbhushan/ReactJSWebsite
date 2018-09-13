@@ -27,8 +27,8 @@ const CarouselPage = props => {
             <Mask overlay={carousel.mask} />
           </View>
           <CarouselCaption>
-            <h3 className="h3-responsive">{carousel.heading}</h3>
-            <p>{carousel.description}</p>
+            <h3 className="h1-responsive">{carousel.heading}</h3>
+            <p className="h4-responsive">{carousel.description}</p>
           </CarouselCaption>
         </CarouselItem>
       );
