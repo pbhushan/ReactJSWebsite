@@ -33,7 +33,10 @@ class ProductItem extends Component {
           {selectedProducts.children.map(child => {
             const url = imagebaseUrl + child.path.replace("../", "");
             return (
-              <Card key={child.name} className="product-img col-md-3 m-3">
+              <Card
+                key={child.name}
+                className="product-img col-md-5 col-lg-3 m-3"
+              >
                 <CardImage
                   src={url}
                   alt="Card image cap"

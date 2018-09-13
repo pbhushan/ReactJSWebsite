@@ -14,7 +14,6 @@ class Home extends Component {
   }
 
   getCatalog(catalogUrl) {
-    console.log(catalogUrl);
     axios({
       url: catalogUrl,
       method: "GET",

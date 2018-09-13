@@ -3,7 +3,6 @@ import Lightbox from "react-image-lightbox";
 
 import "../../css/about/about.css";
 
-import imageUrl from "../../assets/images/about.jpg";
 class AboutUs extends Component {
   constructor(props) {
     super(props);
@@ -15,11 +14,11 @@ class AboutUs extends Component {
   }
 
   getCertificateImg() {
-    const { certificates, imageBaseUrl } = this.props;
+    const { about, imageBaseUrl } = this.props;
 
     let id = -1;
-    if (certificates && certificates.length > 0) {
-      return certificates.map(certificate => {
+    if (about && about.certificates && about.certificates.length > 0) {
+      return about.certificates.map(certificate => {
         id += 1;
         const imageUrl = imageBaseUrl + certificate.imgUrl;
         const key = id;
@@ -40,25 +39,19 @@ class AboutUs extends Component {
 
   render() {
     const { photoIndex, isOpen } = this.state;
-    const { certificates, imageBaseUrl } = this.props;
+    const { about, imageBaseUrl } = this.props;
     return (
       <div>
         <section className="row mt-5 p-5 grey lighten-4">
-          <h1 className="col-md  text-center">About Us</h1>
+          <h1 className="col-md  text-center">{about.info.title}</h1>
           <div className="row p-4">
             <p className="col-md-2" />
-            <img src={imageUrl} alt="about" className="about-img col-md-4" />
-            <p className="ml-2 col-md-4 grey-text">
-              SUSCOM ELECTROMECHNICAL PVT.LTD is top leading manufacturer,
-              distributor and importers for all type of connectors , cable
-              assembly and data-signal converters and many more." ance and
-              fastest delivery across the world. It’s known for reliable source
-              of industrial automation, power electronics solutions, Data
-              solutions, cable assembly i.e., power cable, encoder cable,
-              Interface cable, CNC cables and tailor made solutions related to
-              connectivity with best price assurance and fastest delivery across
-              the world.
-            </p>
+            <img
+              src={`${imageBaseUrl}${about.info.imageUrl}`}
+              alt="about"
+              className="about-img col-md-4"
+            />
+            <p className="ml-2 col-md-4 grey-text">{about.info.description}</p>
             <p className="col-md-2" />
           </div>
         </section>
@@ -67,28 +60,31 @@ class AboutUs extends Component {
           <div className="row p-2">{this.getCertificateImg()}</div>
           {isOpen && (
             <Lightbox
-              mainSrc={imageBaseUrl + certificates[photoIndex].imgUrl}
+              mainSrc={imageBaseUrl + about.certificates[photoIndex].imgUrl}
               nextSrc={
                 imageBaseUrl +
-                certificates[(photoIndex + 1) % certificates.length].imgUrl
+                about.certificates[(photoIndex + 1) % about.certificates.length]
+                  .imgUrl
               }
               prevSrc={
                 imageBaseUrl +
-                certificates[
-                  (photoIndex + certificates.length - 1) % certificates.length
+                about.certificates[
+                  (photoIndex + about.certificates.length - 1) %
+                    about.certificates.length
                 ].imgUrl
               }
-              imageTitle={certificates[photoIndex].name}
+              imageTitle={about.certificates[photoIndex].name}
               onCloseRequest={() => this.setState({ isOpen: false })}
               onMovePrevRequest={() =>
                 this.setState({
                   photoIndex:
-                    (photoIndex + certificates.length - 1) % certificates.length
+                    (photoIndex + about.certificates.length - 1) %
+                    about.certificates.length
                 })
               }
               onMoveNextRequest={() =>
                 this.setState({
-                  photoIndex: (photoIndex + 1) % certificates.length
+                  photoIndex: (photoIndex + 1) % about.certificates.length
                 })
               }
             />

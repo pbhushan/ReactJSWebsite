@@ -33,7 +33,8 @@ class App extends Component {
       products: {},
       imageBaseUrl: "",
       contactCard: {},
-      contactDetails: {}
+      contactDetails: {},
+      about: {}
     };
   }
 
@@ -46,19 +47,26 @@ class App extends Component {
       const basePath = response.data.basePath.dataUrlBasePath;
 
       this.setState({ dataUrlBasePath: basePath });
-      this.getBaseUrl(basePath);
+      this.getAsyncBaseUrl(basePath);
       this.getAsyncHomeData(basePath);
       this.getAsyncProductsData(basePath);
       this.getAsyncContacts(basePath);
+      this.getAsyncAboutData(basePath);
     });
   };
 
-  getBaseUrl = basePath => {
+  getAsyncBaseUrl = basePath => {
     getImageRawPath(basePath).then(response => {
       this.setState({
         imageBaseUrl: response.data.basePath.imgUrlBasePath,
         catalogUrl: response.data.basePath.catalogUrl
       });
+    });
+  };
+
+  getAsyncAboutData = basePath => {
+    getAbout(basePath).then(response => {
+      this.setState({ about: response.data.about });
     });
   };
 
@@ -105,7 +113,8 @@ class App extends Component {
       carouselPage,
       sectionColumnsPage,
       featurePage,
-      mainProducts
+      mainProducts,
+      about
     } = this.state;
     return (
       <React.Fragment>
@@ -116,11 +125,7 @@ class App extends Component {
               path="/about"
               render={props => {
                 return (
-                  <About
-                    imageBaseUrl={imageBaseUrl}
-                    certificates={carouselPage}
-                    {...props}
-                  />
+                  <About imageBaseUrl={imageBaseUrl} about={about} {...props} />
                 );
               }}
             />
