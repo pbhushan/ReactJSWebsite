@@ -9,9 +9,10 @@ import "bootstrap/dist/js/bootstrap.js";
 import "mdbreact/dist/css/mdb.css";
 
 import registerServiceWorker from "./registerServiceWorker";
+const supportsHistory = "pushState" in window.history;
 
 ReactDOM.render(
-  <BrowserRouter>
+  <BrowserRouter forceRefresh={!supportsHistory}>
     <App />
   </BrowserRouter>,
   document.getElementById("root")
