@@ -1,7 +1,8 @@
 {
   "navbarBrand": {
     "path": "/",
-    "name": "SUSCOM GROUP"
+    "title": "SUSCOM",
+    "subTitle": "ENERGY SOLUTIONS"
   },
   "navbarPostion": {
     "selected": "right"

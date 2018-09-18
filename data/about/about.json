@@ -5,10 +5,9 @@
       "imgUrl": "assets/images/about.jpg",
       "description": "Suscom Group is top leading manufacturer, distributor and importers for all type of connectors , cable assembly and data-signal converters and many more.   It’s known for reliable source of industrial automation, power electronics solutions, Data solutions, cable assembly i.e., power cable, encoder cable, Interface cable, CNC cables and tailor made solutions related to connectivity with best price assurance and  fastest delivery across the world."
     },
-    "certificates": [
-      { "imgUrl": "assets/certificates/c1.jpg" },
-      { "imgUrl": "assets/certificates/c2.jpg" },
-      { "imgUrl": "assets/certificates/c3.jpg" }
-    ]
+    "certificates": {
+      "title": "",
+      "img": []
+    }
   }
 }
