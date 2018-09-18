@@ -17,15 +17,6 @@ import {
   getNavbarData,
   getFooterData
 } from "./services/httpContentService";
-import {
-  getJsonBasePath,
-  getJsonNavbarData,
-  getJsonFooterData,
-  getJsonHomeData,
-  getJsonProductsData,
-  getJsonContactsData,
-  getJsonAbout
-} from "./services/jsonContentService";
 
 import "./App.css";
 import "react-image-lightbox/style.css";
@@ -34,7 +25,6 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      fetchHttpData: process.env.REACT_APP_HTTP_API,
       catalogUrl: "",
       dataUrlBasePath: "",
       carouselPage: {},
@@ -58,16 +48,14 @@ class App extends Component {
   }
 
   getDataBaseUrl = async () => {
-    let baseUrlsData;
-    if (this.state.fetchHttpData) baseUrlsData = await getDataUrlBasePath();
-    else baseUrlsData = await getJsonBasePath();
+    const { data } = await getDataUrlBasePath();
 
-    const urlPath = baseUrlsData.data.basePath.dataUrlBasePath;
+    const urlPath = data.basePath.dataUrlBasePath;
 
     this.setState({
       dataUrlBasePath: urlPath,
-      imageBaseUrl: baseUrlsData.data.basePath.imgUrlBasePath,
-      catalogUrl: baseUrlsData.data.basePath.catalogUrl
+      imageBaseUrl: data.basePath.imgUrlBasePath,
+      catalogUrl: data.basePath.catalogUrl
     });
 
     this.getAsyncNavData(urlPath);
@@ -79,43 +67,28 @@ class App extends Component {
   };
 
   getAsyncNavData = async basePath => {
-    let navData;
-    if (this.state.fetchHttpData) navData = await getNavbarData(basePath);
-    else navData = await getJsonNavbarData();
+    const { data } = await getNavbarData(basePath);
 
-    this.setState({ navbar: navData.data });
+    this.setState({ navbar: data });
   };
 
   getAsyncFooterData = async basePath => {
-    let footerData;
-    if (this.state.fetchHttpData) footerData = await getFooterData(basePath);
-    else footerData = await getJsonFooterData();
+    const { data } = await getFooterData(basePath);
 
-    this.setState({ footer: footerData.data });
+    this.setState({ footer: data });
   };
 
   getAsyncAboutData = async basePath => {
-    let aboutData;
-    if (this.state.fetchHttpData) aboutData = await getAbout(basePath);
-    else aboutData = await getJsonAbout();
+    const { data } = await getAbout(basePath);
 
-    this.setState({ about: aboutData.data.about });
+    this.setState({ about: data.about });
   };
 
   getAsyncHomeData = async basePath => {
-    let caraouselData, selectionData, featureData, mainProductData;
-
-    if (this.state.fetchHttpData) {
-      caraouselData = await getHomeData(basePath).getCarouselData;
-      selectionData = await getHomeData(basePath).getSectionColumnsPage;
-      featureData = await getHomeData(basePath).getFeaturePage;
-      mainProductData = await getHomeData(basePath).getMultiCarouselData;
-    } else {
-      caraouselData = await getJsonHomeData().getCarouselData;
-      selectionData = await getJsonHomeData().getSectionColumnsPage;
-      featureData = await getJsonHomeData().getFeaturePage;
-      mainProductData = await getJsonHomeData().getMultiCarouselData;
-    }
+    const caraouselData = await getHomeData(basePath).getCarouselData;
+    const selectionData = await getHomeData(basePath).getSectionColumnsPage;
+    const featureData = await getHomeData(basePath).getFeaturePage;
+    const mainProductData = await getHomeData(basePath).getMultiCarouselData;
 
     this.setState({
       carouselPage: caraouselData.data.carouselPage,
@@ -126,23 +99,15 @@ class App extends Component {
   };
 
   getAsyncProductsData = async basePath => {
-    let productData;
-    if (this.state.fetchHttpData) productData = await getProductsData(basePath);
-    else productData = await getJsonProductsData();
+    const { data } = await getProductsData(basePath);
 
-    this.setState({ products: productData.data.children });
+    this.setState({ products: data.children });
   };
 
   getAsyncContacts = async basePath => {
-    let contactCardData, contactDetailsData;
-
-    if (this.state.fetchHttpData) {
-      contactCardData = await getContactsData(basePath).getContactCard;
-      contactDetailsData = await getContactsData(basePath).getContactDetails;
-    } else {
-      contactCardData = await getJsonContactsData().getContactCard;
-      contactDetailsData = await getJsonContactsData().getContactDetails;
-    }
+    const contactCardData = await getContactsData(basePath).getContactCard;
+    const contactDetailsData = await getContactsData(basePath)
+      .getContactDetails;
 
     this.setState({
       contactCard: contactCardData.data.contactCard,
