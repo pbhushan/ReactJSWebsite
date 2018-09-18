@@ -34,7 +34,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      fetchHttpData: false,
+      fetchHttpData: process.env.REACT_APP_HTTP_API,
       catalogUrl: "",
       dataUrlBasePath: "",
       carouselPage: {},
