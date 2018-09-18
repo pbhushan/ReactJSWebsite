@@ -14,8 +14,10 @@ import {
   getHomeData,
   getProductsData,
   getContactsData,
-  getAbout
-} from "./services/fakeContentService";
+  getAbout,
+  getNavbarData,
+  getFooterData
+} from "./services/httpContentService";
 
 import "./App.css";
 import "react-image-lightbox/style.css";
@@ -34,7 +36,11 @@ class App extends Component {
       imageBaseUrl: "",
       contactCard: {},
       contactDetails: {},
-      about: {}
+      about: {},
+      navbar: {},
+      footer: {
+        footer: {}
+      }
     };
   }
 
@@ -42,65 +48,70 @@ class App extends Component {
     this.getDataBaseUrl();
   }
 
-  getDataBaseUrl = () => {
-    getDataUrlBasePath().then(response => {
-      const basePath = response.data.basePath.dataUrlBasePath;
+  getDataBaseUrl = async () => {
+    const { data } = await getDataUrlBasePath();
+    const urlPath = data.basePath.dataUrlBasePath;
+    this.setState({ dataUrlBasePath: urlPath });
+    this.getAsyncNavData(urlPath);
+    this.getAsyncFooterData(urlPath);
+    this.getAsyncBaseUrl(urlPath);
+    this.getAsyncHomeData(urlPath);
+    this.getAsyncProductsData(urlPath);
+    this.getAsyncContacts(urlPath);
+    this.getAsyncAboutData(urlPath);
+  };
 
-      this.setState({ dataUrlBasePath: basePath });
-      this.getAsyncBaseUrl(basePath);
-      this.getAsyncHomeData(basePath);
-      this.getAsyncProductsData(basePath);
-      this.getAsyncContacts(basePath);
-      this.getAsyncAboutData(basePath);
+  getAsyncNavData = async basePath => {
+    const { data } = await getNavbarData(basePath);
+    this.setState({ navbar: data });
+  };
+
+  getAsyncFooterData = async basePath => {
+    const { data } = await getFooterData(basePath);
+    this.setState({ footer: data });
+  };
+
+  getAsyncBaseUrl = async basePath => {
+    const { data } = await getImageRawPath(basePath);
+    this.setState({
+      imageBaseUrl: data.basePath.imgUrlBasePath,
+      catalogUrl: data.basePath.catalogUrl
     });
   };
 
-  getAsyncBaseUrl = basePath => {
-    getImageRawPath(basePath).then(response => {
-      this.setState({
-        imageBaseUrl: response.data.basePath.imgUrlBasePath,
-        catalogUrl: response.data.basePath.catalogUrl
-      });
-    });
+  getAsyncAboutData = async basePath => {
+    const { data } = await getAbout(basePath);
+    this.setState({ about: data.about });
   };
 
-  getAsyncAboutData = basePath => {
-    getAbout(basePath).then(response => {
-      this.setState({ about: response.data.about });
+  getAsyncHomeData = async basePath => {
+    const caraouselData = await getHomeData(basePath).getCarouselData;
+    this.setState({ carouselPage: caraouselData.data.carouselPage });
+
+    const selectionData = await getHomeData(basePath).getSectionColumnsPage;
+    this.setState({
+      sectionColumnsPage: selectionData.data.sectionColumnsPage
     });
+
+    const featureData = await getHomeData(basePath).getFeaturePage;
+    this.setState({ featurePage: featureData.data.featurePage });
+
+    const mainProductData = await getHomeData(basePath).getMultiCarouselData;
+    this.setState({ mainProducts: mainProductData.data.children });
   };
 
-  getAsyncHomeData = basePath => {
-    getHomeData(basePath).getCarouselData.then(response => {
-      this.setState({ carouselPage: response.data.carouselPage });
-    });
-    getHomeData(basePath).getSectionColumnsPage.then(response => {
-      this.setState({ sectionColumnsPage: response.data.sectionColumnsPage });
-    });
-    getHomeData(basePath).getFeaturePage.then(response => {
-      this.setState({ featurePage: response.data.featurePage });
-    });
-    getHomeData(basePath).getMultiCarouselData.then(response => {
-      this.setState({ mainProducts: response.data.children });
-    });
+  getAsyncProductsData = async basePath => {
+    const { data } = await getProductsData(basePath);
+    this.setState({ products: data.children });
   };
 
-  getAsyncProductsData = basePath => {
-    getProductsData(basePath).then(response => {
-      this.setState({
-        products: response.data.children
-      });
-    });
-  };
+  getAsyncContacts = async basePath => {
+    const contactCardData = await getContactsData(basePath).getContactCard;
+    this.setState({ contactCard: contactCardData.data.contactCard });
 
-  getAsyncContacts = basePath => {
-    getContactsData(basePath).getContactCard.then(response => {
-      this.setState({ contactCard: response.data.contactCard });
-    });
-
-    getContactsData(basePath).getContactDetails.then(response => {
-      this.setState({ contactDetails: response.data.contactDetails });
-    });
+    const contactDetailsData = await getContactsData(basePath)
+      .getContactDetails;
+    this.setState({ contactDetails: contactDetailsData.data.contactDetails });
   };
 
   render() {
@@ -114,11 +125,13 @@ class App extends Component {
       sectionColumnsPage,
       featurePage,
       mainProducts,
-      about
+      about,
+      navbar,
+      footer
     } = this.state;
     return (
       <React.Fragment>
-        <NavBar />
+        <NavBar navbar={navbar} />
         <main className="content">
           <Switch>
             <Route
@@ -180,7 +193,7 @@ class App extends Component {
             <Redirect to="/not-found" />
           </Switch>
         </main>
-        <Footer />
+        <Footer footer={footer} />
       </React.Fragment>
     );
   }

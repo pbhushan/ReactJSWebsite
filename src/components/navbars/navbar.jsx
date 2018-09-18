@@ -1,40 +1,9 @@
 import React, { Component } from "react";
 import { Link, NavLink } from "react-router-dom";
-import {
-  getNavbarData,
-  getDataUrlBasePath
-} from "../../services/fakeContentService";
 
 import "../../css/navbars/navbar.css";
 
 class Navbar extends Component {
-  state = {
-    navbarBrand: {},
-    navbarPostion: {},
-    navbarConfig: []
-  };
-
-  componentDidMount() {
-    this.getDataBaseUrl();
-  }
-
-  getDataBaseUrl = () => {
-    getDataUrlBasePath().then(response => {
-      const basePath = response.data.basePath.dataUrlBasePath;
-      this.getAsyncNavbarData(basePath);
-    });
-  };
-
-  getAsyncNavbarData = basePath => {
-    getNavbarData(basePath).then(response => {
-      this.setState({
-        navbarBrand: response.data.navbarBrand,
-        navbarPostion: response.data.navbarPostion,
-        navbarConfig: response.data.navbarConfig
-      });
-    });
-  };
-
   getNavbarBrand = brand => {
     if (brand && brand.path) {
       return (
@@ -67,10 +36,11 @@ class Navbar extends Component {
   };
 
   render() {
-    const { navbarBrand, navbarPostion, navbarConfig } = this.state;
-
+    const { navbarBrand, navbarPostion, navbarConfig } = this.props.navbar;
     const positionClasses =
-      navbarPostion.selected === "left" ? "navbar-nav" : "navbar-nav ml-auto";
+      navbarPostion && navbarPostion.selected === "left"
+        ? "navbar-nav"
+        : "navbar-nav ml-auto";
 
     return (
       <nav className="navbar fixed-top navbar-expand-lg blue darken-4 navbar-dark">

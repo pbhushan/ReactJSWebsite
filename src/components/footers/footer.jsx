@@ -1,33 +1,8 @@
 import React from "react";
 import { Col, Container, Row, Footer } from "mdbreact";
 import { NavLink } from "react-router-dom";
-import {
-  getFooterData,
-  getDataUrlBasePath
-} from "../../services/fakeContentService";
 
 class FooterPage extends React.Component {
-  state = {
-    footer: {}
-  };
-
-  componentDidMount() {
-    this.getDataBaseUrl();
-  }
-
-  getDataBaseUrl = () => {
-    getDataUrlBasePath().then(response => {
-      const basePath = response.data.basePath.dataUrlBasePath;
-      this.getAsyncFooterData(basePath);
-    });
-  };
-
-  getAsyncFooterData = basePath => {
-    getFooterData(basePath).then(response => {
-      this.setState({ footer: response.data.footer });
-    });
-  };
-
   getBrand = brand => {
     if (brand && brand.path) {
       return (
@@ -105,13 +80,9 @@ class FooterPage extends React.Component {
   };
 
   render() {
-    const {
-      brand,
-      otherLinks,
-      details,
-      copyright,
-      developedBy
-    } = this.state.footer;
+    const { footer } = this.props.footer;
+    const { brand, otherLinks, details, copyright, developedBy } = footer;
+
     return (
       <Footer color="stylish-color-dark" className="font-small pt-4 mt-4">
         <Container fluid className="text-center text-md-left">
