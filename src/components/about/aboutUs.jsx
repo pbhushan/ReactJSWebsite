@@ -17,8 +17,13 @@ class AboutUs extends Component {
     const { about, imageBaseUrl } = this.props;
 
     let id = -1;
-    if (about && about.certificates && about.certificates.length > 0) {
-      return about.certificates.map(certificate => {
+    if (
+      about &&
+      about.certificates &&
+      about.certificates.img &&
+      about.certificates.img.length > 0
+    ) {
+      return about.certificates.img.map(certificate => {
         id += 1;
         const imageUrl = imageBaseUrl + certificate.imgUrl;
         const key = id;
@@ -69,35 +74,38 @@ class AboutUs extends Component {
       <div>
         {this.getAboutIntro()}
         <section className="container p-5 mt-3">
-          <h1 className="text-center">Certificates</h1>
+          <h1 className="text-center">
+            {about.certificates && about.certificates.title}
+          </h1>
           <div className="row p-2">{this.getCertificateImg()}</div>
           {isOpen && (
             <Lightbox
-              mainSrc={imageBaseUrl + about.certificates[photoIndex].imgUrl}
+              mainSrc={imageBaseUrl + about.certificates.img[photoIndex].imgUrl}
               nextSrc={
                 imageBaseUrl +
-                about.certificates[(photoIndex + 1) % about.certificates.length]
-                  .imgUrl
+                about.certificates.img[
+                  (photoIndex + 1) % about.certificates.img.length
+                ].imgUrl
               }
               prevSrc={
                 imageBaseUrl +
-                about.certificates[
-                  (photoIndex + about.certificates.length - 1) %
-                    about.certificates.length
+                about.certificates.img[
+                  (photoIndex + about.certificates.img.length - 1) %
+                    about.certificates.img.length
                 ].imgUrl
               }
-              imageTitle={about.certificates[photoIndex].name}
+              imageTitle={about.certificates.img[photoIndex].name}
               onCloseRequest={() => this.setState({ isOpen: false })}
               onMovePrevRequest={() =>
                 this.setState({
                   photoIndex:
-                    (photoIndex + about.certificates.length - 1) %
-                    about.certificates.length
+                    (photoIndex + about.certificates.img.length - 1) %
+                    about.certificates.img.length
                 })
               }
               onMoveNextRequest={() =>
                 this.setState({
-                  photoIndex: (photoIndex + 1) % about.certificates.length
+                  photoIndex: (photoIndex + 1) % about.certificates.img.length
                 })
               }
             />

@@ -44,7 +44,7 @@ class Navbar extends Component {
         : "navbar-nav ml-auto";
 
     return (
-      <nav className="navbar fixed-top navbar-expand-lg blue darken-4 navbar-dark">
+      <nav className="navbar fixed-top navbar-expand-lg  deep-purple darken-2 navbar-dark">
         {this.getNavbarBrand(navbarBrand)}
         <button
           className="navbar-toggler"
