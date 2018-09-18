@@ -1,27 +1,11 @@
 .h-500 {
   max-height: 575px;
-  min-height: 250px;
+  min-height: 300px;
 }
 
 @media only screen and (max-width: 1600px) {
   .h-500 {
-    max-height: 350px;
-    min-height: 200px;
-  }
-}
-
-/* On screens that are 992px wide or less, go from four columns to two columns */
-@media screen and (max-width: 992px) {
-  .h-500 {
-    max-height: 350px;
-    min-height: 200px;
-  }
-}
-
-/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .h-500 {
-    max-height: 300px;
-    min-height: 150px;
+    max-height: 450px;
+    min-height: 300px;
   }
 }

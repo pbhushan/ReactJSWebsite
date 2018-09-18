@@ -6,3 +6,7 @@
 .navbar-dark .navbar-nav .nav-item.nav-link {
   color: rgba(255, 255, 255, 0.8);
 }
+
+.navbar .navbar-brand h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

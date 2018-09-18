@@ -8,7 +8,8 @@ class Navbar extends Component {
     if (brand && brand.path) {
       return (
         <Link className="navbar-brand" to={brand.path}>
-          <strong>{brand.name}</strong>
+          <h2 className="pb-0 mb-0">{brand.title}</h2>
+          <h6>{brand.subTitle}</h6>
         </Link>
       );
     }
