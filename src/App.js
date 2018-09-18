@@ -10,7 +10,6 @@ import NotFound from "./components/notFound";
 import Footer from "./components/footers/footer";
 import {
   getDataUrlBasePath,
-  getImageRawPath,
   getHomeData,
   getProductsData,
   getContactsData,
@@ -18,6 +17,15 @@ import {
   getNavbarData,
   getFooterData
 } from "./services/httpContentService";
+import {
+  getJsonBasePath,
+  getJsonNavbarData,
+  getJsonFooterData,
+  getJsonHomeData,
+  getJsonProductsData,
+  getJsonContactsData,
+  getJsonAbout
+} from "./services/jsonContentService";
 
 import "./App.css";
 import "react-image-lightbox/style.css";
@@ -26,6 +34,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
+      fetchHttpData: false,
       catalogUrl: "",
       dataUrlBasePath: "",
       carouselPage: {},
@@ -49,12 +58,20 @@ class App extends Component {
   }
 
   getDataBaseUrl = async () => {
-    const { data } = await getDataUrlBasePath();
-    const urlPath = data.basePath.dataUrlBasePath;
-    this.setState({ dataUrlBasePath: urlPath });
+    let baseUrlsData;
+    if (this.state.fetchHttpData) baseUrlsData = await getDataUrlBasePath();
+    else baseUrlsData = await getJsonBasePath();
+
+    const urlPath = baseUrlsData.data.basePath.dataUrlBasePath;
+
+    this.setState({
+      dataUrlBasePath: urlPath,
+      imageBaseUrl: baseUrlsData.data.basePath.imgUrlBasePath,
+      catalogUrl: baseUrlsData.data.basePath.catalogUrl
+    });
+
     this.getAsyncNavData(urlPath);
     this.getAsyncFooterData(urlPath);
-    this.getAsyncBaseUrl(urlPath);
     this.getAsyncHomeData(urlPath);
     this.getAsyncProductsData(urlPath);
     this.getAsyncContacts(urlPath);
@@ -62,56 +79,75 @@ class App extends Component {
   };
 
   getAsyncNavData = async basePath => {
-    const { data } = await getNavbarData(basePath);
-    this.setState({ navbar: data });
+    let navData;
+    if (this.state.fetchHttpData) navData = await getNavbarData(basePath);
+    else navData = await getJsonNavbarData();
+
+    this.setState({ navbar: navData.data });
   };
 
   getAsyncFooterData = async basePath => {
-    const { data } = await getFooterData(basePath);
-    this.setState({ footer: data });
-  };
+    let footerData;
+    if (this.state.fetchHttpData) footerData = await getFooterData(basePath);
+    else footerData = await getJsonFooterData();
 
-  getAsyncBaseUrl = async basePath => {
-    const { data } = await getImageRawPath(basePath);
-    this.setState({
-      imageBaseUrl: data.basePath.imgUrlBasePath,
-      catalogUrl: data.basePath.catalogUrl
-    });
+    this.setState({ footer: footerData.data });
   };
 
   getAsyncAboutData = async basePath => {
-    const { data } = await getAbout(basePath);
-    this.setState({ about: data.about });
+    let aboutData;
+    if (this.state.fetchHttpData) aboutData = await getAbout(basePath);
+    else aboutData = await getJsonAbout();
+
+    this.setState({ about: aboutData.data.about });
   };
 
   getAsyncHomeData = async basePath => {
-    const caraouselData = await getHomeData(basePath).getCarouselData;
-    this.setState({ carouselPage: caraouselData.data.carouselPage });
+    let caraouselData, selectionData, featureData, mainProductData;
 
-    const selectionData = await getHomeData(basePath).getSectionColumnsPage;
+    if (this.state.fetchHttpData) {
+      caraouselData = await getHomeData(basePath).getCarouselData;
+      selectionData = await getHomeData(basePath).getSectionColumnsPage;
+      featureData = await getHomeData(basePath).getFeaturePage;
+      mainProductData = await getHomeData(basePath).getMultiCarouselData;
+    } else {
+      caraouselData = await getJsonHomeData().getCarouselData;
+      selectionData = await getJsonHomeData().getSectionColumnsPage;
+      featureData = await getJsonHomeData().getFeaturePage;
+      mainProductData = await getJsonHomeData().getMultiCarouselData;
+    }
+
     this.setState({
-      sectionColumnsPage: selectionData.data.sectionColumnsPage
+      carouselPage: caraouselData.data.carouselPage,
+      sectionColumnsPage: selectionData.data.sectionColumnsPage,
+      featurePage: featureData.data.featurePage,
+      mainProducts: mainProductData.data.children
     });
-
-    const featureData = await getHomeData(basePath).getFeaturePage;
-    this.setState({ featurePage: featureData.data.featurePage });
-
-    const mainProductData = await getHomeData(basePath).getMultiCarouselData;
-    this.setState({ mainProducts: mainProductData.data.children });
   };
 
   getAsyncProductsData = async basePath => {
-    const { data } = await getProductsData(basePath);
-    this.setState({ products: data.children });
+    let productData;
+    if (this.state.fetchHttpData) productData = await getProductsData(basePath);
+    else productData = await getJsonProductsData();
+
+    this.setState({ products: productData.data.children });
   };
 
   getAsyncContacts = async basePath => {
-    const contactCardData = await getContactsData(basePath).getContactCard;
-    this.setState({ contactCard: contactCardData.data.contactCard });
+    let contactCardData, contactDetailsData;
 
-    const contactDetailsData = await getContactsData(basePath)
-      .getContactDetails;
-    this.setState({ contactDetails: contactDetailsData.data.contactDetails });
+    if (this.state.fetchHttpData) {
+      contactCardData = await getContactsData(basePath).getContactCard;
+      contactDetailsData = await getContactsData(basePath).getContactDetails;
+    } else {
+      contactCardData = await getJsonContactsData().getContactCard;
+      contactDetailsData = await getJsonContactsData().getContactDetails;
+    }
+
+    this.setState({
+      contactCard: contactCardData.data.contactCard,
+      contactDetails: contactDetailsData.data.contactDetails
+    });
   };
 
   render() {

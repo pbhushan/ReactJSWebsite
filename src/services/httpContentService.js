@@ -6,10 +6,6 @@ export function getDataUrlBasePath() {
   return http.get(`${rawPathUrl}/data/rawPath.json`);
 }
 
-export function getImageRawPath(basePath) {
-  return http.get(`${basePath}/data/rawPath.json`);
-}
-
 export function getNavbarData(basePath) {
   return http.get(`${basePath}/data/navbar/navbar.json`);
 }
