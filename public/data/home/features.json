@@ -1,0 +1,29 @@
+{
+  "featurePage": {
+    "heading": "Why are we different ?",
+    "description": "Committed to our prestigious client for best quality of material with competitive pricing and Express delivery service.",
+    "featureItems": [
+      {
+        "id": "1",
+        "icon": "shield",
+        "className": "blue-text",
+        "heading": "Honor",
+        "description": "Passed CE and ISO 9001-2015 quality Systems."
+      },
+      {
+        "id": "2",
+        "icon": "cogs",
+        "className": "pink-text",
+        "heading": "Customization",
+        "description": "Support full customiztion based on customer needs and as per demands."
+      },
+      {
+        "id": "3",
+        "icon": "dashboard",
+        "className": "purple-text",
+        "heading": "Support",
+        "description": "Dedicated for the needs of customers to provide quality products and service, quality assurance, and help customers to debug products."
+      }
+    ]
+  }
+}

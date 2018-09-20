@@ -39,7 +39,7 @@ class MultiCarouselPage extends Component {
 
               <NavLink
                 to="/product"
-                className="btn btn-primary mt-3"
+                className="btn btn-primary purple lighten-2  mt-3"
                 role="button"
               >
                 Learn More

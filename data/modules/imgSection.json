@@ -1,0 +1,32 @@
+{
+  "img_section": {
+    "section": {
+      "title": {
+        "name": "",
+        "cssStyles": {
+          "classes": "",
+          "style": ""
+        }
+      },
+      "img": {
+        "url": "",
+        "alt": "",
+        "cssStyles": {
+          "classes": "",
+          "style": ""
+        }
+      },
+      "description": {
+        "text": "",
+        "cssStyles": {
+          "classes": "",
+          "style": ""
+        }
+      }
+    },
+    "cssStyles": {
+      "classes": "",
+      "style": ""
+    }
+  }
+}

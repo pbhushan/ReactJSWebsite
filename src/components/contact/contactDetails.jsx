@@ -8,7 +8,7 @@ const ContactDetails = props => {
       return details.map(detail => {
         return (
           <div key={detail.departmentName} className="col">
-            <h4 className="font-weight-bold indigo-text">
+            <h4 className="font-weight-bold purple-text">
               {detail.departmentName}
             </h4>
             <p>

@@ -17,7 +17,7 @@ class ContactCard extends Component {
                 <ContactDetails details={contactDetails} />
               </Col>
               <Col lg="6">
-                <CardBody className="contact text-center h-100 white-text">
+                <CardBody className="contact  deep-purple darken-4 text-center h-100 white-text">
                   <h3 className="my-4 pb-2">{contactCard.title}</h3>
                   <ul className="text-lg-left list-unstyled ml-4">
                     <li>

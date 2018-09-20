@@ -1,0 +1,29 @@
+{
+  "footer": {
+    "brand": {
+      "companyName": "SUSCOM GROUP",
+      "comapnyTagLine": "",
+      "path": "/"
+    },
+    "otherLinks": {
+      "title": "Useful Links",
+      "items": [
+        { "name": "contact", "path": "/contact" },
+        { "name": "About", "path": "/about" },
+        { "name": "Product", "path": "/product" }
+      ]
+    },
+    "details": {
+      "title": "Contact",
+      "address": "Plot No. 20,1st floor, Pitambara Tower, Ahinsha Vihar, Narela Jode, Ayodhya Bypass, Bhopal, M.P. - 462041",
+      "email": "info@suscomenergy.in",
+      "phone": "+91 769 745 1009"
+    },
+    "copyright": {
+      "text": " 2015 Copyright",
+      "companyName": "SUSCOM",
+      "path": "/"
+    },
+    "developedBy": "Site Developed By Sidesh Info Tech System"
+  }
+}

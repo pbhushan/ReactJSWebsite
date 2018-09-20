@@ -1,8 +1,8 @@
 {
   "navbarBrand": {
     "path": "/",
-    "brand": "",
     "title": "SUSCOM",
+    "brand": "url",
     "subTitle": "ENERGY SOLUTIONS"
   },
   "navbarPostion": {

@@ -84,7 +84,7 @@ class FooterPage extends React.Component {
     const { brand, otherLinks, details, copyright, developedBy } = footer;
 
     return (
-      <Footer color="stylish-color-dark" className="font-small pt-4 mt-4">
+      <Footer color="deep-purple darken-4" className="font-small pt-4 mt-4">
         <Container fluid className="text-center text-md-left">
           <Row className="text-center text-md-left mt-3 pb-3">
             {this.getBrand(brand)}

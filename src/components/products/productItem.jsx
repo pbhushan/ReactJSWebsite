@@ -25,7 +25,7 @@ class ProductItem extends Component {
     return (
       <React.Fragment>
         <div className="col-md-10">
-          <h4 className="indigo-text font-weight-bold">
+          <h4 className="purple-text font-weight-bold">
             {selectedProducts.name}
           </h4>
         </div>
@@ -48,9 +48,9 @@ class ProductItem extends Component {
                   <CardTitle tag="h6">{child.name.split(".")[0]}</CardTitle>
                   <CardText>{}</CardText>
                   <Button
-                    className="mt-4"
+                    className="mt-4 deep-purple lighten-2"
                     rounded
-                    color="primary"
+                    color=""
                     onClick={() => this.setState({ isOpen: true, imgUrl: url })}
                   >
                     Zoom

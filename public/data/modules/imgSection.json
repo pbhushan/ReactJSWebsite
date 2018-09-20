@@ -1,0 +1,36 @@
+{
+  "imgSection": {
+    "section": {
+      "title": {
+        "name": "About Us",
+        "cssStyles": {
+          "classes": "text-center white-text pt-5",
+          "style": {}
+        }
+      },
+      "img": {
+        "url": "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/assets/images/about.jpg",
+        "alt": "about",
+        "cssStyles": {
+          "classes": "col-md-6 p-4",
+          "style": {
+            "height": "400px"
+          }
+        }
+      },
+      "description": {
+        "text": "Suscom Group is top leading manufacturer, distributor and importers for all type of connectors , cable assembly and data-signal converters and many more.   It’s known for reliable source of industrial automation, power electronics solutions, Data solutions, cable assembly i.e., power cable, encoder cable, Interface cable, CNC cables and tailor made solutions related to connectivity with best price assurance and  fastest delivery across the world.",
+        "cssStyles": {
+          "classes": "col-md-6 p-4 white-text",
+          "style": {
+            "textAlign": "left"
+          }
+        }
+      },
+      "cssStyles": {
+        "classes": "grey mt-4",
+        "style": {}
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "contactDetails": [
+    {
+      "departmentName": "Info",
+      "email": "info@suscomenergy.in",
+      "phone": "+91 769 745 1009"
+    },
+    {
+      "departmentName": "Accounts",
+      "email": "accounts@suscomenergy.in",
+      "phone": "+91 927 108 2118"
+    },
+    {
+      "departmentName": "Marketing",
+      "email": "marketing@suscomenergy.in",
+      "phone": "+91 808 765 9549"
+    },
+    {
+      "departmentName": "Landine",
+      "phone": "+91 755 492 5469"
+    }
+  ]
+}

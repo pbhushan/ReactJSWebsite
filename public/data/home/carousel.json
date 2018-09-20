@@ -1,0 +1,44 @@
+{
+  "carouselPage": [
+    {
+      "id": "1",
+      "imgUrl": "assets/slider/s1.jpg",
+      "mask": "black-light",
+      "heading": "Encoder Cables",
+      "description": "An encoder cable transmits encoder output, which may include multiple channels, to a control device",
+      "isRawPath": true
+    },
+    {
+      "id": "2",
+      "imgUrl": "assets/slider/s2.png",
+      "mask": "black-light",
+      "heading": "Servo cable",
+      "description": "Supply power and provide input output connectivity",
+      "isRawPath": true
+    },
+    {
+      "id": "3",
+      "imgUrl": "assets/slider/s4.jpg",
+      "mask": "black-light",
+      "heading": "shielded Multi Core Wires",
+      "description": "Provides long distance connectivity",
+      "isRawPath": true
+    },
+    {
+      "id": "4",
+      "imgUrl": "assets/slider/s5.png",
+      "mask": "black-light",
+      "heading": "Servo Drive System",
+      "description": "special electronic amplifier used to power electric servomechanisms",
+      "isRawPath": true
+    },
+    {
+      "id": "5",
+      "imgUrl": "assets/slider/s6.jpg",
+      "mask": "black-light",
+      "heading": "Heavy Duty Connectors",
+      "description": "Robot Connectivity",
+      "isRawPath": true
+    }
+  ]
+}

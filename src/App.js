@@ -6,6 +6,7 @@ import Home from "./components/home/home";
 import About from "./components/about/about";
 import Product from "./components/products/product";
 import Contact from "./components/contact/contact";
+import Modules from "./components/modules";
 import NotFound from "./components/notFound";
 import Footer from "./components/footers/footer";
 import {
@@ -166,6 +167,12 @@ class App extends Component {
                     {...props}
                   />
                 );
+              }}
+            />
+            <Route
+              path="/modules"
+              render={props => {
+                return <Modules {...props} />;
               }}
             />
             <Route

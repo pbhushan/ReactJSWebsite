@@ -1,0 +1,7 @@
+{
+  "basePath": {
+    "imgUrlBasePath": "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/",
+    "dataUrlBasePath": "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master",
+    "catalogUrl": "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/assets/documents/catalogue.pdf"
+  }
+}
