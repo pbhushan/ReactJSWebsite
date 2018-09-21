@@ -1,0 +1,117 @@
+{
+  "contactCard": {
+    "cssStyles": {
+      "classes": "container",
+      "style": {}
+    },
+    "contacts": [
+      {
+        "cssStyles": {
+          "classes": "teal col-md-6",
+          "style": {}
+        },
+        "name": {
+          "title": "Details",
+          "cssStyles": {
+            "classes": "white-text",
+            "style": {}
+          }
+        },
+
+        "children": [
+          {
+            "title": "Info",
+            "child": [
+              {
+                "icon": "fa-envelope",
+                "value": "example@example.com",
+                "cssStyles": {
+                  "classes": "white-text",
+                  "style": {}
+                }
+              },
+              {
+                "icon": "fa-phone",
+                "value": "+91 769 745 1009",
+                "cssStyles": {
+                  "classes": "white-text",
+                  "style": {}
+                }
+              }
+            ],
+            "cssStyles": {
+              "classes": "white-text",
+              "style": {}
+            }
+          },
+          {
+            "title": "Dispatch",
+            "child": [
+              {
+                "icon": "fa-envelope",
+                "value": "example@example.com",
+                "cssStyles": {
+                  "classes": "white-text",
+                  "style": {}
+                }
+              },
+              {
+                "icon": "fa-phone",
+                "value": "+91 769 745 1009",
+                "cssStyles": {
+                  "classes": "white-text",
+                  "style": {}
+                }
+              }
+            ],
+            "cssStyles": {
+              "classes": "white-text",
+              "style": {}
+            }
+          }
+        ]
+      },
+      {
+        "cssStyles": {
+          "classes": "blue col-md-6",
+          "style": {}
+        },
+        "name": {
+          "title": "Information",
+          "cssStyles": {
+            "classes": "white-text",
+            "style": {}
+          }
+        },
+
+        "children": [
+          {
+            "title": "",
+            "child": [
+              {
+                "icon": "fa-phone",
+                "value": "+91 769 745 1009",
+                "cssStyles": {
+                  "classes": "white-text text-lg-left",
+                  "style": {}
+                }
+              },
+              {
+                "icon": "fa-map-marker",
+                "value": "Plot No. 20, 1st floor, Pitambara Tower, Ahinsha Vihar, Narela Jode,Ayodhya Bypass, Bhopal, M.P. - 4620419",
+                "cssStyles": {
+                  "classes": "white-text text-lg-left",
+                  "style": {}
+                }
+              }
+            ],
+            "cssStyles": {
+              "classes": "white-text",
+              "style": {}
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

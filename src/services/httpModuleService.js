@@ -13,3 +13,8 @@ export function getModulesImgSection(basePath) {
   if (isHttpFetch) return http.get(`${basePath}/data/modules/imgSection.json`);
   else return http.get(`data/modules/imgSection.json`);
 }
+
+export function getModulesContactCard(basePath) {
+  if (isHttpFetch) return http.get(`${basePath}/data/modules/contactCard.json`);
+  else return http.get(`data/modules/contactCard.json`);
+}

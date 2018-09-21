@@ -1,35 +1,35 @@
 {
   "imgSection": {
     "section": {
+      "cssStyles": {
+        "classes": "grey mt-4",
+        "style": {}
+      },
       "title": {
-        "name": "About Us",
+        "name": "imgSection Module",
         "cssStyles": {
           "classes": "text-center white-text pt-5",
           "style": {}
         }
       },
       "img": {
-        "url": "https://raw.githubusercontent.com/pbhushan/ReactJSWebsite/master/assets/images/about.jpg",
-        "alt": "about",
+        "url": "https://ak5.picdn.net/shutterstock/videos/3775625/thumb/1.jpg?i10c=img.resize(height:72)",
+        "alt": "img",
         "cssStyles": {
           "classes": "col-md-6 p-4",
           "style": {
-            "height": "400px"
+            "height": "300px"
           }
         }
       },
       "description": {
-        "text": "Suscom Group is top leading manufacturer, distributor and importers for all type of connectors , cable assembly and data-signal converters and many more.   It’s known for reliable source of industrial automation, power electronics solutions, Data solutions, cable assembly i.e., power cable, encoder cable, Interface cable, CNC cables and tailor made solutions related to connectivity with best price assurance and  fastest delivery across the world.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.",
         "cssStyles": {
           "classes": "col-md-6 p-4 white-text",
           "style": {
             "textAlign": "left"
           }
         }
-      },
-      "cssStyles": {
-        "classes": "grey mt-4",
-        "style": {}
       }
     }
   }
