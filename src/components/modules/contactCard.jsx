@@ -23,6 +23,7 @@ const contactCard = props => {
             </div>
           );
         }
+        return <div />;
       });
     }
   };
@@ -32,7 +33,6 @@ const contactCard = props => {
       let count = 0;
       return children.map(item => {
         const { title, cssStyles, child } = item;
-        const titleClass = title && title.length > 0 ? "col" : "row";
         count += 1;
         return (
           <div key={count} className="col">
@@ -74,6 +74,7 @@ const contactCard = props => {
             </div>
           );
         }
+        return <div />;
       });
     }
   };

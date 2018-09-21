@@ -7,7 +7,7 @@
     "contacts": [
       {
         "cssStyles": {
-          "classes": "teal col-md-6",
+          "classes": "teal col",
           "style": {}
         },
         "name": {
@@ -73,7 +73,7 @@
       },
       {
         "cssStyles": {
-          "classes": "blue col-md-6",
+          "classes": "blue col",
           "style": {}
         },
         "name": {
