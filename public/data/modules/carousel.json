@@ -21,7 +21,7 @@
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "250px"
+              "height": ""
             }
           },
           "children": [
@@ -44,9 +44,9 @@
           ]
         },
         "cssStyles": {
-          "classes": "",
+          "classes": "img-fluid",
           "style": {
-            "height": "500px"
+            "maxHeight": "550px"
           }
         }
       },
@@ -57,7 +57,7 @@
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "250px"
+              "height": ""
             }
           },
           "children": [
@@ -72,9 +72,9 @@
           ]
         },
         "cssStyles": {
-          "classes": "",
+          "classes": "img-fluid",
           "style": {
-            "height": "500px"
+            "maxHeight": "550px"
           }
         }
       },
@@ -85,15 +85,15 @@
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "250px"
+              "height": ""
             }
           },
           "children": []
         },
         "cssStyles": {
-          "classes": "",
+          "classes": "img-fluid",
           "style": {
-            "height": "500px"
+            "maxHeight": "550px"
           }
         }
       }

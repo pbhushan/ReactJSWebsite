@@ -4,7 +4,7 @@
     "isIndicator": "",
     "baseUrl": "",
     "cssStyles": {
-      "classes": "",
+      "classes": "container",
       "style": {
         "height": ""
       }
@@ -17,7 +17,7 @@
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "500px"
+              "height": "300px"
             }
           },
           "children": [
@@ -51,7 +51,7 @@
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "500px"
+              "height": "300px"
             }
           },
           "children": [
@@ -85,7 +85,7 @@
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "500px"
+              "height": "300px"
             }
           },
           "children": [
