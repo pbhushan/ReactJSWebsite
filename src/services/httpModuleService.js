@@ -23,3 +23,9 @@ export function getModulesCarousel(basePath) {
   if (isHttpFetch) return http.get(`${basePath}/data/modules/carousel.json`);
   else return http.get(`data/modules/carousel.json`);
 }
+
+export function getModulesVideoCarousel(basePath) {
+  if (isHttpFetch)
+    return http.get(`${basePath}/data/modules/videoCarousel.json`);
+  else return http.get(`data/modules/videoCarousel.json`);
+}

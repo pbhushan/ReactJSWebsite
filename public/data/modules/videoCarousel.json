@@ -2,10 +2,6 @@
   "carousel": {
     "isControl": "",
     "isIndicator": "",
-    "thumbnailIndicator": {
-      "isThumbnail": "true"
-    },
-
     "baseUrl": "",
     "cssStyles": {
       "classes": "",
@@ -15,13 +11,13 @@
     },
     "children": [
       {
-        "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg",
-        "alt": "first slide",
+        "video": "https://mdbootstrap.com/img/video/Tropical.mp4",
+        "type": "video/mp4",
         "caption": {
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "250px"
+              "height": "500px"
             }
           },
           "children": [
@@ -45,19 +41,17 @@
         },
         "cssStyles": {
           "classes": "",
-          "style": {
-            "height": "500px"
-          }
+          "style": {}
         }
       },
       {
-        "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg",
-        "alt": "first slide",
+        "video": "https://mdbootstrap.com/img/video/Lines.mp4",
+        "type": "video/mp4",
         "caption": {
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "250px"
+              "height": "500px"
             }
           },
           "children": [
@@ -68,33 +62,54 @@
                 "classes": "",
                 "style": {}
               }
+            },
+            {
+              "type": "text",
+              "text": "Sub Heading",
+              "cssStyles": {
+                "classes": "",
+                "style": {}
+              }
             }
           ]
         },
         "cssStyles": {
           "classes": "",
-          "style": {
-            "height": "500px"
-          }
+          "style": {}
         }
       },
       {
-        "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(6).jpg",
-        "alt": "first slide",
+        "video": "https://mdbootstrap.com/img/video/animation-intro.mp4",
+        "type": "video/mp4",
         "caption": {
           "cssStyles": {
             "classes": "fadeInUp",
             "style": {
-              "height": "250px"
+              "height": "500px"
             }
           },
-          "children": []
+          "children": [
+            {
+              "type": "text",
+              "text": "Heading",
+              "cssStyles": {
+                "classes": "",
+                "style": {}
+              }
+            },
+            {
+              "type": "text",
+              "text": "Sub Heading",
+              "cssStyles": {
+                "classes": "",
+                "style": {}
+              }
+            }
+          ]
         },
         "cssStyles": {
           "classes": "",
-          "style": {
-            "height": "500px"
-          }
+          "style": {}
         }
       }
     ]

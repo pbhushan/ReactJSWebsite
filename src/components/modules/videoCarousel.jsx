@@ -1,44 +1,11 @@
 import React from "react";
-import "./css/carousel.css";
-const Carousel = props => {
-  const getThumbnailIndicators = (carouselId, carousel) => {
-    const { children, baseUrl } = carousel;
 
-    return (
-      <ol className={`carousel-indicators`}>
-        {children.map((ch, index) => {
-          if (ch) {
-            const { img, alt } = ch;
-            const active = index === 0 ? "active" : "";
-            const url = baseUrl + img;
-
-            return (
-              <li
-                key={index}
-                data-target={`#${carouselId}`}
-                data-slide-to={index}
-                className={active}
-              >
-                <img className="d-block w-100" src={url} alt={alt} />
-              </li>
-            );
-          }
-          return <h4>Child is undefined</h4>;
-        })}
-      </ol>
-    );
-  };
+const VideoCarousel = props => {
   const getIndicators = (carouselId, carousel) => {
-    const { isIndicator, children, thumbnailIndicator } = carousel;
+    const { isIndicator, children } = carousel;
 
     if (children && children.length > 0) {
-      if (thumbnailIndicator && thumbnailIndicator.isThumbnail === "true") {
-        return (
-          <React.Fragment>
-            {getThumbnailIndicators(carouselId, carousel)}
-          </React.Fragment>
-        );
-      } else if (isIndicator !== "false") {
+      if (isIndicator !== "false") {
         return (
           <ol className="carousel-indicators">
             {children.map((ch, index) => {
@@ -126,19 +93,21 @@ const Carousel = props => {
         <div className="carousel-inner" role="listbox">
           {children.map((child, index) => {
             if (child) {
-              const { img, alt, caption, cssStyles } = child;
+              const { video, type, caption, cssStyles } = child;
               const active = index === 0 ? "active" : "";
-              const url = baseUrl + img;
+              const url = baseUrl + video;
 
               return (
                 <div key={index} className={`carousel-item ${active}`}>
-                  <img
-                    className={`d-block w-100 ${cssStyles &&
-                      cssStyles.classes}`}
+                  <video
+                    className={`video-fluid  ${cssStyles && cssStyles.classes}`}
                     style={cssStyles && cssStyles.style}
-                    src={url}
-                    alt={alt}
-                  />
+                    autoPlay
+                    loop
+                    muted
+                  >
+                    <source src={url} type={type} />
+                  </video>
                   {getCaptions(caption)}
                 </div>
               );
@@ -156,18 +125,13 @@ const Carousel = props => {
   const getCarousel = () => {
     const { carousel } = props;
     if (carousel) {
-      const { cssStyles, thumbnailIndicator } = carousel;
-      const cssClass =
-        thumbnailIndicator && thumbnailIndicator.isThumbnail === "true"
-          ? "carousel-thumbnail"
-          : "";
+      const { cssStyles } = carousel;
       const carouselId = "carousel_" + Math.floor(Math.random() * 100000);
 
       return (
         <div
           id={carouselId}
-          className={`${cssStyles &&
-            cssStyles.classes} carousel slide ${cssClass}`}
+          className={`${cssStyles && cssStyles.classes} carousel slide`}
           style={cssStyles && cssStyles.style}
           data-ride="carousel"
         >
@@ -182,4 +146,4 @@ const Carousel = props => {
   return <React.Fragment>{getCarousel()}</React.Fragment>;
 };
 
-export default Carousel;
+export default VideoCarousel;
