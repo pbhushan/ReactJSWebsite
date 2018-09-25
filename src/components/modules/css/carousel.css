@@ -1,0 +1,25 @@
+.carousel.carousel-thumbnail {
+  margin-bottom: 5.5rem;
+}
+
+.carousel.carousel-thumbnail .carousel-indicators {
+  margin-bottom: -5rem;
+  position: absolute;
+}
+
+.carousel.carousel-thumbnail .carousel-indicators li.active {
+  opacity: 0.5;
+}
+.carousel.carousel-thumbnail .carousel-indicators li {
+  height: auto;
+  width: 6.25rem;
+  max-width: 6.25rem;
+  border: none;
+}
+
+.carousel.carousel-thumbnail .carousel-indicators img {
+  max-width: 6.25rem;
+  height: auto;
+  overflow: hidden;
+  display: block;
+}

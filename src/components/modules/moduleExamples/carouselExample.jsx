@@ -1,32 +1,33 @@
 import React, { Component } from "react";
 
 import JSONStringfyObj from "../jsonStringfyObj";
-import ContactCard from "../contactCard";
+import Carousel from "../carousel";
+
 import {
   getDataUrlBasePath,
-  getModulesContactCard
+  getModulesCarousel
 } from "../../../services/httpModuleService";
 
-class ContactCardExample extends Component {
+class CarouselExample extends Component {
   state = {
-    contactCard: {}
+    carousel: {}
   };
 
   async componentWillMount() {
     const { data } = await getDataUrlBasePath();
     const urlPath = data.basePath.dataUrlBasePath;
-    this.getAsyncContactCardData(urlPath);
+    this.getCarouselData(urlPath);
   }
 
-  getAsyncContactCardData = async basePath => {
-    const { data } = await getModulesContactCard(basePath);
-    this.setState({ contactCard: data });
+  getCarouselData = async basePath => {
+    const { data } = await getModulesCarousel(basePath);
+    this.setState({ carousel: data });
   };
 
   getCallBack = callback => {
     const { updated_src } = callback;
-    if (updated_src && updated_src.contactCard) {
-      this.setState({ contactCard: callback.updated_src });
+    if (updated_src && updated_src.carousel) {
+      this.setState({ carousel: callback.updated_src });
     }
   };
 
@@ -43,13 +44,13 @@ class ContactCardExample extends Component {
   };
 
   render() {
-    const { contactCard } = this.state;
+    const { carousel } = this.state;
     return (
       <div>
-        <h1 className="mt-4 ml-3"> ContactCard Module</h1>
-        <ContactCard contactCard={contactCard.contactCard} />
+        <h1 className="mt-4 ml-3"> Carousel Module example</h1>
+        <Carousel carousel={carousel.carousel} />
         <JSONStringfyObj
-          obj={contactCard}
+          obj={carousel}
           onAdd={this.onAdd}
           onEdit={this.onEdit}
           onDelete={this.onDelete}
@@ -60,4 +61,4 @@ class ContactCardExample extends Component {
   }
 }
 
-export default ContactCardExample;
+export default CarouselExample;

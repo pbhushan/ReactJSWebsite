@@ -12,25 +12,47 @@
           "style": {}
         }
       },
-      "img": {
-        "url": "https://ak5.picdn.net/shutterstock/videos/3775625/thumb/1.jpg?i10c=img.resize(height:72)",
-        "alt": "img",
-        "cssStyles": {
-          "classes": "col-md-6 p-4",
-          "style": {
-            "height": "300px"
+      "baseUrl": "",
+      "children": [
+        {
+          "type": "img",
+          "url": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg",
+          "alt": "img",
+          "cssStyles": {
+            "classes": "pb-3 col-md-6",
+            "style": {
+              "height": "300px"
+            }
+          }
+        },
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.",
+          "cssStyles": {
+            "classes": "white-text pt-5 col-md-6 blue",
+            "style": {}
+          }
+        },
+        {
+          "type": "text",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores aperiam minima assumenda deleniti hic.",
+          "cssStyles": {
+            "classes": "white-text pt-5 col-md-6 indigo",
+            "style": {}
+          }
+        },
+        {
+          "type": "img",
+          "url": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg",
+          "alt": "img",
+          "cssStyles": {
+            "classes": "pb-3 col-md-6",
+            "style": {
+              "height": "300px"
+            }
           }
         }
-      },
-      "description": {
-        "text": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit maiores nam, aperiam minima assumenda.",
-        "cssStyles": {
-          "classes": "col-md-6 p-4 white-text",
-          "style": {
-            "textAlign": "left"
-          }
-        }
-      }
+      ]
     }
   }
 }

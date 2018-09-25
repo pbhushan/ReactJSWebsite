@@ -1,0 +1,97 @@
+{
+  "carousel": {
+    "isControl": "",
+    "isIndicator": "",
+    "thumbnailIndicator": {
+      "isThumbnail": "true"
+    },
+
+    "baseUrl": "",
+    "cssStyles": {
+      "classes": "",
+      "style": {
+        "height": ""
+      }
+    },
+    "children": [
+      {
+        "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg",
+        "alt": "first slide",
+        "caption": {
+          "heading": {
+            "name": "Heading",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          },
+          "description": {
+            "name": "Description",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          }
+        },
+        "cssStyles": {
+          "classes": "",
+          "style": {
+            "height": "500px"
+          }
+        }
+      },
+      {
+        "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg",
+        "alt": "first slide",
+        "caption": {
+          "heading": {
+            "name": "Heading",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          },
+          "description": {
+            "name": "Description",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          }
+        },
+        "cssStyles": {
+          "classes": "",
+          "style": {
+            "height": "500px"
+          }
+        }
+      },
+      {
+        "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(6).jpg",
+        "alt": "first slide",
+        "caption": {
+          "heading": {
+            "name": "Heading",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          },
+          "description": {
+            "name": "Description",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          }
+        },
+        "cssStyles": {
+          "classes": "",
+          "style": {
+            "height": "500px"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -18,3 +18,8 @@ export function getModulesContactCard(basePath) {
   if (isHttpFetch) return http.get(`${basePath}/data/modules/contactCard.json`);
   else return http.get(`data/modules/contactCard.json`);
 }
+
+export function getModulesCarousel(basePath) {
+  if (isHttpFetch) return http.get(`${basePath}/data/modules/carousel.json`);
+  else return http.get(`data/modules/carousel.json`);
+}

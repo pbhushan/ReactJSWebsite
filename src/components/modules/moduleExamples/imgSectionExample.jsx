@@ -39,6 +39,10 @@ class ImgSectionExample extends Component {
     this.getCallBack(callback);
   };
 
+  onDelete = callback => {
+    this.getCallBack(callback);
+  };
+
   render() {
     const { imgSection } = this.state;
 
@@ -50,6 +54,8 @@ class ImgSectionExample extends Component {
           obj={imgSection}
           onAdd={this.onAdd}
           onEdit={this.onEdit}
+          collapsed={true}
+          onDelete={this.onDelete}
         />
       </div>
     );

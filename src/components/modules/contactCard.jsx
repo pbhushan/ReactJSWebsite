@@ -32,16 +32,19 @@ const contactCard = props => {
     if (children && children.length > 0) {
       let count = 0;
       return children.map(item => {
-        const { title, cssStyles, child } = item;
-        count += 1;
-        return (
-          <div key={count} className="col">
-            <h4 className={cssStyles.classes} style={cssStyles.style}>
-              {title}
-            </h4>
-            {getContactChild(child, title)}
-          </div>
-        );
+        if (item) {
+          const { title, cssStyles, child } = item;
+          count += 1;
+          return (
+            <div key={count} className="col">
+              <h4 className={cssStyles.classes} style={cssStyles.style}>
+                {title}
+              </h4>
+              {getContactChild(child, title)}
+            </div>
+          );
+        }
+        return <h5>undefined</h5>;
       });
     }
   };
