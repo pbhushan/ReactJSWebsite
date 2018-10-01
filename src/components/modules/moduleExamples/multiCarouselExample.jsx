@@ -1,16 +1,16 @@
 import React, { Component } from "react";
 
 import JSONStringfyObj from "../jsonStringfyObj";
-import VideoCarousel from "../videoCarousel";
+import MultiCarousel from "../multiCarousel";
 
 import {
   getDataUrlBasePath,
-  getModulesVideoCarousel
+  getModulesMultiCarousel
 } from "../../../services/httpModuleService";
 
-class VideoCarouselExample extends Component {
+class MultiCarouselExample extends Component {
   state = {
-    carousel: {}
+    multicarousel: {}
   };
 
   async componentWillMount() {
@@ -20,14 +20,14 @@ class VideoCarouselExample extends Component {
   }
 
   getCarouselData = async basePath => {
-    const { data } = await getModulesVideoCarousel(basePath);
-    this.setState({ carousel: data });
+    const { data } = await getModulesMultiCarousel(basePath);
+    this.setState({ multicarousel: data });
   };
 
   getCallBack = callback => {
     const { updated_src } = callback;
-    if (updated_src && updated_src.carousel) {
-      this.setState({ carousel: callback.updated_src });
+    if (updated_src && updated_src.multicarousel) {
+      this.setState({ multicarousel: callback.updated_src });
     }
   };
 
@@ -44,13 +44,16 @@ class VideoCarouselExample extends Component {
   };
 
   render() {
-    const { carousel } = this.state;
+    const { multicarousel } = this.state;
     return (
       <div>
-        <h1 className="mt-4 ml-3">Video Carousel Module example</h1>
-        <VideoCarousel carousel={carousel.carousel} />
+        <h1 className="mt-4 ml-3">
+          {" "}
+          Multi Carousel/ multi logo Carousel Module example
+        </h1>
+        <MultiCarousel multicarousel={multicarousel.multicarousel} />
         <JSONStringfyObj
-          obj={carousel}
+          obj={multicarousel}
           onAdd={this.onAdd}
           onEdit={this.onEdit}
           onDelete={this.onDelete}
@@ -61,4 +64,4 @@ class VideoCarouselExample extends Component {
   }
 }
 
-export default VideoCarouselExample;
+export default MultiCarouselExample;

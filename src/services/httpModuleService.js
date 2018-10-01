@@ -29,3 +29,14 @@ export function getModulesVideoCarousel(basePath) {
     return http.get(`${basePath}/data/modules/videoCarousel.json`);
   else return http.get(`data/modules/videoCarousel.json`);
 }
+
+export function getModulesMultiCarousel(basePath) {
+  if (isHttpFetch)
+    return http.get(`${basePath}/data/modules/multiCarousel.json`);
+  else return http.get(`data/modules/multiCarousel.json`);
+}
+
+export function getModulesSection(basePath) {
+  if (isHttpFetch) return http.get(`${basePath}/data/modules/section.json`);
+  else return http.get(`data/modules/section.json`);
+}

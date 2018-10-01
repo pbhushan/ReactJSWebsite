@@ -1,0 +1,14 @@
+.carousel-multi-item .col-md-1,
+.carousel-multi-item .col-md-2,
+.carousel-multi-item .col-md-3,
+.carousel-multi-item .col-md-4,
+.carousel-multi-item .col-md-5,
+.carousel-multi-item .col-md-6,
+.carousel-multi-item .col-md-7,
+.carousel-multi-item .col-md-8,
+.carousel-multi-item .col-md-9,
+.carousel-multi-item .col-md-10,
+.carousel-multi-item .col-md-11,
+.carousel-multi-item .col-md-12 {
+  float: left;
+}

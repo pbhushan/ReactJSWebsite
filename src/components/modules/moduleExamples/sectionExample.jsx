@@ -1,33 +1,33 @@
 import React, { Component } from "react";
 
-import JSONStringfyObj from "../jsonStringfyObj";
-import VideoCarousel from "../videoCarousel";
-
 import {
   getDataUrlBasePath,
-  getModulesVideoCarousel
+  getModulesSection
 } from "../../../services/httpModuleService";
 
-class VideoCarouselExample extends Component {
+import JSONStringfyObj from "../jsonStringfyObj";
+import Section from "../section";
+
+class ImgSectionExample extends Component {
   state = {
-    carousel: {}
+    section: {}
   };
 
   async componentWillMount() {
     const { data } = await getDataUrlBasePath();
     const urlPath = data.basePath.dataUrlBasePath;
-    this.getCarouselData(urlPath);
+    this.getAsyncSectionData(urlPath);
   }
 
-  getCarouselData = async basePath => {
-    const { data } = await getModulesVideoCarousel(basePath);
-    this.setState({ carousel: data });
+  getAsyncSectionData = async basePath => {
+    const { data } = await getModulesSection(basePath);
+    this.setState({ section: data });
   };
 
   getCallBack = callback => {
     const { updated_src } = callback;
-    if (updated_src && updated_src.carousel) {
-      this.setState({ carousel: callback.updated_src });
+    if (updated_src && updated_src.section) {
+      this.setState({ section: callback.updated_src });
     }
   };
 
@@ -44,21 +44,22 @@ class VideoCarouselExample extends Component {
   };
 
   render() {
-    const { carousel } = this.state;
+    const { section } = this.state;
+
     return (
       <div>
-        <h1 className="mt-4 ml-3">Video Carousel Module example</h1>
-        <VideoCarousel carousel={carousel.carousel} />
+        <h1 className="mt-4 ml-3"> Section Module</h1>
+        <Section section={section.section} />
         <JSONStringfyObj
-          obj={carousel}
+          obj={section}
           onAdd={this.onAdd}
           onEdit={this.onEdit}
-          onDelete={this.onDelete}
           collapsed={true}
+          onDelete={this.onDelete}
         />
       </div>
     );
   }
 }
 
-export default VideoCarouselExample;
+export default ImgSectionExample;

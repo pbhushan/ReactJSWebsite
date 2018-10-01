@@ -1,0 +1,66 @@
+{
+  "section": {
+    "cssStyles": {
+      "classes": "container",
+      "style": {}
+    },
+    "children": [
+      {
+        "title": "First Section",
+        "cssStyles": {
+          "classes": "col-md-6",
+          "style": {}
+        },
+        "titleCssStyles": {
+          "classes": "",
+          "style": {}
+        },
+
+        "children": [
+          {
+            "text": "first section",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          },
+          {
+            "text": "second section",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          }
+        ]
+      },
+      {
+        "title": "Second Section",
+        "cssStyles": {
+          "classes": "col-md-6",
+          "style": {}
+        },
+        "titleCssStyles": {
+          "classes": "",
+          "style": {}
+        },
+
+        "children": [
+          {
+            "text": "first section",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          },
+          {
+            "text": "second section",
+            "cssStyles": {
+              "classes": "",
+              "style": {}
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

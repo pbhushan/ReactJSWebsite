@@ -126,7 +126,7 @@ const VideoCarousel = props => {
     const { carousel } = props;
     if (carousel) {
       const { cssStyles } = carousel;
-      const carouselId = "carousel_" + Math.floor(Math.random() * 100000);
+      const carouselId = "video_carousel_" + Math.floor(Math.random() * 100000);
 
       return (
         <div

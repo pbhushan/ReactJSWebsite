@@ -1,0 +1,109 @@
+{
+  "multicarousel": {
+    "isControl": "",
+    "isIndicator": "",
+    "baseUrl": "",
+    "isLogo": "",
+    "controlCssColor": "",
+    "indicatorCSSColor": "",
+    "cssStyles": {
+      "classes": "container",
+      "style": {
+        "height": ""
+      }
+    },
+    "children": [
+      {
+        "child": [
+          {
+            "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg",
+            "alt": "",
+            "title": "",
+            "body": "",
+            "button": { "text": "", "to": "" }
+          },
+          {
+            "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(18).jpg",
+            "alt": "",
+            "title": "",
+            "body": "",
+            "button": { "type": "", "to": "" }
+          },
+          {
+            "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(35).jpg",
+            "alt": "",
+            "title": "",
+            "body": "",
+            "button": { "type": "", "to": "" }
+          }
+        ],
+        "cssImgStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        },
+        "cssTitleStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        },
+        "cssBodyStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        },
+        "cssButtonStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        }
+      },
+      {
+        "child": [
+          {
+            "img": "https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(60).jpg",
+            "alt": "",
+            "title": "",
+            "body": "",
+            "button": { "type": "", "to": "" }
+          },
+          {
+            "img": "https://mdbootstrap.com/img/Photos/Horizontal/City/4-col/img%20(47).jpg",
+            "alt": "",
+            "title": "",
+            "body": "",
+            "button": { "type": "", "to": "" }
+          }
+        ],
+        "cssImgStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        },
+        "cssTitleStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        },
+        "cssBodyStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        },
+        "cssButtonStyles": {
+          "classes": "",
+          "style": {
+            "height": ""
+          }
+        }
+      }
+    ]
+  }
+}

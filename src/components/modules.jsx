@@ -4,7 +4,9 @@ import ModuleBasicTutorial from "./modules/moduleExamples/moduleBasicTutorial";
 import ImgSectionExample from "./modules/moduleExamples/imgSectionExample";
 import ContactCardExample from "./modules/moduleExamples/contactCardExample";
 import CarouselExample from "./modules/moduleExamples/carouselExample";
-import VideoCarousel from "./modules/moduleExamples/videoCarouselExample";
+import VideoCarouselExample from "./modules/moduleExamples/videoCarouselExample";
+import MultiCarouselExample from "./modules/moduleExamples/multiCarouselExample";
+import Section from "./modules/moduleExamples/sectionExample";
 
 class Modules extends Component {
   render() {
@@ -14,7 +16,9 @@ class Modules extends Component {
         <ImgSectionExample />
         <ContactCardExample />
         <CarouselExample />
-        <VideoCarousel />
+        <VideoCarouselExample />
+        <MultiCarouselExample />
+        <Section />
       </React.Fragment>
     );
   }
