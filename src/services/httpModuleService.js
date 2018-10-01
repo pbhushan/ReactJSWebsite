@@ -40,3 +40,8 @@ export function getModulesSection(basePath) {
   if (isHttpFetch) return http.get(`${basePath}/data/modules/section.json`);
   else return http.get(`data/modules/section.json`);
 }
+
+export function getModulesFeatures(basePath) {
+  if (isHttpFetch) return http.get(`${basePath}/data/modules/feature.json`);
+  else return http.get(`data/modules/feature.json`);
+}

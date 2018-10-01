@@ -2,32 +2,32 @@ import React, { Component } from "react";
 
 import {
   getDataUrlBasePath,
-  getModulesSection
+  getModulesFeatures
 } from "../../../services/httpModuleService";
 
 import JSONStringfyObj from "../jsonStringfyObj";
-import Section from "../section";
+import Feature from "../feature";
 
-class SectionExample extends Component {
+class FeatureExample extends Component {
   state = {
-    section: {}
+    feature: {}
   };
 
   async componentWillMount() {
     const { data } = await getDataUrlBasePath();
     const urlPath = data.basePath.dataUrlBasePath;
-    this.getAsyncSectionData(urlPath);
+    this.getAsyncFeatureData(urlPath);
   }
 
-  getAsyncSectionData = async basePath => {
-    const { data } = await getModulesSection(basePath);
-    this.setState({ section: data });
+  getAsyncFeatureData = async basePath => {
+    const { data } = await getModulesFeatures(basePath);
+    this.setState({ feature: data });
   };
 
   getCallBack = callback => {
     const { updated_src } = callback;
-    if (updated_src && updated_src.section) {
-      this.setState({ section: callback.updated_src });
+    if (updated_src && updated_src.feature) {
+      this.setState({ feature: callback.updated_src });
     }
   };
 
@@ -44,14 +44,14 @@ class SectionExample extends Component {
   };
 
   render() {
-    const { section } = this.state;
+    const { feature } = this.state;
 
     return (
       <div>
-        <h1 className="mt-4 ml-3"> Section Module</h1>
-        <Section section={section.section} />
+        <h1 className="mt-4 ml-3"> Feature Module</h1>
+        <Feature feature={feature.feature} />
         <JSONStringfyObj
-          obj={section}
+          obj={feature}
           onAdd={this.onAdd}
           onEdit={this.onEdit}
           collapsed={true}
@@ -62,4 +62,4 @@ class SectionExample extends Component {
   }
 }
 
-export default SectionExample;
+export default FeatureExample;

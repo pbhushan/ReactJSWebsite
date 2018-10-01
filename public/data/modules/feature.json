@@ -1,0 +1,77 @@
+{
+  "feature": {
+    "cssStyles": {
+      "classes": "container",
+      "style": {}
+    },
+    "baseUrl": "",
+    "children": [
+      {
+        "isIcon": "",
+        "title": "title 1",
+        "img": "",
+        "text": "Passed CE and ISO 9001-2015 quality Systems.",
+        "cssStyles": {
+          "classes": "col-md-4 md-0 mb-5",
+          "style": {}
+        },
+        "titleCssStyles": {
+          "classes": "font-weight-bold text-left pl-0",
+          "style": {}
+        },
+        "imgOrIconCssStyles": {
+          "classes": "fa fa-shield fa-3x col-md-2 teal-text",
+          "style": {}
+        },
+        "textCssStyles": {
+          "classes": "text-left grey-text",
+          "style": {}
+        }
+      },
+      {
+        "isIcon": "",
+        "title": "title 2",
+        "img": "",
+        "text": "Support full customiztion based on customer needs and as per demands.",
+        "cssStyles": {
+          "classes": "col-md-4 md-0 mb-5",
+          "style": {}
+        },
+        "titleCssStyles": {
+          "classes": "font-weight-bold text-left pl-0",
+          "style": {}
+        },
+        "imgOrIconCssStyles": {
+          "classes": "fa fa-cogs fa-3x col-md-2 purple-text",
+          "style": {}
+        },
+        "textCssStyles": {
+          "classes": "text-left grey-text",
+          "style": {}
+        }
+      },
+      {
+        "isIcon": "",
+        "title": "title 3",
+        "img": "",
+        "text": "Dedicated for the needs of customers to provide quality products and service, quality assurance, and help customers to debug products.",
+        "cssStyles": {
+          "classes": "col-md-4 md-0 mb-5",
+          "style": {}
+        },
+        "titleCssStyles": {
+          "classes": "font-weight-bold text-left pl-0",
+          "style": {}
+        },
+        "imgOrIconCssStyles": {
+          "classes": "fa fa-dashboard fa-3x col-md-2 blue-text",
+          "style": {}
+        },
+        "textCssStyles": {
+          "classes": "text-left grey-text",
+          "style": {}
+        }
+      }
+    ]
+  }
+}
