@@ -26,6 +26,7 @@ const Section = props => {
                 </p>
               );
             }
+            return <div />;
           })}
         </React.Fragment>
       );
@@ -57,6 +58,7 @@ const Section = props => {
                     </div>
                   );
                 }
+                return <div />;
               })}
             </div>
           </section>
