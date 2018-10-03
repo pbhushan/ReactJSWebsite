@@ -51,3 +51,8 @@ export function getModulesFeatures(basePath) {
   if (isHttpFetch) return http.get(`${basePath}/data/modules/feature.json`);
   else return http.get(`data/modules/feature.json`);
 }
+
+export function getModulesGridView(basePath) {
+  if (isHttpFetch) return http.get(`${basePath}/data/modules/gridView.json`);
+  else return http.get(`data/modules/gridView.json`);
+}

@@ -2,14 +2,18 @@
   "contactCard": {
     "id": "",
     "cssStyles": {
-      "classes": "container",
+      "classes": "container z-depth-2",
       "style": {}
     },
     "contacts": [
       {
         "cssStyles": {
-          "classes": "teal col",
-          "style": {}
+          "classes": "col",
+          "style": {
+            "backgroundImage": "url('https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg')",
+            "backgroundSize": "cover",
+            "backgroundPosition": "center"
+          }
         },
         "name": {
           "title": "Details",

@@ -118,13 +118,13 @@
           },
           "children": [
             {
-              "img": "https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-admin.png",
+              "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg",
               "cssStyle": {
                 "classes": "",
                 "style": {}
               },
               "imgCssStyle": {
-                "classes": "z-depth-0",
+                "classes": "z-depth-2 img-fluid",
                 "style": {}
               }
             }
@@ -146,8 +146,10 @@
             {
               "isIFrame": "true",
               "iframeTitle": "youtubeIframe",
+              "allowFullScreen": "",
               "video": "https://www.youtube.com/embed/ccrJUi39ElQ?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com",
-              "type": "",
+              "type": "video",
+              "videoType": "",
               "cssStyle": {
                 "classes": "embed-responsive embed-responsive-16by9 z-depth-2 row mt-5",
                 "style": {}

@@ -1,10 +1,11 @@
 {
   "multicarousel": {
     "id": "",
+    "isSlide": "",
     "isControl": "",
     "isIndicator": "",
     "baseUrl": "",
-    "isLogo": "",
+    "isLogo": "true",
     "controlCssColor": "",
     "indicatorCSSColor": "",
     "cssStyles": {

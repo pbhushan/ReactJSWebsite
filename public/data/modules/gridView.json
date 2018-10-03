@@ -1,0 +1,406 @@
+{
+  "gridView": {
+    "cssStyle": {
+      "classes": "container",
+      "style": {}
+    },
+    "baseUrl": "",
+    "grid": [
+      {
+        "cssStyle": {
+          "classes": "row",
+          "style": {}
+        },
+        "children": [
+          {
+            "cssStyle": {
+              "classes": "col-md-4",
+              "style": {}
+            },
+            "children": [
+              {
+                "type": "img",
+                "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(2).jpg",
+                "alt": "",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "imgCssStyle": {
+                  "classes": "img-fluid z-depth-2",
+                  "style": {}
+                }
+              },
+              {
+                "type": "anchor",
+                "href": "",
+                "text": "Adventure",
+                "cssStyle": {
+                  "classes": "mt-2",
+                  "style": {}
+                },
+                "anchorCssStyle": {
+                  "classes": "pink-text",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "pt-3",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "fa fa-map",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "teal-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "blue-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "navlink",
+                "href": "/modules",
+                "text": "Read More",
+                "cssStyle": {
+                  "classes": "btn btn-info btn-rounded btn-md waves-effect waves-light",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "mb-0 p-2",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              }
+            ]
+          },
+          {
+            "cssStyle": {
+              "classes": "col-md-4",
+              "style": {}
+            },
+            "children": [
+              {
+                "type": "img",
+                "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(4).jpg",
+                "alt": "",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "imgCssStyle": {
+                  "classes": "img-fluid z-depth-2",
+                  "style": {}
+                }
+              },
+              {
+                "type": "anchor",
+                "href": "",
+                "text": "Travel",
+                "cssStyle": {
+                  "classes": "mt-2",
+                  "style": {}
+                },
+                "anchorCssStyle": {
+                  "classes": "purple-text",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "pt-3",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "fa fa-suitcase",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "blue-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "purple-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "navlink",
+                "href": "/modules",
+                "text": "Read More",
+                "cssStyle": {
+                  "classes": "btn btn-primary btn-rounded btn-md waves-effect waves-light",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "mb-0 p-2",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              }
+            ]
+          },
+          {
+            "cssStyle": {
+              "classes": "col-md-4",
+              "style": {}
+            },
+            "children": [
+              {
+                "type": "img",
+                "img": "https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(34).jpg",
+                "alt": "",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "imgCssStyle": {
+                  "classes": "img-fluid z-depth-2",
+                  "style": {}
+                }
+              },
+              {
+                "type": "anchor",
+                "href": "",
+                "text": "Education",
+                "cssStyle": {
+                  "classes": "mt-2",
+                  "style": {}
+                },
+                "anchorCssStyle": {
+                  "classes": "indigo-text",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "pt-3",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "fa fa-fire",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "grey-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "indigo-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "navlink",
+                "href": "/modules",
+                "text": "Read More",
+                "cssStyle": {
+                  "classes": "btn btn-warning btn-rounded btn-md waves-effect waves-light",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "mb-0 p-2",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "cssStyle": {
+          "classes": "row",
+          "style": {}
+        },
+        "children": [
+          {
+            "cssStyle": {
+              "classes": "col-md-4 mt-5",
+              "style": {}
+            },
+            "children": [
+              {
+                "isIFrame": "true",
+                "iframeTitle": "youtubeIframe",
+                "allowFullScreen": "",
+                "video": "https://www.youtube.com/embed/ccrJUi39ElQ?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com",
+                "type": "video",
+                "videoType": "",
+                "cssStyle": {
+                  "classes": "embed-responsive embed-responsive-16by9 z-depth-2 row mt-5",
+                  "style": {}
+                },
+                "videoCssStyle": {
+                  "classes": "embed-responsive-item",
+                  "style": {}
+                }
+              }
+            ]
+          },
+          {
+            "cssStyle": {
+              "classes": "col-md-8 mt-5",
+              "style": {}
+            },
+            "children": [
+              {
+                "type": "anchor",
+                "href": "",
+                "text": "Education",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "anchorCssStyle": {
+                  "classes": "indigo-text",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "pt-3 mt-3 text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "fa fa-fire",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "grey-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "text",
+                "text": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus voluptas.",
+                "cssStyle": {
+                  "classes": "",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "indigo-text text-left",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              },
+              {
+                "type": "navlink",
+                "href": "/modules",
+                "text": "Read More",
+                "cssStyle": {
+                  "classes": "row",
+                  "style": {}
+                },
+                "anchorCssStyle": {
+                  "classes": "btn btn-warning btn-rounded btn-md waves-effect waves-light",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "mb-0 p-2",
+                  "style": {}
+                },
+                "iconCssStyle": {
+                  "classes": "",
+                  "style": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

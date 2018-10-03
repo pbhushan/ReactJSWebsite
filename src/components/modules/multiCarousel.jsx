@@ -116,13 +116,20 @@ const MultiCarousel = props => {
   const getMultiCarousel = () => {
     const { multicarousel } = props;
     if (multicarousel) {
-      const { isControl, isIndicator, cssStyles, children } = multicarousel;
+      const {
+        isControl,
+        isSlide,
+        isIndicator,
+        cssStyles,
+        children
+      } = multicarousel;
       if (children && children.length > 0) {
         //setBackground color
         setCSSBackgroundColor();
         const multiCarouselLength = children.length;
         const boolControl = isControl === "false" ? false : true;
         const boolIndicator = isIndicator === "false" ? false : true;
+        const slide = isSlide === "false" ? false : true;
         return (
           <div
             className={cssStyles && cssStyles.classes}
@@ -131,7 +138,7 @@ const MultiCarousel = props => {
             <Carousel
               activeItem={1}
               length={multiCarouselLength}
-              slide={true}
+              slide={slide}
               showControls={boolControl}
               showIndicators={boolIndicator}
               multiItem

@@ -84,9 +84,10 @@ const ComplexSection = props => {
             isIFrame,
             iframeTitle,
             video,
-            type,
+            videoType,
             cssStyle,
-            videoCssStyle
+            videoCssStyle,
+            allowFullScreen
           } = item;
           const url = baseUrl + video;
 
@@ -96,7 +97,7 @@ const ComplexSection = props => {
               src={url}
               className={videoCssStyle && videoCssStyle.classes}
               style={videoCssStyle && videoCssStyle.style}
-              allowFullScreen=""
+              allowFullScreen={allowFullScreen || ""}
             />
           );
           const simpleVideo = (
@@ -104,7 +105,7 @@ const ComplexSection = props => {
               className={videoCssStyle && videoCssStyle.classes}
               style={videoCssStyle && videoCssStyle.style}
             >
-              <source src={url} type={type} />
+              <source src={url} type={videoType} />
             </video>
           );
 

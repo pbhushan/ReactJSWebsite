@@ -6,9 +6,10 @@ import ContactCardExample from "./modules/moduleExamples/contactCardExample";
 import CarouselExample from "./modules/moduleExamples/carouselExample";
 import VideoCarouselExample from "./modules/moduleExamples/videoCarouselExample";
 import MultiCarouselExample from "./modules/moduleExamples/multiCarouselExample";
-import Section from "./modules/moduleExamples/sectionExample";
+import SectionExample from "./modules/moduleExamples/sectionExample";
 import ComplexSection from "./modules/moduleExamples/complexSectionExample";
-import Feature from "./modules/moduleExamples/featureExample";
+import FeatureExample from "./modules/moduleExamples/featureExample";
+import GridViewExample from "./modules/moduleExamples/gridViewExample";
 
 class Modules extends Component {
   render() {
@@ -20,9 +21,10 @@ class Modules extends Component {
         <CarouselExample />
         <VideoCarouselExample />
         <MultiCarouselExample />
-        <Section />
+        <SectionExample />
         <ComplexSection />
-        <Feature />
+        <FeatureExample />
+        <GridViewExample />
       </React.Fragment>
     );
   }
