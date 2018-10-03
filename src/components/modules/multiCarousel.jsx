@@ -42,12 +42,12 @@ const MultiCarousel = props => {
     if (isLogo !== "true") {
       return (
         <div className="card-body">
-          <h4
+          <p
             className={`${cssTitleStyles && cssTitleStyles.classes} card-title`}
             style={cssTitleStyles && cssTitleStyles.style}
           >
             {title}
-          </h4>
+          </p>
           <p
             className={`${cssBodyStyles && cssBodyStyles.classes} card-text`}
             style={cssBodyStyles && cssBodyStyles.style}

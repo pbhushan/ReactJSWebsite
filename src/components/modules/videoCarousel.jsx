@@ -68,12 +68,12 @@ const VideoCarousel = props => {
                   const { text, cssStyles } = ch;
                   return (
                     <li key={index}>
-                      <h4
+                      <p
                         className={cssStyles && cssStyles.classes}
                         style={cssStyles && cssStyles.style}
                       >
                         {text}
-                      </h4>
+                      </p>
                     </li>
                   );
                 }

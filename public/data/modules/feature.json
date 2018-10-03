@@ -1,6 +1,7 @@
 {
   "feature": {
-    "cssStyles": {
+    "id": "",
+    "cssStyle": {
       "classes": "container",
       "style": {}
     },
@@ -10,21 +11,25 @@
         "isIcon": "",
         "title": "title 1",
         "img": "",
-        "text": "Passed CE and ISO 9001-2015 quality Systems.",
-        "cssStyles": {
+        "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+        "cssStyle": {
           "classes": "col-md-4 md-0 mb-5",
           "style": {}
         },
-        "titleCssStyles": {
-          "classes": "font-weight-bold text-left pl-0",
-          "style": {}
+        "bodyCssStyle": {
+          "classes": "col-md-10",
+          "style": {},
+          "titleCssStyle": {
+            "classes": "font-weight-bold text-left pl-0",
+            "style": {}
+          },
+          "textCssStyle": {
+            "classes": "text-left grey-text",
+            "style": {}
+          }
         },
-        "imgOrIconCssStyles": {
-          "classes": "fa fa-shield fa-3x col-md-2 teal-text",
-          "style": {}
-        },
-        "textCssStyles": {
-          "classes": "text-left grey-text",
+        "imgOrIconCssStyle": {
+          "classes": "fa fa-shield fa-2x col-md-2 teal-text",
           "style": {}
         }
       },
@@ -32,21 +37,25 @@
         "isIcon": "",
         "title": "title 2",
         "img": "",
-        "text": "Support full customiztion based on customer needs and as per demands.",
-        "cssStyles": {
+        "text": "Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et",
+        "cssStyle": {
           "classes": "col-md-4 md-0 mb-5",
           "style": {}
         },
-        "titleCssStyles": {
-          "classes": "font-weight-bold text-left pl-0",
-          "style": {}
+        "bodyCssStyle": {
+          "classes": "col-md-10",
+          "style": {},
+          "titleCssStyle": {
+            "classes": "font-weight-bold text-left pl-0",
+            "style": {}
+          },
+          "textCssStyle": {
+            "classes": "text-left grey-text",
+            "style": {}
+          }
         },
-        "imgOrIconCssStyles": {
-          "classes": "fa fa-cogs fa-3x col-md-2 purple-text",
-          "style": {}
-        },
-        "textCssStyles": {
-          "classes": "text-left grey-text",
+        "imgOrIconCssStyle": {
+          "classes": "fa fa-cogs fa-2x col-md-2 purple-text",
           "style": {}
         }
       },
@@ -54,21 +63,25 @@
         "isIcon": "",
         "title": "title 3",
         "img": "",
-        "text": "Dedicated for the needs of customers to provide quality products and service, quality assurance, and help customers to debug products.",
-        "cssStyles": {
+        "text": "Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.",
+        "cssStyle": {
           "classes": "col-md-4 md-0 mb-5",
           "style": {}
         },
-        "titleCssStyles": {
-          "classes": "font-weight-bold text-left pl-0",
-          "style": {}
+        "bodyCssStyle": {
+          "classes": "col-md-10",
+          "style": {},
+          "titleCssStyle": {
+            "classes": "font-weight-bold text-left pl-0",
+            "style": {}
+          },
+          "textCssStyle": {
+            "classes": "text-left grey-text",
+            "style": {}
+          }
         },
-        "imgOrIconCssStyles": {
-          "classes": "fa fa-dashboard fa-3x col-md-2 blue-text",
-          "style": {}
-        },
-        "textCssStyles": {
-          "classes": "text-left grey-text",
+        "imgOrIconCssStyle": {
+          "classes": "fa fa-dashboard fa-2x col-md-2 blue-text",
           "style": {}
         }
       }

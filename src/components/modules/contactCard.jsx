@@ -1,7 +1,7 @@
 import React from "react";
 
 const contactCard = props => {
-  const getContactChild = (child, title) => {
+  const getContactChild = child => {
     if (child && child.length > 0) {
       let count = 0;
       return child.map(item => {
@@ -37,10 +37,10 @@ const contactCard = props => {
           count += 1;
           return (
             <div key={count} className="col">
-              <h4 className={cssStyles.classes} style={cssStyles.style}>
+              <p className={cssStyles.classes} style={cssStyles.style}>
                 {title}
-              </h4>
-              {getContactChild(child, title)}
+              </p>
+              {getContactChild(child)}
             </div>
           );
         }
@@ -64,12 +64,12 @@ const contactCard = props => {
               style={cssStyles.style}
             >
               <div className="card-title">
-                <h2
+                <p
                   className={name.cssStyles.classes}
                   style={name.cssStyles.style}
                 >
                   {name.title}
-                </h2>
+                </p>
               </div>
               <div className="card-body row p-3">
                 {getContactChildren(children)}

@@ -1,0 +1,165 @@
+{
+  "complexSection": {
+    "id": "complexSection",
+    "cssStyle": {
+      "classes": "container section",
+      "style": {}
+    },
+    "baseUrl": "",
+    "section": {
+      "cssStyle": {
+        "classes": "row",
+        "style": {}
+      },
+      "titleCssStyle": {
+        "classes": "h3",
+        "style": {}
+      },
+      "title": "Complex Section Title",
+      "children": [
+        {
+          "id": "section_text",
+          "type": "text",
+          "title": "Section",
+          "cssStyle": {
+            "classes": "col-md-4",
+            "style": {}
+          },
+          "titleCssStyle": {
+            "classes": "h5",
+            "style": {}
+          },
+          "children": [
+            {
+              "title": "title 1",
+              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+              "cssStyle": {
+                "classes": "row",
+                "style": {}
+              },
+              "bodyCssStyle": {
+                "classes": "col-md-10",
+                "style": {},
+                "titleCssStyle": {
+                  "classes": "font-weight-bold text-left pl-0",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "text-left grey-text",
+                  "style": {}
+                }
+              },
+              "iconCssStyle": {
+                "classes": "fa fa-2x fa-check-circle teal-text",
+                "style": {}
+              }
+            },
+            {
+              "title": "title 2",
+              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+              "cssStyle": {
+                "classes": "row",
+                "style": {}
+              },
+              "bodyCssStyle": {
+                "classes": "col-md-10",
+                "style": {},
+                "titleCssStyle": {
+                  "classes": "font-weight-bold text-left pl-0",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "text-left grey-text",
+                  "style": {}
+                }
+              },
+              "iconCssStyle": {
+                "classes": "fa fa-2x fa-check-circle teal-text",
+                "style": {}
+              }
+            },
+            {
+              "title": "title 3",
+              "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod.",
+              "cssStyle": {
+                "classes": "row",
+                "style": {}
+              },
+              "bodyCssStyle": {
+                "classes": "col-md-10",
+                "style": {},
+                "titleCssStyle": {
+                  "classes": "font-weight-bold text-left pl-0",
+                  "style": {}
+                },
+                "textCssStyle": {
+                  "classes": "text-left grey-text",
+                  "style": {}
+                }
+              },
+              "iconCssStyle": {
+                "classes": "fa fa-2x fa-check-circle teal-text",
+                "style": {}
+              }
+            }
+          ]
+        },
+        {
+          "id": "section_img",
+          "type": "img",
+          "title": "ImageTitle",
+          "cssStyle": {
+            "classes": "col-md-4",
+            "style": {}
+          },
+          "titleCssStyle": {
+            "classes": "",
+            "style": {}
+          },
+          "children": [
+            {
+              "img": "https://mdbootstrap.com/img/Mockups/Transparent/Small/iphone-admin.png",
+              "cssStyle": {
+                "classes": "",
+                "style": {}
+              },
+              "imgCssStyle": {
+                "classes": "z-depth-0",
+                "style": {}
+              }
+            }
+          ]
+        },
+        {
+          "id": "section_video",
+          "type": "video",
+          "title": "VideoTitle",
+          "cssStyle": {
+            "classes": "col-md-4",
+            "style": {}
+          },
+          "titleCssStyle": {
+            "classes": "",
+            "style": {}
+          },
+          "children": [
+            {
+              "isIFrame": "true",
+              "iframeTitle": "youtubeIframe",
+              "video": "https://www.youtube.com/embed/ccrJUi39ElQ?enablejsapi=1&origin=https%3A%2F%2Fmdbootstrap.com",
+              "type": "",
+              "cssStyle": {
+                "classes": "embed-responsive embed-responsive-16by9 z-depth-2 row mt-5",
+                "style": {}
+              },
+              "videoCssStyle": {
+                "classes": "embed-responsive-item",
+                "style": {}
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

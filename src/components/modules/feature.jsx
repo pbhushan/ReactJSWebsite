@@ -4,13 +4,12 @@ const Feature = props => {
   const getIconOrImg = item => {
     const { feature } = props;
     const { baseUrl } = feature;
-    const { isIcon, img, imgOrIconCssStyles } = item;
+    const { isIcon, img, imgOrIconCssStyle } = item;
     if (isIcon !== "false") {
       return (
         <i
-          className={`${imgOrIconCssStyles &&
-            imgOrIconCssStyles.classes} col-md-2`}
-          style={imgOrIconCssStyles && imgOrIconCssStyles.style}
+          className={imgOrIconCssStyle && imgOrIconCssStyle.classes}
+          style={imgOrIconCssStyle && imgOrIconCssStyle.style}
         />
       );
     } else {
@@ -19,9 +18,8 @@ const Feature = props => {
         <img
           src={url}
           alt=""
-          className={`${imgOrIconCssStyles &&
-            imgOrIconCssStyles.classes} col-md-2`}
-          style={imgOrIconCssStyles && imgOrIconCssStyles.style}
+          className={imgOrIconCssStyle && imgOrIconCssStyle.classes}
+          style={imgOrIconCssStyle && imgOrIconCssStyle.style}
         />
       );
     }
@@ -31,32 +29,30 @@ const Feature = props => {
     if (items && items.length > 0) {
       return items.map((item, index) => {
         if (item) {
-          const {
-            title,
-            text,
-            cssStyles,
-            titleCssStyles,
-            textCssStyles
-          } = item;
+          const { title, text, cssStyle, bodyCssStyle } = item;
+          const { titleCssStyle, textCssStyle } = bodyCssStyle;
 
           return (
             <div
               key={index}
-              className={cssStyles && cssStyles.classes}
-              style={cssStyles && cssStyles.style}
+              className={cssStyle && cssStyle.classes}
+              style={cssStyle && cssStyle.style}
             >
               <div className="row">
                 {getIconOrImg(item)}
-                <div className="col-md-10">
-                  <h3
-                    className={titleCssStyles && titleCssStyles.classes}
-                    style={titleCssStyles && titleCssStyles.style}
+                <div
+                  className={bodyCssStyle && bodyCssStyle.classes}
+                  style={bodyCssStyle && bodyCssStyle.style}
+                >
+                  <p
+                    className={titleCssStyle && titleCssStyle.classes}
+                    style={titleCssStyle && titleCssStyle.style}
                   >
                     {title}
-                  </h3>
+                  </p>
                   <p
-                    className={textCssStyles && textCssStyles.classes}
-                    style={textCssStyles && textCssStyles.style}
+                    className={textCssStyle && textCssStyle.classes}
+                    style={textCssStyle && textCssStyle.style}
                   >
                     {text}
                   </p>
@@ -74,11 +70,12 @@ const Feature = props => {
     const { feature } = props;
 
     if (feature) {
-      const { cssStyles, children } = feature;
+      const { cssStyle, children } = feature;
+
       return (
         <div
-          className={cssStyles && cssStyles.classes}
-          style={cssStyles && cssStyles.style}
+          className={cssStyle && cssStyle.classes}
+          style={cssStyle && cssStyle.style}
         >
           <div className="row">{getFeatureItem(children)}</div>
         </div>

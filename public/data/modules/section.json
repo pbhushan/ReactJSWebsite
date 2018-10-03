@@ -1,61 +1,64 @@
 {
   "section": {
+    "id": "",
     "cssStyles": {
       "classes": "container",
       "style": {}
     },
     "children": [
       {
+        "id": "",
         "title": "First Section",
         "cssStyles": {
           "classes": "col-md-6",
           "style": {}
         },
         "titleCssStyles": {
-          "classes": "",
+          "classes": "h3",
           "style": {}
         },
 
         "children": [
           {
-            "text": "first section",
+            "text": "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. ",
             "cssStyles": {
-              "classes": "",
+              "classes": "purple-text text-left",
               "style": {}
             }
           },
           {
-            "text": "second section",
+            "text": "Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. ",
             "cssStyles": {
-              "classes": "",
+              "classes": "grey-text text-left",
               "style": {}
             }
           }
         ]
       },
       {
+        "id": "",
         "title": "Second Section",
         "cssStyles": {
           "classes": "col-md-6",
           "style": {}
         },
         "titleCssStyles": {
-          "classes": "",
+          "classes": "h3",
           "style": {}
         },
 
         "children": [
           {
-            "text": "first section",
+            "text": "Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable.",
             "cssStyles": {
-              "classes": "",
+              "classes": "grey-text text-left",
               "style": {}
             }
           },
           {
-            "text": "second section",
+            "text": "Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et",
             "cssStyles": {
-              "classes": "",
+              "classes": "indigo-text text-left",
               "style": {}
             }
           }

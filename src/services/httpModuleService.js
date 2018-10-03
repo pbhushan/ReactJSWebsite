@@ -41,6 +41,12 @@ export function getModulesSection(basePath) {
   else return http.get(`data/modules/section.json`);
 }
 
+export function getModulesComplexSection(basePath) {
+  if (isHttpFetch)
+    return http.get(`${basePath}/data/modules/complexSection.json`);
+  else return http.get(`data/modules/complexSection.json`);
+}
+
 export function getModulesFeatures(basePath) {
   if (isHttpFetch) return http.get(`${basePath}/data/modules/feature.json`);
   else return http.get(`data/modules/feature.json`);

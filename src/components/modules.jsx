@@ -7,6 +7,7 @@ import CarouselExample from "./modules/moduleExamples/carouselExample";
 import VideoCarouselExample from "./modules/moduleExamples/videoCarouselExample";
 import MultiCarouselExample from "./modules/moduleExamples/multiCarouselExample";
 import Section from "./modules/moduleExamples/sectionExample";
+import ComplexSection from "./modules/moduleExamples/complexSectionExample";
 import Feature from "./modules/moduleExamples/featureExample";
 
 class Modules extends Component {
@@ -20,6 +21,7 @@ class Modules extends Component {
         <VideoCarouselExample />
         <MultiCarouselExample />
         <Section />
+        <ComplexSection />
         <Feature />
       </React.Fragment>
     );

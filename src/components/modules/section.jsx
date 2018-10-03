@@ -7,12 +7,12 @@ const Section = props => {
     if (children && children.length > 0) {
       return (
         <React.Fragment>
-          <h1
+          <p
             className={titleCssStyles && titleCssStyles.classes}
             style={titleCssStyles && titleCssStyles.style}
           >
             {title}
-          </h1>
+          </p>
           {children.map((child, index) => {
             if (child) {
               const { text, cssStyles } = child;

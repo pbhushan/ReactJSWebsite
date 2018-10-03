@@ -68,12 +68,12 @@ const ImgSection = props => {
           style={cssStyles && cssStyles.style}
         >
           <div className="container">
-            <h1
+            <p
               className={title && title.cssStyles && title.cssStyles.classes}
               style={title && title.cssStyles && title.cssStyles.style}
             >
               {title && title.name}
-            </h1>
+            </p>
             <div className="row">{getSection(children)}</div>
           </div>
         </section>
