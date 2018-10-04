@@ -186,6 +186,7 @@ const GridView = props => {
                 return getVideoGrid(grid, index);
               }
             }
+            return <div />;
           })}
         </div>
       );
@@ -216,11 +217,13 @@ const GridView = props => {
                         if (child) {
                           return getGridItem(child, ind);
                         }
+                        return <div />;
                       })}
                     </div>
                   );
                 }
               }
+              return <div />;
             })}
           </div>
         );
